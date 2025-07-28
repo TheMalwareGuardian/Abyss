@@ -20,20 +20,20 @@ During our talk, you'll see the bootkit running on a physical machine with Secur
 
 <div align="center">
 
-<table>
-	<tr>
-		<td align="center" style="vertical-align:top; padding: 10px; width: 250px;">
+<table style="border: none;">
+	<tr style="border: none;">
+		<td align="center" style="vertical-align:top; padding: 10px; width: 250px; border: none;">
 			<a href="https://github.com/TheMalwareGuardian">
-				<img src="Images\Logos\Whoami_Alex.png" width="110px;" alt="Alejandro"/>
+				<img src="Images\Logos\Whoami_Alex.png" width="120px;" style="border-radius: 12px;" alt="Alejandro"/>
 				<br/>
 				<sub><b>Alejandro Vázquez</b></sub>
 			</a>
 			<br/>
 			Red Team Operator & Reverse Engineer
 		</td>
-		<td align="center" style="vertical-align:top; padding: 10px; width: 250px;">
+		<td align="center" style="vertical-align:top; padding: 10px; width: 250px; border: none;">
 			<a href="https://github.com/drkrysSrng">
-				<img src="Images\Logos\Whoami_Maria.png" width="100px;" alt="María"/>
+				<img src="Images\Logos\Whoami_Maria.png" style="border-radius: 12px;" width="110px;" alt="María"/>
 				<br/>
 				<sub><b>María San José</b></sub>
 			</a>
