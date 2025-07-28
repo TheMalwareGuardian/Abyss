@@ -18,29 +18,30 @@ DEF CON is the most legendary hacking conference in the world, but some editions
 
 During our talk, you'll see the bootkit running on a physical machine with Secure Boot enabled. Due to time constraints, most demos will be shown as pre-recorded videos. However, if you'd like to see any demo live, ask in-depth questions, or need help compiling and setting up the environment, feel free to reach out to us on LinkedIn during the conference. We're **[Alejandro](https://www.linkedin.com/in/vazquez-vazquez-alejandro)** and **[María](https://www.linkedin.com/in/mariasanjose)**, the creators of this project, and we're very approachable. We'll gladly find time to talk, walk you through the details, or just have a good conversation.
 
-<div align="center">
-
-<table style="border: none;">
-	<tr style="border: none;">
-		<td align="center" style="vertical-align:top; padding: 10px; width: 250px; border: none;">
-			<a href="https://github.com/TheMalwareGuardian">
-				<img src="Images\Logos\Whoami_Alex.png" width="120px;" style="border-radius: 12px;" alt="Alejandro"/>
-				<br/>
-				<sub><b>Alejandro Vázquez</b></sub>
-			</a>
-			<br/>
-			Red Team Operator & Reverse Engineer
-		</td>
-		<td align="center" style="vertical-align:top; padding: 10px; width: 250px; border: none;">
-			<a href="https://github.com/drkrysSrng">
-				<img src="Images\Logos\Whoami_Maria.png" style="border-radius: 12px;" width="110px;" alt="María"/>
-				<br/>
-				<sub><b>María San José</b></sub>
-			</a>
-			<br/>
-			Malware & Forensics Analyst
-		</td>
-	</tr>
+<table align="center" cellspacing="0" cellpadding="0">
+<tr>
+	<td align="center" width="340px" style="padding: 10px; vertical-align: top;">
+	<img src="Images/Logos/Whoami_Alex.png" width="150px" style="border-radius: 12px; display: block; margin: 0 auto;" />
+	<br/>
+	<a href="https://github.com/TheMalwareGuardian">
+		<b style="font-size: 16px;">Alejandro Vázquez</b>
+	</a>
+	<br/>
+	<div style="margin-top: 8px; font-size: 15px;">
+		Red Team Operator & Reverse Engineer
+	</div>
+	</td>
+	<td align="center" width="340px" style="padding: 20px; vertical-align: top;">
+	<img src="Images/Logos/Whoami_Maria.png" width="138px" style="border-radius: 12px; display: block; margin: 0 auto;" />
+	<br/>
+	<a href="https://github.com/drkrysSrng">
+		<b style="font-size: 16px;">María San José</b>
+	</a>
+	<br/>
+	<div style="margin-top: 8px; font-size: 15px;">
+		Malware & Forensics Analyst
+	</div>
+	</td>
+</tr>
 </table>
 
-</div>
