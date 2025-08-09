@@ -1,0 +1,170 @@
+[
+    {
+        "Title": "Mesa redonda: Ciberseguridad en las AAPP",
+        "Description": "TBD"
+    },
+    {
+        "Title": "IMPACT #include: Hackeando la relación Empleo y Discapacidad. GoodJob, Good feeling, Good protection!!",
+        "Description": "IMPACT #include: Hackeando la relación Empleo y Discapacidad. GoodJob, Good feeling, Good protection!! Con la colaboración de Fundación GOODJOB e invitados"
+    },
+    {
+        "Title": "Cognitive Services & CiberSecurity: Ideas Locas",
+        "Description": "La eclosión de la Inteligencia Artificial en los últimos años ha revolucionado el mundo de la tecnología y no se puede pensar en ningún nuevo proyecto, herramienta o servicio sin pensar en utilizar Inteligencia Artificial para hacerlo mejor, más potente o diferente. En esta charla veremos el uso de unos servicios concretos creados con IA, como son los Cognitive Services para hacer casos de uso de ciberseguridad utilizando Visión Artificial para mejorar, hacer más potentes, o simplemente de manera diferente, aplicados a la ciberseguridad con los que jugamos en el equipo de Ideas Locas de Telefónica, para pensar en características futuras de nuestros P&S."
+    },
+    {
+        "Title": "Ciberguerra, una mirada al conflicto",
+        "Description": "A lo largo de la sesión se profundizará en los acontecimientos pasados y actuales en lo relativo a ciberguerra que se han producido entre Rusia y Ucrania hasta llegar al conflicto actual."
+    },
+    {
+        "Title": "Pravda: Esteganografía en archivos de vídeo MP4",
+        "Description": "En esta charla hablaré sobre el estado del arte en técnicas esteganográficas sobre archivos de vídeo, por qué es tán difícil hacerlo bien y el por qué apenas existen proyectos libres u open source sobre este tema. Haré un breve repaso sobre algunas opciones existentes, contaré sus debilidades e inconvenientes y finalmente explicaré y haré una demo de \"Pravda\", una herramienta que he desarrollado y que nos brinda una posibilidad más factible y sencilla, ocultar información en los subtítulos de los vídeos que luego podremos subir a plataformas como YouTube."
+    },
+    {
+        "Title": "PurplePanda: Escalando privilegios en el cloud",
+        "Description": "Las organizaciones utilizan cada vez más plataformas SaaS y nubes externas. Lo que hace que el principio de mínimos privilegios sea especialmente importante. En esta charla presentaré cómo usar PurplePanda para encontrar de forma sencilla paths para escalar privilegios dentro de un mismo cloud y a través distintas plataformas (GCP, Kubernetes y Github)."
+    },
+    {
+        "Title": "Attacking & Stealing information in offline systems - rpk2 & evil mass storage 2",
+        "Description": "Proof of concept USB composite device which demonstrates an end-to-end solution that infiltrates an isolated-offline-network and covertly extracts data over both radio frequency or close access covert storage while hiding from forensic analysis."
+    },
+    {
+        "Title": "Seguridad Social DIY",
+        "Description": "En cualquier distopía sanitaria, el hacking acaba apareciendo como último recurso de quien se ve en una situación límite. Veremos varios casos donde el pensamiento lateral fue clave para sobrevivir. Como práctica, aprenderemos a fabricarnos nuestro propio electrocardiógrafo IoT (ECG), las técnicas usadas para el tratamiento de la señal, así como su potencial aplicación en ciberseguridad. ¡Bienvenido al Mad Max médico!"
+    },
+    {
+        "Title": "Nobody's perfect - Telegram Encryption Demystified",
+        "Description": "La mensajería instantánea se ha convertido en un pilar fundalmental en las comunicaciones del día a día, personales, corporativas e incluso confidenciales. El auge de la privacidad ha hecho que muchas de estas tecnologías hayan tenido que ser revisadas y actualizadas con protocolos y tecnologías de cifrado. Una aplicación de mensajería instantánea habitual es Telegram usada por actores y objetivos variados. Comprender su seguridad es útil para usarla eficazmente, descartarla por otras alternativas o diseñar nuevos vectores de ataque."
+    },
+    {
+        "Title": "Microsoft 365 APIs Edge Cases for Fun and Profit",
+        "Description": "In this talk we describe and demonstrate multiple techniques for circumventing existing Microsoft 365 application security controls and how data can be exfiltrated from highly secure Microsoft 365 tenants which employ strict security policies."
+    },
+    {
+        "Title": "New ways for enhancing IM privacy",
+        "Description": "Desde hace mas de 10 años, las plataformas de mensajería instantanea (IM) se han convertido en la forma más habitual de comunicarnos. Este tipo de aplicaciones nos permiten una comunicación fácil y sencilla, tanto que en sus inicios desplazaron a otras formas de comunicación como los SMS e incluso a las llamadas de voz. A lo largo de este tiempo muchas de estas plataformas han sufrido distintos problemas de seguridad que han ido paliando con el tiempo."
+    },
+    {
+        "Title": "Exploiting Leaked Handles for LPE",
+        "Description": "La herencia de manejadores de objetos entre procesos en un sistema Microsoft Windows puede constituir una buena fuente para la identificación de vulnerabilidades de elevación de privilegios locales (LPE). Tras introducir los conceptos básicos alrededor de este tipo de debilidades de seguridad, se presentará una herramienta capaz de identificarlos y explotarlos, aportando a Pentesters y Researchers un nuevo punto donde focalizar sus acciones de intrusión e investigación respectivamente."
+    },
+    {
+        "Title": "Ransomware groups behind the scenes",
+        "Description": "Los ataques dirigidos de ransomware son unas de las amenazas más críticas a día de hoy en todo el mundo. Las operaciones de ransomware pasaron de distribuirse de forma indiscriminada por correo electrónico a desplegarse de forma síncrona en todos los sistemas críticos de grandes compañías, que los atacantes eligen previamente. El número de incidentes es tan alto que casi nos sabemos de memoria sus modus operandi, pero no hay tanta información sobre cómo operan los atacantes de forma interna. Esta charla explicará cómo operan los grupos de ransomware y qué recursos usan antes y después de un ataque, desde servicios de afiliados a las plataforma de \"soporte a cliente\". Este conocimiento es importante para saber cómo reaccionar y defenderse cuando llegue el momento, porque ese momento llegará."
+    },
+    {
+        "Title": "Blockchain de ETH: De 0 a lambo en sencillos fraudes",
+        "Description": "A lo largo de 2021 Tarlogic ha llevado a cabo una investigación sobre fraudes y abusos utilizados hoy en día en la blockchain de Ethereum, mediante análisis BigData con técnicas de ML y el reversing de smartcontracts se ha descubierto e investigado cómo se están abusando para robar y/o defraudar el capital depositado en forma de criptomonedas o tokens."
+    },
+    {
+        "Title": "De programador a recruiter: por qué pasarse al lado oscuro",
+        "Description": "Recruiters. Encorbatados, sufridos y detestados por todo técnico que tenga LinkedIn. Soy programador con +15 años de experiencia, también he recibido quinticientas propuestas que poco tenían que ver con nosotros. Hoy, nos dedicamos a aquello que un día nos pareció el lado oscuro de la fuerza: somos Technical Recruiters en Manfred. ¿Qué carallo hacen programadores haciendo recruiting? ¿Éramos muy malos y no nos quedó otra? Te vamos a contar el secreto de por qué marca la diferencia que los técnicos participemos en la selección de nuestros equipos."
+    },
+    {
+        "Title": "Hacking Smart Meters",
+        "Description": "As a continuation of the research conducted through 2019 and 2020 about smart meters and the PRIME protocol, Tarlogic has analized the technology and developed new attacks on 2021, giving as a result PLCTool, a software tool for capturing and analyzing PRIME traffic, as well as executing attacks. Functionality has been added to easily reproduce the attacks and to create new ones."
+    },
+    {
+        "Title": "A tu puta casa: Cómo echar a patadas a los atacantes de tu red",
+        "Description": "La cosa está bastante complicada con la ciberseguridad, y parece que no hay vistas de que vayamos: ransomware, estafas al CEO, mineros, ciberataques alienígenas... En esta charla desgranaremos cómo responder a incidentes, pero yendo más allá de las distintas fases y ofreciendo consejos prácticos (algunos aprendidos por las malas, y otros por las peores, la experiencia es así), junto con algunos trucos y muchas batallitas. El objetivo: mejorar vuestro incidente-fú y ayudaros a patear a los malos de vuestros sistemas con extremo prejuicio. "
+    },
+    {
+        "Title": "Evasion and Countermeasures Techniques to Detect Dynamic Binary Instrumentation Frameworks",
+        "Description": "Dynamic Binary Instrumentation (DBI) is a dynamic analysis technique that allows arbitrary code to be executed when a program is running. DBI frameworks have started to be used to analyze malicious applications. As a result, different approaches have merged to detect and avoid them. Commonly referred to as split personality malware or evasive malware are pieces of malicious software that incorporate snippets of code to detect when they are under DBI framework analysis and thus mimic benign behavior. Recent studies have questioned the use of DBI in malware analysis, arguing that it increases the attack surface. In this talk, we examine the anti-instrumentation techniques that abuse desktop-based DBI frameworks and existing countermeasures to determine if it is possible to reduce the exploitable attack surface introduced by these DBI frameworks. In particular, we review the related literature to identify (i) the existing set of DBI framework evasion techniques and (ii) the existing set of countermeasures to avoid them. We also analyze and compare the taxonomies introduced in the literature, and propose a new taxonomy that expands and completes the previous taxonomies. Our findings demonstrate that despite advances in DBI framework protections that make them quite suitable for system security purposes, more efforts are needed to reduce the attack surface that they add during application analysis. Only 12 of the 26 evasion techniques covered in this document have countermeasures, threatening the transparency of DBI frameworks. Furthermore, the impact in terms of performance overhead and effectiveness of these countermeasures in real-world situations is unknown. Finally, there are only proofs of concept for 9 of these 26 techniques, which makes it difficult to validate and study how they evade the analysis in order to counter them. We also point out some relevant issues in this context and outline ways of future research directions in the use of DBI frameworks for system security purposes."
+    },
+    {
+        "Title": "Un Mutante en Linux",
+        "Description": "La ejecución de binarios en memoria desde una shell inversa en la maquina del objetivo es algo muy común en entornos Windows, existen decenas de formas distintas de lograr esto y muchas de ellas muy sencillas. Sin embargo, en entornos Linux no es tan frecuente, ni tan sencillo cargar cosas en memoria desde una simple sesión de bash, por ejemplo."
+    },
+    {
+        "Title": "Operacionalizando el hunting Avanzado mediante ML y Jupyter notebooks",
+        "Description": "En esta sesión hablaremos sobre Jupyter notebooks, qué son y como pueden ser usados para operacionalizar tareas complejas de Hunting usando una colección de bibliotecas para machine learning, visualización y análisis de datos. Así mismo entraremos al detalle de como el SOC de Microsoft utiliza esta herramienta en una variedad de casos para analizar diferentes entidades (Host, IP, Cuentas, WAF, etc.) o escenarios (Solarwinds postcompromise, detección de beacons, etc.)"
+    },
+    {
+        "Title": "Ready hacker one",
+        "Description": "Las gafas de realidad virtual son la puerta a las nuevas soluciones que nos permiten sumergirnos en entornos digitales, pero necesitamos desbloquear todo su potencial para poder comenzar a entender las nuevas reglas de este universo. ¿Cómo podemos conseguir un dispositivo que nos permita explorar los secretos de los mundos virtuales?"
+    },
+    {
+        "Title": "Zero to Full Domain Admin: The Real-World Story of a Ransomware Attack",
+        "Description": "Following in the footsteps of a cyber-criminal and uncovering their digital footprint. This is a journey inside the mind of an ethical hacker s response to a ransomware incident that brought a business to a full stop, and discovering the evidence left behind to uncover their attack path and the techniques used. Malicious attackers look for the cheapest, fastest, stealthiest way to achieve their goals. Windows endpoints provide many opportunities to gain entry to IT environments and access sensitive information. This session will show you the attacker s techniques used and how they went from zero to full domain admin compromise that resulted in a nasty CryLock ransomware incident."
+    },
+    {
+        "Title": "Advanced template injection exploitation, beyond RCE",
+        "Description": "During his Black Hat 2015 presentation, James Kettle explained how template injections could lead to code execution. At the end of the talk, he recommended running application in containers with limited privileges and read-only file system. Six years later, containers are now the standard of web-app deployment and getting code execution inside a well isolated container can be seen as low impact."
+    },
+    {
+        "Title": "Machine learning: Desde los inicios de akinator a poder ser Tom Cruise en Tinder",
+        "Description": "Abordaremos la historia de este campo empezando con el famoso Akinator de 2007, pasando por el desafío que fue el desarrollo de Shazam ,el Autopilot de Tesla, y el último gran logro: el Deep Fake. Veremos como se aplica el machine learning en el mundo de Ciber en el ámbito de los EDR y como a futuro los ataques de phishing se trasladaran al campo de las videoconferencias, y creerás estar hablando con alguien quien no es quien dice ser…"
+    },
+    {
+        "Title": "The Art of Exploiting Web Logic Flaws",
+        "Description": "We will dive into different real life scenarios of possible logic flaws in modern web applications and how to abuse them."
+    },
+    {
+        "Title": "Pero...¿Qué me estás contando?",
+        "Description": "Compartir CTI (Cyber Threat Itelligence) debería potenciar la seguridad de las organizaciones. Sin embargo a pesar de los beneficios, el intercambio de información todavía tiene margen de mejora, en tiempo, en fondo y en forma."
+    },
+    {
+        "Title": "¡Búscate la vida!",
+        "Description": "Mi nombre es Jorge Montejano Rodriguez, os contaré las diferentes formas no habituales de practicar hacking."
+    },
+    {
+        "Title": "NISCISPCIENS: El verdadero valor de la sopa de letras",
+        "Description": "La charla muestra al asistente las bondades de usar marcos normativos y sus controles técnicos como guías para mejorar la defensa de las organizaciones."
+    },
+    {
+        "Title": "Estructuras orgánicas de las AAPP como responsables de ciberincidentes",
+        "Description": "Como me pasa con todo en mi vida, en ciberseguridad también prefiero hacer a ver cómo hacen."
+    },
+    {
+        "Title": "El enlace entre Shamoon y Kwampirs que todos los Hospitales deberían conocer",
+        "Description": "Los Hospitales y Cadenas de Suministro de más de 30 países, incluído España, han recibido desde 2015 varios ciberataques de un malware/APT llamado Kwampirs (Orangeworm), el cuál se ha llegado a encontrar en estaciones de trabajo conectadas a máquinas de Resonancia Magnética y de Rayos X. Shamoon es un \"Wiper\" que se usó contra Saudi Aramco en 2012, borrando más de 30000 discos duros y paralizando la producción de petróleo, considerándose un acto de ciberguerra. Posteriormente se han usado nuevas versiones de Shamoon incorporando nueva funcionalidad, y se han atribuído todas las campañas a grupos de APTs relacionados con APTs nation-state de Irán. Hace dos años Cylera -empresa especializada en seguridad de dispositivos médicos donde trabaja el ponente- hizo pública la relación de código entre Kwampirs y Shamoon, de la cuál se acabó haciendo eco el FBI. Ésta agencia publicó un mes más tarde 3 alertas, en meses consecutivos, alertando sobre el uso de Kwampirs contra Healthcare e ICS y la existencia de similitudes de código con Shamoon. Sin embargo una atribución técnica completa no se puede sustentar sólo por similitudes de código en dos artefactos estáticos. El código de Shamoon podía haber sido robado o reutilizado (con ingeniería inversa) para hacer Kwampirs como un elemento de falsa bandera (o simplemente atribución errónea). Por este motivo Cylera siguió investigando, tratando de contextualizar la línea evolutiva del código de Kwampirs en relación con la de Shamoon, descubriendo varios indicadores técnicos, que hasta la fecha habían pasado desapercibidos en ambas familias, y que las enlazan hasta el punto de que no se puede entender la evolución de Kwampirs sin Shamoon, ni Shamoon 2 sin Kwampirs. Esta ponencia explica en primicia las dificultades y desafíos de la investigación, los enfoques y análisis elegidos, las evidencias descubiertas y las conclusiones de la investigación."
+    },
+    {
+        "Title": "Telco walk of life: Ataques prácticos a redes 5G",
+        "Description": "La presentación propuesta compartirá con los asistentes los resultados de la investigación con pruebas prácticas llevada a cabo sobre dos grandes áreas de las redes 5G: ataques de IMSI Catching en redes 5G (NSA y SA) y ataques de denegación de servicio a la capa de acceso 4G y 5G. Se presentarán por primera vez públicamente los resultados y metodología desarrollada en el trabajo publicado por Miguel Gallego: \"Estudio de la seguridad en redes móviles 5G y vectores de ataque a las identidades de los abonados\", (<a href=\"https://www.researchgate.net/publication/354962681_STUDY_OF_SECURITY_IN_5G_MOBILE_NETWORKS_AND_ATTACK_VECTORS_ON_SUBSCRIBER_IDENTITIES\">https://www.researchgate.net/publication/354962681_STUDY_OF_SECURITY_IN_5G_MOBILE_NETWORKS_AND_ATTACK_VECTORS_ON_SUBSCRIBER_IDENTITIES</a>) y se mostrarán los resultados prácticos de los primeros ataques de denegación de servicio a la capa de acceso de redes móviles 4G y 5G, realizados durante las primeras auditorías a redes comerciales. El objetivo principal de la ponencia es compartir el trabajo de investigación práctica realizado por los investigadores, realizando demostraciones en el escenario, para aportar la visión práctica a todo lo presentado en los últimos años sobre la seguridad de las redes móviles 5G. A lo largo de toda la presentación se hará hincapié en las herramientas de Radio Definida por Software (SDR) utilizadas durante todo el ciclo de la investigación, para continuar fomentando en la cultura hacking el uso de estos dispositivos con el objetivo de animar a los espectadores a emprender proyectos de esta naturaleza. Para finalizar, se mostrará una comparativa de distintas soluciones para monitorizar y mitigar estos ataques desde el punto de vista de los usuarios de las redes móviles, es decir, el público."
+    },
+    {
+        "Title": "¿Creías que tus firmas electrónicas eran válidas legalmente? La importancia de utilizar certificados cualificados creados con dispositivo seguros de creación de firma (QSCD).",
+        "Description": "La mayor parte de los profesionales TIC que trabajamos en áreas de administración electrónica estamos acostumbrados a generar expedientes electrónicos que, como valor probatorio, contienen las firmas electrónicas de los ciudadanos que intervienen en los procedimientos, los sellos electrónicos de los órganos gestores y, en ocasiones, las firmas electrónicas de los funcionarios que gestionan dichos expedientes."
+    },
+    {
+        "Title": "El sistema de AUTORIZACIÓN perfecto en el desarrollo de una aplicación",
+        "Description": "Sorprendentemente, existen muy pocas aplicaciones que implementen adecuadamente un sistema de autorización, y casi todas las aplicaciones software lo tienen. Un sistema de autorización es la forma en la que la aplicación verifica si un usuario tiene permisos o no para hacer una acción o para visualizar una información concreta. Algo tan básico y fundamental como un sistema de logging."
+    },
+    {
+        "Title": "#RansomedMeToo Crónica de un incidente con Hamburguesas que salió bien",
+        "Description": "En Abril de 2021, un ministerio de la Administración General del Estado recibió un ataque por ransomware. Un mail leído mientras subía del parking me hizo cancelar todos los compromisos de la mañana, de la tarde y de la noche. Hasta las 5 de la mañana, libramos una guerra con hamburguesas llena de investigaciones y forenses. Por suerte no se consiguió detonar el ransom. Un día así, y los dos meses posteriores de forenses, son una experiencia real en la que se aprende mucho de esta tendencia actual de ransomware. De forma muy entretenida y técnica, se contará el incidente para conocer estas obras de \"arte\" que son las intrusiones relámpago para cifrar las redes de las víctimas. Además, se contarán los aciertos y errores, así como lecciones aprendidas y quick wins para estar mejor protegidos. Y quizás, consigamos una entrevista en directo con uno de los operadores de ransom. Espero, que como la Metacharla de Ciberseguridad del año pasado, que no os deje indiferente la charla."
+    },
+    {
+        "Title": "Me pagan por atacar tu entidad y ¡Estos son los controles que odio!",
+        "Description": "Tras más de 10 años de experiencia de trabajo de pentesting para muchas de las compañías globales más importantes, en esta ponencia se detallarán los principales controles de seguridad más efectivos “sufridos” para prevenir y mitigar los principales ataques que comúnmente llevan a cabo los atacantes, haciendo especial hincapié en aquellos quick-wins, generalmente accesibles sin grandes inversiones o directamente disponibles en la tecnología que ya utilizan la mayoría de las organizaciones, que harán el camino de los atacantes mucho más tedioso."
+    },
+    {
+        "Title": "Recetas para gestionar una crisis de ciberseguridad y no \"morir\" en el intento",
+        "Description": "Vivimos en un mundo hiperconectado a través de Internet, nuestra sociedad digital no para de crecer, cada día se prestan más y variados servicios digitales y se intercambia información vital y sensible para los ciudadanos, empresas y administraciones públicas. La pandemia de la covid-19 ha impulsado esta digitalización y con ella ha despegado el teletrabajo y el comercio electrónico."
+    },
+    {
+        "Title": "The SOCless, beyond detection and response",
+        "Description": "En esta charla se mostrarán las capacidades del modelo SOCless, como la conversión de herramientas de ataque a herramientas de detección y respuesta."
+    },
+    {
+        "Title": "Inflight Entertainment Hacking",
+        "Description": "InFlight Entertainment (IFE) refers to the entertainment available to aircraft passengers during a flight, including services such as moving-maps, movies or games. Is it possible to hack the system by gaining physical access through the Seat Electronic Box?"
+    },
+    {
+        "Title": "De PARCHE a Vision: construyendo un ecosistema CTI sobre la Darknet",
+        "Description": "Los ciberataques han mostrado un incremento en cantidad y evolución. Un claro ejemplo ha sido el incremento de ataques y el cambio en el modus operandi de grupos de ransomware. Estos ataques cada vez vinculan más la publicación de datos a modo de extorsión en las redes conocidas como darknets. El análisis de esta nueva forma de operar y de sitios vinculados a grupos de ciberdelincuentes en Tor es crucial, de cara a detectar ataques recientes, empresas afectadas y dar seguimiento de estos grupos de cara a posibles atribuciones."
+    },
+    {
+        "Title": "WiFiChallenge Lab - Como aprender hacking wifi sin morir en el intento",
+        "Description": "WiFiChallenge Lab es un laboratorio de pentesting Wifi virtualizado para aprender desde los conceptos mas basicos hasta ataques muy sofisticados sin necesidad de utilizar tarjetas WiFi fisicas, gracias al uso de mac80211_hwsim y el proyecto vwifi. WifiChallenge Lab puede ser descargado como una maquina virtual en la que las pruebas que deberan pasar los participantes cubren las distintas fases de una auditoria Wifi, desde el reconocimiento hasta la fase de ataque y explotacion, donde tendran la posibilidad de atacar tanto WPA con servidor de autenticaci6n (MGT) como con clave precompartida (PSK)."
+    },
+    {
+        "Title": "Threat Hunting y Malware Reversing para rastrear y atrapar el mal",
+        "Description": "Las Campañas y APTs basan sus ataques en metodologias orquestadas usando TTP y Malware que las caracterizan. En esta charla veremos como se complementan el Threat Hunting y Malware Reversing para obtener la maxima informacion sobre como funciona un ataque para evitar que suceda, o que no vuelva a ocurrir."
+    },
+    {
+        "Title": "De los soldados Rusos a tu vecino de enfrente, nadie escapa del OSINT",
+        "Description": "Una foto de un soldado es suficiente para encontrar su red, su batallón, su familia y sus amigos a través del reconocimiento facial y mucho OSINT. ¿Qué pistas dejó este soldado? ¿Qué errores ha cometido que facilitaron esta investigación? Pistas similares te dejan tus vecinos, tu madre e incluso los famosos e influencers."
+    }
+]

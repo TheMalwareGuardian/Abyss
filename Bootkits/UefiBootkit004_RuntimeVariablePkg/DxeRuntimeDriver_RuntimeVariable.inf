@@ -1,0 +1,49 @@
+# .INF File
+# https://github.com/tianocore/tianocore.github.io/wiki/Build-Description-Files#the-inf-file
+
+# This file describes how to build a module (i.e. a driver, library, application, etc…).
+
+
+[Defines]
+	INF_VERSION                    = 1.25                                       # Defines the version of the EDK II INF specification the INF file supports. 
+	BASE_NAME                      = UefiBootkit004_RuntimeVariable             # Defines the base output name of the module (application, library, etc...) when built resulting in the final .efi or .lib binary.
+	FILE_GUID                      = 00000000-0000-0000-0000-000000000000       # A unique GUID for this module. See http://www.guidgen.com/
+	MODULE_TYPE                    = DXE_RUNTIME_DRIVER                         # The type of module being built. This includes things such as UEFI_DRIVER, UEFI_APPLICATION, DXE_DRIVER, etc… For libraries it can be BASE, USER_DEFINED, etc…
+	VERSION_STRING                 = 1.0                                        # The developer defined version of your module, Major "." Minor number.
+	ENTRY_POINT                    = UefiMain                                   # If your module is not a library, this variable defines the function to begin execution. This is similar to the main() function in C.
+
+
+# List the various packages the module will use. This tells the build system where to look for library classes (header files for the library), PCDs, GUIDs, Protocols, and PPIs via the different packages .DEC files. The .DCS file from this package is not used. Typically minimum required package is the MdePkg.dec
+[Packages]
+	MdePkg/MdePkg.dec                                                           # The Module Development Environment Package (MdePkg) is a special package as it is the minimum infrastructure required to build a module
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec
+
+
+# List the various source and header files used to build the module.
+[Sources]
+	# DXE Runtime Driver
+	DxeRuntimeDriver_RuntimeVariable.c                                          # Main
+
+
+# List the various libraries the module uses and should be linked with.
+[LibraryClasses]
+	# Entry point
+	UefiDriverEntryPoint
+		# Module entry point library for UEFI drivers, DXE Drivers, DXE Runtime Drivers, and DXE SMM Drivers.
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Library/UefiDriverEntryPoint.h
+	# Base
+	UefiLib
+		# Provides library functions for common UEFI operations. Only available to DXE and UEFI module types.
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Library/UefiLib.h
+
+
+# List the various protocol GUIDs variable name needed/used by the sources. The variable name is defined in one of the [Packages].DEC [Guids] section. Also listed are the Usage Block definitions for the protocol for this module.
+[Protocols]
+
+
+# The optional Depex section is a replacement for the dependency file specified by the driver writer. This section can be used for inheritance from libraries, by supporting logical AND'ing of the different Depex expressions together.
+[Depex]
+	gEfiSimpleTextOutProtocolGuid
+
+# List the various GUIDs variable name needed/used by the sources. The variable name is defined in one of the [Packages].DEC [Guids] section. The usage block SOMETIMES_PRODUCES and guide type UNDEFINED Means that the module will produce a GUID that does not fit into the defined PROTOCOL or PPI types. This module conditionally produces the named GUID.
+[Guids]

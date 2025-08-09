@@ -1,0 +1,535 @@
+<mxfile host="Electron" modified="2025-06-15T20:11:05.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="i5mCuJu0OJ-GplrD3WZd" version="24.5.1" type="device" pages="6">
+  <diagram id="zmN_8eQJPv2LYLOYTVxN" name="UEFI Phases">
+    <mxGraphModel dx="2700" dy="1327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8J5HORh25zqKcCnRLqs8-1" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;SEC&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;(Security)&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffcd28;gradientDirection=south;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="-690" y="340" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-2" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;PEI&lt;/font&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;(Pre-EFI Init)&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffcd28;gradientDirection=south;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="-490" y="340" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-3" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;DXE&lt;/font&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;(Driver &lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Execution&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Environment)&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffcd28;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="340" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-4" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;BDS&lt;/font&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;(Boot&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Device&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Selection)&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffcd28;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="340" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-5" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;TSL&lt;/font&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;(Transient&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;System&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Load)&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffcd28;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="110" y="340" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-6" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;RT&lt;/font&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;(Run Time)&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffcd28;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="310" y="340" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-8" value="PEI Modules" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f5f5f5;gradientColor=#b3b3b3;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-450" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-9" value="DXE Drivers" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f5f5f5;gradientColor=#b3b3b3;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-250" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-10" value="SMM Modules" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f5f5f5;gradientColor=#b3b3b3;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-250" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-11" value="UEFI Boot&lt;br&gt;Manager" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f5f5f5;gradientColor=#b3b3b3;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-50" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-12" value="GRUB, Windows Boot Manager, ..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f5f5f5;gradientColor=#b3b3b3;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="150" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8J5HORh25zqKcCnRLqs8-13" value="OS Kernel" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f5f5f5;gradientColor=#b3b3b3;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="350" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RZpUft3h8uPB94e6-bTA-1" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;&lt;br&gt;AL&lt;/font&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;(After Life)&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffcd28;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="510" y="340" width="200" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Windows Boot Process" id="XgZ039GixdZURgY8B_N0">
+    <mxGraphModel dx="2775" dy="1990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q-q3Uk1yC8aIoFKP01wg-9" value="Windows NT OS Kernel" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;horizontal=0;gradientColor=#ea6b66;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="58" width="30" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="OIjsx5Lbw4lHaAmFp60X-5" target="auWv59esdB6_gmScPLl--13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-q3Uk1yC8aIoFKP01wg-5" value="Windows Boot Manager" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;horizontal=0;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="530" y="58" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="auWv59esdB6_gmScPLl--10" target="OIjsx5Lbw4lHaAmFp60X-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-q3Uk1yC8aIoFKP01wg-3" value="Windows Boot Loader" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;horizontal=0;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="530" y="258" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="auWv59esdB6_gmScPLl--2" target="auWv59esdB6_gmScPLl--3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auWv59esdB6_gmScPLl--2" value="BIOS Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=middle;horizontal=0;gradientColor=#ffd966;" parent="1" vertex="1">
+          <mxGeometry y="58" width="50" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="auWv59esdB6_gmScPLl--3" target="auWv59esdB6_gmScPLl--4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auWv59esdB6_gmScPLl--3" value="Boot Loader Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;horizontal=0;gradientColor=#ffa500;" parent="1" vertex="1">
+          <mxGeometry x="480" y="58" width="50" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="auWv59esdB6_gmScPLl--4" value="Kernel Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;horizontal=0;gradientColor=#ea6b66;" parent="1" vertex="1">
+          <mxGeometry x="960" y="58" width="50" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="auWv59esdB6_gmScPLl--6" value="UEFI Boot" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;horizontal=1;direction=south;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="50" y="8" width="1430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="auWv59esdB6_gmScPLl--11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" parent="1" source="auWv59esdB6_gmScPLl--8" target="auWv59esdB6_gmScPLl--9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Power on Self Test&lt;br&gt;(POST)" link="https://en.wikipedia.org/wiki/Power-on_self-test" id="auWv59esdB6_gmScPLl--8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" parent="1" vertex="1">
+            <mxGeometry x="130" y="169" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="auWv59esdB6_gmScPLl--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" parent="1" source="auWv59esdB6_gmScPLl--9" target="auWv59esdB6_gmScPLl--10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Launch UEFI Firmware" link="https://wiki.osdev.org/UEFI" id="auWv59esdB6_gmScPLl--9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" parent="1" vertex="1">
+            <mxGeometry x="130" y="278" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="auWv59esdB6_gmScPLl--10" value="Get Boot Information from SRAM&lt;br&gt;Boot Entries&lt;br&gt;Boot Order" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="130" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="auWv59esdB6_gmScPLl--13" target="auWv59esdB6_gmScPLl--14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auWv59esdB6_gmScPLl--13" value="Launch Windows NT OS Kernel&lt;br&gt;(%SystemRoot%\system32\ntoskrnl.exe)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="1095" y="78" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-q3Uk1yC8aIoFKP01wg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="auWv59esdB6_gmScPLl--14" target="Q-q3Uk1yC8aIoFKP01wg-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auWv59esdB6_gmScPLl--14" value="Load Drivers" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="1095" y="152" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="auWv59esdB6_gmScPLl--15" value="Logon Screen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="1095" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="auWv59esdB6_gmScPLl--16" target="auWv59esdB6_gmScPLl--15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="auWv59esdB6_gmScPLl--16" value="Launch Services" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="1095" y="308" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="OIjsx5Lbw4lHaAmFp60X-4" target="OIjsx5Lbw4lHaAmFp60X-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-4" value="Read BCD File&lt;br&gt;(\Boot\Bcd)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="610" y="168" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-5" value="Load Kernel into Memory" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="610" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="OIjsx5Lbw4lHaAmFp60X-6" target="OIjsx5Lbw4lHaAmFp60X-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-6" value="Launch Windows Boot Manager&lt;br&gt;(\EFI\Microsoft\Boot\bootmgfw.efi)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="610" y="78" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="OIjsx5Lbw4lHaAmFp60X-7" target="OIjsx5Lbw4lHaAmFp60X-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-7" value="Launch Windows OS Loader&lt;br&gt;(%SystemRoot%\system32\winload.efi)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="610" y="278" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIjsx5Lbw4lHaAmFp60X-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" target="auWv59esdB6_gmScPLl--2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="8" as="sourcePoint" />
+            <mxPoint x="210" y="18" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-q3Uk1yC8aIoFKP01wg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="Q-q3Uk1yC8aIoFKP01wg-1" target="auWv59esdB6_gmScPLl--8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Read Instructions from ROM" link="https://en.wikipedia.org/wiki/Power-on_self-test" id="Q-q3Uk1yC8aIoFKP01wg-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" parent="1" vertex="1">
+            <mxGeometry x="130" y="78" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Q-q3Uk1yC8aIoFKP01wg-8" value="Pre Boot Windows" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=middle;horizontal=0;gradientColor=#ffd966;" parent="1" vertex="1">
+          <mxGeometry x="50" y="58" width="30" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-q3Uk1yC8aIoFKP01wg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="Q-q3Uk1yC8aIoFKP01wg-13" target="auWv59esdB6_gmScPLl--16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-q3Uk1yC8aIoFKP01wg-13" value="Initialize Subsystems" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" parent="1" vertex="1">
+          <mxGeometry x="1095" y="229" width="310" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Windows Boot Process White" id="MpxgT7lQB_Ov4lCRU3md">
+    <mxGraphModel dx="2220" dy="1592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-0" />
+        <mxCell id="MUpL6runmCY8gXnRKzKg-1" parent="MUpL6runmCY8gXnRKzKg-0" />
+        <mxCell id="MUpL6runmCY8gXnRKzKg-7" value="Windows Boot Manager" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;horizontal=0;gradientColor=#ffa500;" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="530" y="58" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-15" target="MUpL6runmCY8gXnRKzKg-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-35" value="Windows NT OS Kernel" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;horizontal=0;gradientColor=#ea6b66;" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="1010" y="58" width="30" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-26" target="MUpL6runmCY8gXnRKzKg-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-2" value="Windows Boot Loader" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;horizontal=0;gradientColor=#ffa500;" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="530" y="258" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-4" target="MUpL6runmCY8gXnRKzKg-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-4" value="BIOS Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=middle;horizontal=0;gradientColor=#ffd966;" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry y="58" width="50" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-6" target="MUpL6runmCY8gXnRKzKg-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-6" value="Boot Loader Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;horizontal=0;gradientColor=#ffa500;" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="480" y="58" width="50" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-8" value="Kernel Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;horizontal=0;gradientColor=#ea6b66;" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="960" y="58" width="50" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-9" value="UEFI Boot" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;horizontal=1;direction=south;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="50" y="8" width="1360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-11" target="MUpL6runmCY8gXnRKzKg-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Power on Self Test&lt;br&gt;(POST)" link="https://en.wikipedia.org/wiki/Power-on_self-test" id="MUpL6runmCY8gXnRKzKg-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+            <mxGeometry x="130" y="168" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-13" target="MUpL6runmCY8gXnRKzKg-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Launch UEFI Firmware" link="https://wiki.osdev.org/UEFI" id="MUpL6runmCY8gXnRKzKg-13">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+            <mxGeometry x="130" y="278" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-15" value="Get Boot Information from SRAM&lt;br&gt;Boot Entries&lt;br&gt;Boot Order" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="130" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-17" target="MUpL6runmCY8gXnRKzKg-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-17" value="Launch Windows NT OS Kernel&lt;br&gt;(%SystemRoot%\system32\ntoskrnl.exe)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="1095" y="78" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-19" target="MUpL6runmCY8gXnRKzKg-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-19" value="Load Drivers" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="1095" y="152" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-20" value="Logon Screen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="1095" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-22" target="MUpL6runmCY8gXnRKzKg-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-22" value="Launch Services" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="1095" y="308" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-24" target="MUpL6runmCY8gXnRKzKg-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-24" value="Read BCD File&lt;br&gt;(\Boot\Bcd)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="610" y="168" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-26" value="Load Kernel into Memory" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="610" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-28" target="MUpL6runmCY8gXnRKzKg-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-28" value="Launch Windows Boot Manager&lt;br&gt;(\EFI\Microsoft\Boot\bootmgfw.efi)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="610" y="78" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-30" target="MUpL6runmCY8gXnRKzKg-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-30" value="Launch Windows OS Loader&lt;br&gt;(%SystemRoot%\system32\winload.efi)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="610" y="278" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#ffffff;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" target="MUpL6runmCY8gXnRKzKg-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="8" as="sourcePoint" />
+            <mxPoint x="210" y="18" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-33" target="MUpL6runmCY8gXnRKzKg-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Read Instructions from ROM" link="https://en.wikipedia.org/wiki/Power-on_self-test" id="MUpL6runmCY8gXnRKzKg-33">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+            <mxGeometry x="130" y="78" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-34" value="Pre Boot Windows" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=middle;horizontal=0;gradientColor=#ffd966;" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="50" y="58" width="30" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=2;" parent="MUpL6runmCY8gXnRKzKg-1" source="MUpL6runmCY8gXnRKzKg-37" target="MUpL6runmCY8gXnRKzKg-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUpL6runmCY8gXnRKzKg-37" value="Initialize Subsystems" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" parent="MUpL6runmCY8gXnRKzKg-1" vertex="1">
+          <mxGeometry x="1095" y="229" width="310" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Linux Boot Process" id="OXIs6Rqbx2iNmKbv6gM1">
+    <mxGraphModel dx="1850" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-0" />
+        <mxCell id="3P1lM-ir87wmab5Smi6m-1" parent="3P1lM-ir87wmab5Smi6m-0" />
+        <mxCell id="3P1lM-ir87wmab5Smi6m-2" value="Linux Kernel" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;horizontal=0;gradientColor=#ea6b66;" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="1010" y="58" width="30" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-27" target="3P1lM-ir87wmab5Smi6m-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-17" target="3P1lM-ir87wmab5Smi6m-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-6" value="Grand Unified Boot Loader (GRUB2)" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;horizontal=0;gradientColor=#ffa500;" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="530" y="50" width="30" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-8" target="3P1lM-ir87wmab5Smi6m-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-8" value="BIOS Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=middle;horizontal=0;gradientColor=#ffd966;" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry y="58" width="50" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-10" target="3P1lM-ir87wmab5Smi6m-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-10" value="Boot Loader Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;horizontal=0;gradientColor=#ffa500;" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="480" y="58" width="50" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-11" value="Kernel Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;horizontal=0;gradientColor=#ea6b66;" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="960" y="58" width="50" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-12" value="UEFI Boot" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;horizontal=1;direction=south;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="50" y="8" width="1430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-14" target="3P1lM-ir87wmab5Smi6m-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Power on Self Test&lt;br&gt;(POST)" link="https://en.wikipedia.org/wiki/Power-on_self-test" id="3P1lM-ir87wmab5Smi6m-14">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+            <mxGeometry x="130" y="169" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-16" target="3P1lM-ir87wmab5Smi6m-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Launch UEFI Firmware" link="https://wiki.osdev.org/UEFI" id="3P1lM-ir87wmab5Smi6m-16">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+            <mxGeometry x="130" y="278" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-17" value="Get Boot Information from SRAM&lt;br&gt;Boot Entries&lt;br&gt;Boot Order" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="130" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-19" target="3P1lM-ir87wmab5Smi6m-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-19" value="Load driver modules from initramfs image" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="1095" y="78" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-21" target="3P1lM-ir87wmab5Smi6m-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-21" value="Start the init system or systemd as the first user space process (PID 1)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="1095" y="169" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-22" value="Logon Screen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="1095" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-26" target="3P1lM-ir87wmab5Smi6m-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-26" value="Load compressed Linux kernel image vmlinuz" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="610" y="229" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-27" value="Extract the content of initramfs&lt;div&gt;(temporary root filesystem)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="610" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-29" target="3P1lM-ir87wmab5Smi6m-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-29" value="Read configuration file&amp;nbsp;/boot/grub/grub.cfg" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="610" y="78" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" target="3P1lM-ir87wmab5Smi6m-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="8" as="sourcePoint" />
+            <mxPoint x="210" y="18" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-34" target="3P1lM-ir87wmab5Smi6m-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Read Instructions from ROM" link="https://en.wikipedia.org/wiki/Power-on_self-test" id="3P1lM-ir87wmab5Smi6m-34">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+            <mxGeometry x="130" y="78" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-35" value="Pre Boot Linux" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=middle;horizontal=0;gradientColor=#ffd966;" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="50" y="58" width="30" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3P1lM-ir87wmab5Smi6m-1" source="3P1lM-ir87wmab5Smi6m-37" target="3P1lM-ir87wmab5Smi6m-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3P1lM-ir87wmab5Smi6m-37" value="Execute startup scripts and initialize system services and daemons" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" vertex="1" parent="3P1lM-ir87wmab5Smi6m-1">
+          <mxGeometry x="1095" y="278" width="310" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Linux Boot Process White" id="f3jDn-jfDhm0xXAgq0oN">
+    <mxGraphModel dx="1850" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-0" />
+        <mxCell id="X-9moSzDJNg2TOJowjwH-1" parent="X-9moSzDJNg2TOJowjwH-0" />
+        <mxCell id="X-9moSzDJNg2TOJowjwH-2" value="Linux Kernel" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;horizontal=0;gradientColor=#ea6b66;" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="1010" y="58" width="30" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-24" target="X-9moSzDJNg2TOJowjwH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-16" target="X-9moSzDJNg2TOJowjwH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-5" value="Grand Unified Boot Loader (GRUB2)" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;horizontal=0;gradientColor=#ffa500;" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="530" y="50" width="30" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-7" target="X-9moSzDJNg2TOJowjwH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-7" value="BIOS Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=middle;horizontal=0;gradientColor=#ffd966;" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry y="58" width="50" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-9" target="X-9moSzDJNg2TOJowjwH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-9" value="Boot Loader Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#ffcd28;strokeColor=#d79b00;fontStyle=1;horizontal=0;gradientColor=#ffa500;" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="480" y="58" width="50" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-10" value="Kernel Phase" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=1;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;horizontal=0;gradientColor=#ea6b66;" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="960" y="58" width="50" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-11" value="UEFI Boot" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontStyle=1;horizontal=1;direction=south;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="50" y="8" width="1430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-13" target="X-9moSzDJNg2TOJowjwH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Power on Self Test&lt;br&gt;(POST)" link="https://en.wikipedia.org/wiki/Power-on_self-test" id="X-9moSzDJNg2TOJowjwH-13">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+            <mxGeometry x="130" y="169" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-15" target="X-9moSzDJNg2TOJowjwH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Launch UEFI Firmware" link="https://wiki.osdev.org/UEFI" id="X-9moSzDJNg2TOJowjwH-15">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+            <mxGeometry x="130" y="278" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-16" value="Get Boot Information from SRAM&lt;br&gt;Boot Entries&lt;br&gt;Boot Order" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="130" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-18" target="X-9moSzDJNg2TOJowjwH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-18" value="Load driver modules from initramfs image" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="1095" y="78" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-20" target="X-9moSzDJNg2TOJowjwH-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-20" value="Start the init system or systemd as the first user space process (PID 1)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="1095" y="169" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-21" value="Logon Screen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="1095" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-23" target="X-9moSzDJNg2TOJowjwH-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-23" value="Load compressed Linux kernel image vmlinuz" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="610" y="229" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-24" value="Extract the content of initramfs&lt;div&gt;(temporary root filesystem)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="610" y="388" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-26" target="X-9moSzDJNg2TOJowjwH-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-26" value="Read configuration file&amp;nbsp;/boot/grub/grub.cfg" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="610" y="78" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" target="X-9moSzDJNg2TOJowjwH-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="8" as="sourcePoint" />
+            <mxPoint x="210" y="18" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-29" target="X-9moSzDJNg2TOJowjwH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Read Instructions from ROM" link="https://en.wikipedia.org/wiki/Power-on_self-test" id="X-9moSzDJNg2TOJowjwH-29">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+            <mxGeometry x="130" y="78" width="310" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-30" value="Pre Boot Linux" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;flipV=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=middle;horizontal=0;gradientColor=#ffd966;" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="50" y="58" width="30" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="X-9moSzDJNg2TOJowjwH-1" source="X-9moSzDJNg2TOJowjwH-32" target="X-9moSzDJNg2TOJowjwH-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-9moSzDJNg2TOJowjwH-32" value="Execute startup scripts and initialize system services and daemons" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;fontStyle=3" vertex="1" parent="X-9moSzDJNg2TOJowjwH-1">
+          <mxGeometry x="1095" y="278" width="310" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VWiJJlNqFUp1iLMJz6AC" name="Abyss Bootkit">
+    <mxGraphModel dx="1221" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

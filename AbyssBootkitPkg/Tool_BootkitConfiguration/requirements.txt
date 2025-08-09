@@ -1,0 +1,2 @@
+inquirerpy==0.3.4
+cryptography==44.0.0

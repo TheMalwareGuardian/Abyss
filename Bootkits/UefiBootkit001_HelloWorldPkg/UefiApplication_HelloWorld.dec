@@ -1,0 +1,15 @@
+# .DEC File
+# https://github.com/tianocore/tianocore.github.io/wiki/Build-Description-Files#the-dec-file
+
+# This file is used to declare what is available in the package and tells the build system where to find things such as "Include" directories. It can also be used to replace the use of #define values or constant variables in .h files though a mechanism called the Platform Configuration Database(PCD). This file is used when a module includes this package in its [Packages] section.
+
+
+[Defines]
+	DEC_SPECIFICATION   = 1.25                                                          # Defines the version of the EDK II DEC specification the DEC file supports.
+	PACKAGE_NAME        = UefiBootkit001_HelloWorldPkg                                  # Defines the base output name of the package.
+	PACKAGE_GUID        = 00000000-0000-0000-0000-000000000000                          # A unique GUID for this module. See http://www.guidgen.com/
+	PACKAGE_VERSION     = 1.00                                                          # The developer defined version of your module, Major "." Minor number.
+
+
+# This section lists the include directories for the package and modules that use the package (the search path for .h files). The [Incudes] section can also indicate directories by Architecture used by appending a period and architecture name to the Includes name. For example [Includes.IA32], [Includes.X64]. This is where your .C modules look for #include <header.h> files.
+[Includes]

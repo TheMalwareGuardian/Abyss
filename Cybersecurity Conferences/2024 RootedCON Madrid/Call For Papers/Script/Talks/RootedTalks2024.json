@@ -1,0 +1,414 @@
+[
+    {
+        "Title": "Introducción ISACA Madrid",
+        "Description": "Durante esta charla de bienvenida se mostrará una visión global de ISACA Madrid, haciendo referencia a los principales objetivos de la Asociación y a las actividades de difusión, formación y concienciación que se realizan anualmente, mediante la organización de Congresos, Conferencias y publicación de material especializado. Adicionalmente, se presentarán las principales certificaciones ofrecidas por ISACA y se realizará un repaso de los recursos que ISACA Madrid pone a disposición de sus asociados para permitirles una continua actualización de conocimientos en materia de Gobierno, Gestión de Riesgos, Cumplimiento, Seguridad, Control y Auditoría de las Tecnologías de la Información y Comunicaciones. \""
+    },
+    {
+        "Title": "🍺🍻RootedBeers by TARLOGIC (ESPACIO LUMIERE)",
+        "Description": "RootedBeers by TARLOGIC"
+    },
+    {
+        "Title": "🎧🥳 Sesión de Live Coding con Laura Zapata (música) y b1tdreamer (visuales) (ESPACIO LUMIERE)",
+        "Description": "El live coding es una técnica de creación audiovisual que usa como herramienta de creación el código informático. Una combinación de música e imágenes utilizando herramientas de software libre, experimentando con diferentes lenguajes y plataformas creadas específicamente para la programación de sonido e imagen digital. Todas las herramientas que utilizan están publicadas bajo alguna de las licencias públicas existentes: SuperCollider, Tidal, Extempore, Overtone, PureData, Sonic Pi, etc. "
+    },
+    {
+        "Title": "🎧🥳 “Rooted Exploit: Privilege Escalation Run” con HUMNEEB (música) & OFFDISARTIST (visuales) (ESPACIO LUMIERE)",
+        "Description": "Un set de música electrónica que fusiona diversos paisajes sonoros, atmósferas envolventes y ritmos vibrantes, llevando a los oyentes desde la calma reflexiva, a través de pequeños diálogos de películas de temática sci-fi e inteligencia artificial, escalando hasta la intensidad de los ataques informáticos"
+    },
+    {
+        "Title": "🎧🥳 Sesión de Live Coding con r_phlux_d (música) y rub3n4zo (visuales) (ESPACIO LUMIERE)",
+        "Description": "El live coding es una técnica de creación audiovisual que usa como herramienta de creación el código informático. Una combinación de música e imágenes utilizando herramientas de software libre, experimentando con diferentes lenguajes y plataformas creadas específicamente para la programación de sonido e imagen digital. Todas las herramientas que utilizan están publicadas bajo alguna de las licencias públicas existentes: SuperCollider, Tidal, Extempore, Overtone, PureData, Sonic Pi, etc. "
+    },
+    {
+        "Title": "🎧🥳 “Power Saving Mode Live” con XTASIK (música) & SASENART (visuales) (ESPACIO LUMIERE)",
+        "Description": "En \"Power Saving Mode Live\", Xtasik disecciona y vuelve a montar su álbum Power Saving Mode en vivo, con el apoyo visual de Sasenart. Durante aproximadamente una hora, el dúo de artistas madrileños debutará su show en RootedCON y se embarcará en un viaje de música electrónica con energía, sentimiento y atmósfera, explorando y redescubriendo el álbum de una forma totalmente nueva."
+    },
+    {
+        "Title": "🎧🥳 División Sonora Dj´s (ESPACIO LUMIERE)",
+        "Description": "División Sonora es un colectivo de Djʼs radicado en Madrid. Somos los residentes de una sala emblemática de la capital: Honky Tonk Bar. Además, hemos pinchado con regularidad en clubes tan populares como Costello Club, Independance o Wild Thing Bar, y hemos realizado sesiones en las cabinas de Tupper Ware, Siroco, Silikona, Ocho y Medio o La Vía Láctea. La amenización de todo tipo de eventos ‒privados, corporativos, institucionales‒ es una de nuestras especialidades."
+    },
+    {
+        "Title": "The Lord of the Keys: The Return of Post-Quantum Cryptography",
+        "Description": "The speakers gave an overview of post-quantum cryptography at last year's conference, including the threat of quantum computers to current cryptography, main families of post-quantum cryptographic algorithms and the status of adoption and standardization efforts at the time."
+    },
+    {
+        "Title": "7 motivos para predecir comportamientos en las redes sociales.",
+        "Description": "Una charla de OSINT y SOCMINT. Listo, ya tengo tu atención. Se hablará de comportamiento, patrones mentales y cómo sumamos eso al perfilado de un target con uso de fuentes abiertas y manipulación inconsciente. No es tan confuso como esta descripción."
+    },
+    {
+        "Title": "Ataques masivos a vehiculos - Los olvidados",
+        "Description": "En los últimos 10 años, la industria del automóvil ha sufrido un proceso de electrificación y automatización que esta revolucionando la manera en la que diseñamos y conducimos nuestros coches. Los motores eléctricos alimentados por baterías, los coches autónomos, los vehículos compartidos o los vehículos conectados son algunos de los avances que están cambiando la industria. Todos estos avances están trayendo consigo muchos nuevos retos en el área de la ciberseguridad y la industria automovilística esta teniendo problemas para reaccionar a tiempo."
+    },
+    {
+        "Title": "AWS, con sus lambdas y sus cositas",
+        "Description": "El servicio de AWS Lambdas es muy conocido y ampliamente usado. Pero, ¿qué hay por debajo de las Lambdas de AWS? ¿Cómo funciona su modelo de seguridad? ¿Qué se puede hacer dentro de ellas? ¿Cómo ha implementado Amazon la arquitectura de escalado sin perder de vista la seguridad?"
+    },
+    {
+        "Title": "BSAM: Seguridad en Bluetooth",
+        "Description": "La tecnología Bluetooth se ha vuelto imprescindible en las comunicaciones IoT pero su seguridad ha sido relegada a un segundo plano. El desconocimiento general sobre su funcionamiento, la falta de herramientas y guías adecuadas dificultan enormemente su análisis y auditoría. BSAM es una nueva metodología de análisis de seguridad Bluetooth que te ayudará a realizar auditorias de seguridad en detalle."
+    },
+    {
+        "Title": "Ciberinteligencia y Geopolítica: Claves para la Supervivencia y Éxito de las Marcas en el Tablero Global",
+        "Description": "Este análisis pionero se sumerge en el fascinante y turbulento mundo de la geopolítica y su impacto directo en el ámbito empresarial global. Con un enfoque en los recientes boicots en Rusia e Israel, el estudio desentraña cómo marcas reconocidas como Aeroflot, Gazprom, Lukoil, McDonald’s, Pepsi y Coca-Cola han enfrentado desafíos sin precedentes, moldeando su reputación y rendimiento en el mercado. A través de una meticulosa vigilancia digital que abarca desde las redes sociales hasta los foros de opinión pública, se revela un panorama dinámico, donde las estrategias de respuesta y adaptación se convierten en piezas clave para la supervivencia y el éxito de las marcas. Este análisis no solo capta la esencia de las tensiones políticas y su efecto en grandes nombres como Inditex, Mango y H&M, sino que también brinda una guía estratégica invaluable para la gestión de reputación en un escenario geopolítico en constante cambio. Aquí, las marcas no solo enfrentan la pérdida de credibilidad y mercado, sino también una batalla por mantener la confianza de sus inversores, delineando un futuro donde la ciberinteligencia y la adaptabilidad son las armas más poderosas."
+    },
+    {
+        "Title": "Mesa Redonda: \"Ciberseguridad y board, ¿hablamos el mismo idioma?\"",
+        "Description": "La ciberseguridad cada vez gana más peso dentro de las preocupaciones de los consejos de administración, siendo hoy en día una de las principales preocupaciones de las organizaciones. Es por este motivo, que esta mesa se centrará en la intersección entre la ciberseguridad y el papel de los consejos de administración en las organizaciones, explorando la importancia de alinear los esfuerzos de ciberseguridad con las prioridades y la estrategia empresarial, así como el papel crucial que desempeñan los consejos de administración en este proceso. "
+    },
+    {
+        "Title": "Cómo crear una herramienta OpenSource para analizar SmartContracts",
+        "Description": "El mundo de la ciberseguridad en la web3 y metaverso cobra cada vez más importancia. Un gran número de profesionales se recicla en este nuevo mundo y la ciberseguridad como una habilidad transversal hace que sea necesario conocer los conceptos de la web3 y poder generar herramientas que ayuden a la mejora continua de la seguridad de estos proyectos."
+    },
+    {
+        "Title": "Cómo prevenir trolleos para LLM",
+        "Description": "En esta charla fascinante, nos sumergiremos en el mundo emergente de los Modelos de Lenguaje de Gran Escala (LLM), desvelando no solo cómo funcionan, sino también cómo podemos adaptarlos y extender sus capacidades. Exploraremos técnicas avanzadas como el reentrenamiento y el fine-tuning, que permiten personalizar estos modelos para necesidades específicas. Además, discutiremos el ingenioso arte del 'prompt engineering', incluyendo estrategias de one-shot y few-shot, que revelan cómo la formulación cuidadosa de preguntas puede manipular o guiar la generación de texto de los modelos."
+    },
+    {
+        "Title": "Dr. Jekyll and Mr. Hyde - Las 2 caras de un incidente",
+        "Description": "La charla abordará un análisis detallado del grupo APT MuddyWater, activo desde 2017 y conocido por sus ataques cibernéticos, inicialmente en Irak y Arabia Saudita, y posteriormente extendidos a Medio Oriente, Europa y Estados Unidos. Se observó un incremento en sus ataques, especialmente con documentos de spearphishing, en países como Jordania, Turquía, Azerbaiyán, Pakistán, Mali, Austria, Rusia, Irán y Bahréin. Un ataque notable fue contra el Centro Nacional de CiberSeguridad de Arabia Saudita en 2017."
+    },
+    {
+        "Title": "El año de Linux para el escritorio! Inteligencia de amenazas para el ecosistema Linux en 2023",
+        "Description": "La propuesta de esta conferencia se centra en explorar las amenazas y campañas cibernéticas dirigidas a sistemas Linux durante el año 2023. A través de una serie de estudios de caso, se analizarán las tácticas y evoluciones de grupos notorios como el Grupo Lazarus, destacando su adaptación a las nuevas tecnologías y métodos de ataque. Se examinará cómo han evolucionado campañas como AppleJeus, que ilustra un cambio hacia el robo de criptomonedas y el uso de malware multiplataforma, así como DTrack de Andariel, mostrando una década de evolución en ataques variados."
+    },
+    {
+        "Title": "El dia a dia de un CISO",
+        "Description": "De la teoría a la práctica. Cómo se asienta el rol del CISO en la realidad de las organizaciones."
+    },
+    {
+        "Title": "Graphql for fun and bounties!",
+        "Description": "¡Prepárate para sumergirte en el fascinante universo de la hacking Graphql! En mi charla desentrañaré a fondo las tácticas de explotación en GraphQL que me llevaron a ganar uno de los premios al Mejor Bug en la final del Ambassadors World Cup de HackerOne, como parte de la selección española. Descubre los entresijos de mi experiencia y cómo enfrenté los desafíos para alcanzar el triunfo en esta apasionante competición."
+    },
+    {
+        "Title": "Guía definitiva para vencer a Batman: Atacamos la red eléctrica de Gotham",
+        "Description": "La red eléctrica es un servicio esencial del cual dependen casi todas las demás infraestructuras críticas de un país. La mayoría de estos sistemas vienen acompañados de grandes retos para la seguridad como tiempos de respuesta muy bajos y una disponibilidad muy alta. En esta charla haremos un repaso de los diferentes ataques que se pueden realizar para dejar sin luz a Batman y quienes son los interesados en dejarle sin luz, os mostraremos un bastidor real con una arquitectura básica de subestación eléctrica automatizada para enseñar cómo funciona, y lanzaremos algunos ataques."
+    },
+    {
+        "Title": "Hardware hacking desde 0 para mete comillas / comandos - The Buzzpirat",
+        "Description": "Quieres empezar con hardware hacking? Ven"
+    },
+    {
+        "Title": "IA POLICIAL Y JUDICIAL: INTERESES EN CONFLICTO",
+        "Description": "La evolución desde la aparición de las técnicas de Big Data y los desarrollos de Inteligencia Artificial van a suponer herramientas útiles para la automatización de la vigilancia policial y judicial a través del uso de las denominadas herramientas predictivas. La velocidad en la rápida evolución tecnológica tiene, sin duda alguna, grandes implicaciones jurídicas. De forma paralela, en el marco de la justicia criminal han venido a ser consideradas con sumo interés aquellas acciones dirigidas para combatir el cibercrimen y a fortalecer la seguridad de los Estados. "
+    },
+    {
+        "Title": "Kitsune: One C2 to control them all",
+        "Description": "Una de las herramientas más importantes y utilizadas en auditorías y en campañas de Red Team, son aquellas a las que denominamos como \"Command & Control\"."
+    },
+    {
+        "Title": "La policia hace cosas",
+        "Description": "Exposición didáctica de una investigación transnacional, donde gracias a la excelente coordinacion policial tanto a nivel estatal como europea, así como el uso de técnicas de investigación poco convencionales, se consigue detectar y golpear, una organización criminal internacional de primer nivel"
+    },
+    {
+        "Title": "LLM steganography. Dirty PoCs and covert-channels",
+        "Description": "Fourteen years ago, at the first RootedCon (2010), we analyzed the potential and limitations of natural language information hiding using steganographic (linguistic) techniques. The Stelin tool and later ones (Jano, Ryfle, etc.) showed the versatility of these techniques, especially for protecting small amounts of information. However, these proposals had a number of important limitations derived from the use of natural language processing technologies and the limited semantic resources available 14 years ago."
+    },
+    {
+        "Title": "Log: It’s Big, It’s Heavy, It’s Filled with Personal Data! Measuring the Logging of Sensitive Information in the Android Ecosystem",
+        "Description": "Android implementa un sistema de Logging compartido que multiplexa todos los datos registrados de todos los componentes del sistema, incluido tanto el sistema operativo como la salida de consola de las aplicaciones que se ejecutan en él. Un mecanismo de seguridad asegura que las aplicaciones que corren en el espacio de usuario solo pueden leer las entradas de registro que ellas mismas crean, aunque muchas aplicaciones \"privilegiadas\" están exentas de esta restricción. Esto incluye aplicaciones del sistema precargadas proporcionadas por Google, el fabricante del teléfono, el operador móvil que te ofrece el teléfono, así como otras firmas que pueden estar en la cadena de suministro. En consecuencia, Google aconseja a los desarrolladores que no registren información sensible en el registro del sistema."
+    },
+    {
+        "Title": "Look at me, I'm the EDR now",
+        "Description": "Durante los ejercicios de Red Team es habitual tener que enfrentarse a las diferentes soluciones de seguridad presentes en la infraestructura objetivo. En esta charla, explicaremos cómo durante la preparación previa de un ejercicio, identificamos varios 0-day en la solución EDR del cliente los cuales fueron claves para la consecución de los objetivos. Se explicará el proceso llevado a cabo para la identificación de estas vulnerabilidades y su explotación."
+    },
+    {
+        "Title": "Mesa Redonda “La promesa y el peligro de la revolución de la IA”",
+        "Description": "En un mundo cada vez más impulsado por la tecnología, la Inteligencia Artificial (IA) está emergiendo como una fuerza disruptiva con el potencial de transformar radicalmente tanto la ciberseguridad como el mundo empresarial en su conjunto. Sin embargo, con esta revolución tecnológica también vienen desafíos y preocupaciones significativas. Esta mesa redonda busca explorar tanto las promesas como los peligros inherentes a la integración creciente de la IA en el ámbito de la ciberseguridad y su impacto en el liderazgo empresarial."
+    },
+    {
+        "Title": "METIS: La titánide (Abusando de la confianza de los documentos públicos)",
+        "Description": "En la charla se explicará como es posible utilizar documentos públicos modificados (que el original nos lo ha proporcionado la propia administración) para nuestro beneficio y abusando de la confianza que se deposita en ellos y de la cantidad de documentación que se pide para cualquier trámite sea público y/o privado, ya que estos documentos modificados pasarán como verdaderos a ojo humano (que es lo que nos interesa), pero cuando se quiera comprobar su veracidad en el sistema de verificación de integridad documental este o nos indicará que no existe o nos mostrará el verdadero, dependiendo de la modificación que se le haga esta podrá ser detectable o no."
+    },
+    {
+        "Title": "My mobile is screwing me up!",
+        "Description": "La charla se centra en el estudio de los servicios de “callback” ofrecidos por empresas en España, que permiten a los usuarios solicitar una llamada telefónica gratuita. A pesar de cumplir con las regulaciones de privacidad, estos servicios a menudo requieren un consentimiento mínimo y solicitan pocos datos, lo que puede llevar a abusos y errores. La charla destaca cómo estas prácticas pueden resultar en llamadas no deseadas y discute las implicaciones de la falta de verificación de identidad y la posibilidad de automatización por bots. Se presentará un estudio sobre este tema y se mostrarán ejemplos de estas prácticas."
+    },
+    {
+        "Title": "Neo_Net - The Kingpin of Spanish eCrime",
+        "Description": "Neo_Net emerged as a significant figure within the realm of cybercrime, orchestrating and facilitating a substantial portion of Spain's eCrime landscape over the past three years. His operations resulted in the misappropriation of over 350,000 EUR from victims across Spain and globally. Leveraging the burgeoning trend of online banking in a post-COVID era, Neo_Net adeptly exploited this transition by devising a sophisticated modus operandi, commencing with Smishing messages and culminating in the compromise of victims' bank accounts."
+    },
+    {
+        "Title": "NightClubMare: Hackeando dispositivos de DJs",
+        "Description": "Todo el mundo alguna vez ha salido de fiesta, ya sea con amigos, familiares o solos. Ese gran antro con altavoces enormes, música puesta por un DJ profesional sonando sin parar y gente bailando con la finalidad de pasarselo bien una noche pero... ¿Sabías que ese espacio se puede convertir en una autentica pesadilla?"
+    },
+    {
+        "Title": "No sólo de Terraform vive el hombre",
+        "Description": "El objetivo es mostrar, más allá de Terraform; primero veremos a sus hermanos como Vagrant, Packer, Vault; que son y cómo trabajan con Terraform. Veremos otras opciones y alternativas para, combinarlo con scripts de python, Ansible, Salt, etc. Pondremos ejemplos de sistemas creados con estas herramientas para ver las diferencias y elegir las apropiadas para nuestros intereses."
+    },
+    {
+        "Title": "Python en el día día de un pentester",
+        "Description": "Charla en la que se explican las principales integraciones de Python con herramientas de Hacking y pentesting. Será muy práctica y los asistentes podrán ver cómo crear rutinas sencillas y potentes para no «reinventar la rueda» y automatizar el uso de herramientas ya existentes."
+    },
+    {
+        "Title": "Respuesta ante incidentes, ayuno intermitente",
+        "Description": "Aventuras y desventuras de los analistas de CSIRT en las que, a veces, las cenas se nos juntan con el desayuno..."
+    },
+    {
+        "Title": "Robando 54 Millones de dolares. El caso Kyberswap",
+        "Description": "Sin lugar el ataque más sofisticado en las redes blockchain hasta la fecha."
+    },
+    {
+        "Title": "Seguridad en sistemas de videoconferencia",
+        "Description": "En los últimos años, hemos sido testigos de una transformación sin precedentes en la comunicación empresarial. Antes, las interacciones cara a cara y los viajes frecuentes eran habituales en nuestras agendas. Sin embargo, la pandemia ha cambiado drásticamente este escenario, convirtiendo los servicios de audio y videoconferencia de una simple opción a una necesidad imperativa. Pero, ¿cómo funciona este tipo de sistemas?, ¿son seguros?"
+    },
+    {
+        "Title": "The SOC'S Journey: From Basic Automation to Al in Cybersecurity - Understanding the Realities",
+        "Description": "For some time now, AI has become a vital ally for cybersecurity solutions, which is why it is becoming a trend in the construction of new systems for large software companies. As it could not be otherwise, being the SOC a fundamental piece in the operation of security in an organisation, artificial intelligence invites us to create new opportunities for its use, seeking to partially or totally solve part of the processes or activities that fall under the competence of a SOC. Based on the conviction to efficiently improve the technical and tactical processes of a SOC, and thus achieve the desired evolution. "
+    },
+    {
+        "Title": "Mesa Redonda: \"Tipologías de los ciberincidentes vistos desde diferentes instituciones\"",
+        "Description": "Esta mesa redonda explorará las diferentes perspectivas y enfoques de diversas instituciones, tanto públicas como privadas, hacia las tipologías de ciberincidentes que se sufren en la actualidad dentro del territorio nacional. Proporcionando una plataforma para el intercambio de conocimientos y experiencias entre diversas instituciones, con el objetivo de mejorar la comprensión y la capacidad de respuesta a los ciberincidentes desde múltiples perspectivas."
+    },
+    {
+        "Title": "Tu robot ha perdido una tuerca",
+        "Description": "Los entornos industriales integran cada vez más robots colaborativos para optimizar la producción, mejorar la eficiencia de los trabajadores o realizar tareas de supervisión. Mantener la seguridad de estas plataformas robóticas industriales abre numerosos retos ante las posibles consecuencias económicas, materiales y personales."
+    },
+    {
+        "Title": "Your Code is 0000: An Analysis of the Disposable Phone Numbers Ecosystem",
+        "Description": "Short Message Service (SMS) is a popular channel for online service providers to verify accounts and authenticate users registered to a particular service. Specialized applications, called Public SMS Gateways (PSGs), offer free Disposable Phone Numbers (DPNs) that can be used to receive SMS messages. DPNs allow users to protect their privacy when creating online accounts. However, they can also be abused for fraudulent activities and to bypass security mechanisms like Two-Factor Authentication (2FA). In this paper, we perform a large-scale and longitudinal study of the DPN ecosystem by monitoring 17,141 unique DPNs in 29 PSGs over the course of 12 months. Using a dataset of over 70M messages, we provide an overview of the ecosystem and study the different services that offer DPNs and their relationships. Next, we build a framework that (i) identifies and classifies the purpose of an SMS; and (ii) accurately attributes every message to more than 200 popular Internet services that require SMS for creating registered accounts. Our results suggest that the DPN ecosystem is globally abused for fraudulent account creation and access, affecting all major Internet platforms and online services."
+    },
+    {
+        "Title": "Applying Fault Injection to the Firmware Update Process of a DJI Drone",
+        "Description": "Gabriel Gonzalez, IOActive Director of Hardware Security presents full technical detail of his research into drone security and side-channel/fault injection attacks in this whitepaper."
+    },
+    {
+        "Title": "ASM & IA, What’s next?",
+        "Description": "Las tecnologías de monitorización de la superficie de exposición (ASM) son una de las áreas de mayor evolución actualmente. Estas tecnologías ayudan a las compañías a conocer que activos tienen en Internet en cada momento, saber cuales son las vulnerabilidades que les afectan y también permiten priorizar la resolución de las vulnerabilidades no solo en base al CVSS si no en función de la importancia para la organización de cada activo."
+    },
+    {
+        "Title": "Aumenta tus capacidades de ciberseguridad con servicios de AI",
+        "Description": "Conoce las capacidades de Inteligencia Artificial disponibles en el Cloud de AWS. Durante la charla hablaremos de las capacidades de customización y tipos de LLM que ponemos a tu disposición y de métodos para identificar qué riesgos aplican a tus cargas GenAI y como mitigarlos con la implementación de guardarraíles de seguridad."
+    },
+    {
+        "Title": "Caos y orden: descubriendo fuentes de entropía",
+        "Description": "En esta charla hablaremos de un componente que juega un papel crucial en la criptografía moderna. Normalmente subestimado y malentendido, las fuentes de entropía constituyen la piedra angula de los sistemas criptográficos seguros, siendo no solo usadas para la generación de claves criptográficas robustas, si no para garantizar la imprevisibilidad y la resistencia contra ataque."
+    },
+    {
+        "Title": "Ciberasegúrame por favor!!!!!",
+        "Description": "Los seguros van irremediablemente ligado al desarrollo comercial y económico de los países. En el mundo digital si bien no existen esas fronteras geográficas, le aplica la misma regla, según se ha ido desarrollando la economía digital se ha ido desarrollando en paralelo el mundo del seguro."
+    },
+    {
+        "Title": "Cryptofails: auditando y explotando errores de implementación",
+        "Description": "El desarrollo de productos criptográficos seguros es una tarea crucial que demanda atención detallada a aspectos técnicos y de seguridad. Errores comunes en la implementación, como el uso de mecanismos criptográficos obsoletos, una gestión inadecuada de las claves y las vulnerabilidades en la implementación de algoritmos, pueden dar lugar a problemas significativos, permitiendo a los atacantes comprometer la seguridad del producto."
+    },
+    {
+        "Title": "From Zero to Hero - An in-depth Threat Intelligence investigation",
+        "Description": "En una de nuestras últimas investigaciones hemos analizado un servidor web comprometido y hemos visto que había sido afectado por un backdoor en PHP. Tras analizarlo, hemos visto que forma parte de una desconocida botnet de servidores web comprometidos."
+    },
+    {
+        "Title": "Hardware Implant Revolution: Unveiling ISM Bands on Hardware Implants for Red Team Operations",
+        "Description": "Building a physical implant for Red Team engagements brings with it some unique challenges. For one, such an implant could be put just about anywhere: a bathroom without a power outlet, it could be dropped from a drone onto a roof or shack, the possibilities are endless. The potential for unlimited locations, then, requires a configuration unique to each. This presentation will dive into the analysis, design and implementation of physical implants using LoRa modulation as an alternative method of remote communication for Red Team operations."
+    },
+    {
+        "Title": "HoneyTraps: Discovering macOS vulnerabilities like Winnie The Pooh",
+        "Description": "Winnie The Pooh: \"Oh, hola amigos. Hoy me gustaría compartir algo emocionante. ¿Han oído hablar de las vulnerabilidades en los sistemas operativos macOS? Es como buscar miel, pero en el mundo de la tecnología.\""
+    },
+    {
+        "Title": "LLMs: La Nueva Frontera de la Inteligencia en DevSecOps",
+        "Description": "En la presentación mostraremos varias pruebas de conceptos cómo integrar LLMs en entornos DevSecOps, que nos ayudarán con la automatización de tareas de seguridad. Creando modelos expertos basados en las politicas internas de la empresa, aplicaciones y despliegues de aplicaciones, así como la recomendación de mejoras en la arquitectura y generación de documentación para desarrolladores."
+    },
+    {
+        "Title": "MiTM en puntos de recarga de vehículos eléctricos",
+        "Description": "Para la carga de los vehículos eléctricos, existe una comunicación bidireccional entre el vehículo y la estación de carga para indicar los diferentes estados y potencias de carga disponibles . En el caso de Europa, para los cargadores lentos en AC, se utiliza un cable, que en la mayoría de los casos es provisto por el usuario para realizar dicha carga. Por tanto, el objetivo es suplantar y modificar la comunicación entre dichos elementos de la recarga, utilizando para ello un cable malicioso. Este cable, como parte de un PoC, presenta la característica de que puede modificar los flujos de información entre la estación base y el vehículo eléctrico por la línea de control, realizando un ataque de demanda MiTM, modificando tanto el estado de recarga del vehículo eléctrico como la potencia “disponible” que indica la estación de carga. Además, y si es configurado correctamente y se desarrolla sobre este concepto, este cable puede obtener información adicional del vehículo, como su dirección MAC, que permite la suplantación de identidad del vehículo en otras estaciones de carga que utilicen la carga rápida en DC. "
+    },
+    {
+        "Title": "Project S4UR0N: A tool to beat them all",
+        "Description": "La simulación de adversarios en entornos multicloud es aún un camino entre julio y septiembre, \"ANGOSTO\". En nuestro caso, decidimos poner las cosas más fáciles a nuestro Purple Team creando un orquestador de simulación de adversarios que permitiera la ejecución de pruebas en los diversos y heterogéneos entornos de Swiss Re."
+    },
+    {
+        "Title": "The Lord Of Domains",
+        "Description": "Realizar un buen reconocimiento de activos no sirve de nada sin un correcto análisis de los resultados. Queremos profundizar en el análisis exhaustivo de subdominios, la correlación de los mismos y cómo detectar los famosos subdomains takeovers. Una meticulosa monitorización proporciona una ventaja estratégica en la identificación y mitigación de amenazas frente a los adversarios, que no te ganen la carrera."
+    },
+    {
+        "Title": "aDvengers: Love and Thunder | Choque de Titanes: Equipo Rojo Vs Equipo Azul",
+        "Description": "Durante desenlace de la charla, se desencadenará un relato digno de los más poderosos superhéroes, inspirado en gestas reales que rivalizan con las batallas de Thor y su trueno. Con la maestría de un gran hechicero, se narrarán los detalles de una intrusión que desafía los límites de lo imaginable, revelando cada artificio y triquiñuela necesarios para su ejecución. Por otra parte, desde la fortaleza defensiva, se erguirá el Centro de Operaciones de Seguridad (SOC) como un bastión impenetrable, listo para narrarlo y enfrentarse a cada embate con la astucia y la bravura propias de los héroes más valientes, los aDvengers! "
+    },
+    {
+        "Title": "Apificando y securizando, que es gerundio. Seguridad en APIs del Ayuntamiento de Madrid",
+        "Description": "En la ponencia se explicará cómo los servicios de tecnología del Ayuntamiento de Madrid han logrado automatizar y transformar un entornos arcaicos y de gestión completamente manual, en un entorno automatizado, robusto y teniendo en cuenta la seguridad."
+    },
+    {
+        "Title": "Dark territory: paralizando la red ferroviaria de un país entero",
+        "Description": "Adéntrate en el lado más oscuro de la tecnología ferroviaria y descubre cómo, con herramientas y hardware al alcance de tu mano, la robustez aparentemente infalible de la circulación por tren puede enfrentarse a graves problemas. Descubre cómo usando tecnología accesible se pueden tejer estrategias que podrían poner en jaque la operación ferroviaria de una nación."
+    },
+    {
+        "Title": "El secreto está en las Cookies",
+        "Description": "Analizaremos un incidente de seguridad, caso real, y cómo la cabecera HTTP Set-Cookie puede abrir más caminos para liarte más el incidente."
+    },
+    {
+        "Title": "FlipperZero, del ataque al forense.",
+        "Description": "El Flipper Zero es una de las herramientas de Hardware Hacking mas famosa de los últimos tiempos, en esta charla no nos quedaremos solo en lo que es capaz de hacer a nivel de ataque. Profundizaremos desde el punto de vista forense en un caso real y un tanto curioso, en el que el karma ha puesto a un cibercriminal en una situación complicada por haber utilizado un Flipper Zero de forma ilegal."
+    },
+    {
+        "Title": "HackerOne AWC - Campeones del mundo 2023",
+        "Description": "En el año 2023, el equipo de España se alzó con la victoria tras haber derrotado a Israel en la copa del mundo AWC, organizada por Hackerone."
+    },
+    {
+        "Title": "HIGHWAY TO RHEL (AC/BC). Auditoría, fortificación y remediación perpetua automatizada de sistemas mediante Infrastructure as Code (IaC). Security as Code (SaC)",
+        "Description": "Usando Infraestructura cómo Código (IaC) y Ansible, se demuestra cómo realizar auditoría y bastionado continuo de sistemas. Podrás ver las transformaciones de las configuraciones propuestas en las guías de perfilado de seguridad del CCN para Red Hat Enterprise Linux CCN-STIC-619B y CCN-STIC-610A22 ejecutándose automatizadamente mediante Ansible y haciendo uso del paradigma IaC. Ventajas del uso de Infraestructura como Código y del enfoque declarativo en la definición del proceso automatizado mediante Ansible: "
+    },
+    {
+        "Title": "Mesa redonda : Lecciones aprendidas en ciberseguridad en AAPP",
+        "Description": "Debate sobre Ciberseguridad en las AAPP"
+    },
+    {
+        "Title": "Piñatas, palos y joputas - Cómo investigar incidentes de ciberseguridad",
+        "Description": "El personal que se dedica a ciberseguridad, sobre todo a la investigación/respuesta ante incidentes, conoce bien sus herramientas y fuentes de información (o debería), pero en muchas ocasiones falta conocimiento de cómo investigar el incidente, de cómo ser capaz de unir las diversas acciones de los atacantes realizadas en una intrusión, realizar hipótesis de forma correcta y ser capaces en general de dar sentido a todas las evidencias construyendo una narrativa acertada. En esta charla pretendemos dar unas pinceladas de cómo aplicar metodologías y formas de \"entender\" el incidente para poder desarrollar una \"mentalidad investigadora\" que permita darle a los malos donde más les duela..."
+    },
+    {
+        "Title": "Por la cara: retos y oportunidades asociados al reconocimiento facial en ciberseguridad",
+        "Description": "Cada vez más productos y servicios de seguridad emplean el reconocimiento facial para evitar las contraseñas, como segundo factor de autenticación, etc. En esta charla hablaremos de hasta qué punto se trata de una práctica segura y de los riesgos que implica para la protección de datos y la privacidad."
+    },
+    {
+        "Title": "Somos los agentes de la TIA",
+        "Description": "Las estrategias de defensa actuales no están funcionando. Los programas de ciberseguridad de muchas organizaciones, están centrados en implementar los ‘mejores’ controles de seguridad y se ven impulsados por normas y estándares, para marcar un ‘check’ en el cumplimiento de los requisitos. Pero esta estrategia no termina de funcionar porque no están teniendo en consideración quiénes son ellos mismos y que amenazas enfrentan. Una dosis de inteligencia de amenazas es la pieza que falta y que permite anticiparse a los adversarios, responder más rápidamente a los ataques y tomar mejores decisiones para reducir el riesgo."
+    },
+    {
+        "Title": "Un estreno de ciencia",
+        "Description": "COMO FUE EL PRIMER CIBER INCIDENTE IMPORTANTE EN UN MINISTERIO (Y UNA INFRAESTRUCTURA) DE NUEVA CREACION"
+    },
+    {
+        "Title": "¡Innovación Nivel Épico! Desafiando el Hype de la IA en Ciberseguridad",
+        "Description": "En ciberseguridad, la precisión es esencial y la generalización no basta para la inteligencia artificial (IA). Estamos saturados de términos como IA, copilots y otras soluciones similares, todo ello impulsado por el hype generado por ChatGPT."
+    },
+    {
+        "Title": "La Cartera Europea de Identidad Digital: ¿garantía de la identidad o herramienta de control estatal?",
+        "Description": "El eje troncal del Reglamento eIDAS 2 es el establecimiento de un marco de trabajo que, en 2030, conduzca a un amplio despliegue de una identidad digital fiable, voluntaria y controlada por el usuario, reconocida en toda la Unión y que permite a cada usuario controlar sus datos en las interacciones en línea; en línea con los objetivos de la Declaración Europea sobre los Derechos y Principios Digitales para la Década Digital, que consagra la visión de la UE sobre la transformación digital, situando a las personas en el centro, empoderando a los ciudadanos e incentivando a las empresas innovadoras."
+    },
+    {
+        "Title": "Presentadora track ISACA Madrid",
+        "Description": "Presentadora track ISACA Madrid."
+    },
+    {
+        "Title": "Ciberataque=Sanción AEPD + Daño Inmaterial",
+        "Description": "¿Es el empresario responsable del daño inmaterial causado por el acceso no autorizado de terceros a datos personales, tras un ciberataque? Responderemos a ésta y otras cuestiones, haciendo referencia a la reciente sentencia del TJUE. Replicaremos en entorno controlado de forma práctica ciberataques “conocidos” aplicando de forma proactiva medidas de mitigación, técnicas y organizativas acorde a su naturaleza, el ámbito y el contexto, así como los riesgos de diversa probabilidad y gravedad que se puedan dar contra los derechos y libertades de las personas físicas. "
+    },
+    {
+        "Title": "Ciberguerra: Ciberataques a infraestructuras críticas en el conflicto de Medio Oriente",
+        "Description": "Realizaremos un repaso de las tácticas encubiertas y las avanzadas operaciones ciber que Irán y Hezbollah han perfeccionado a lo largo de los años. Se revelará cómo estos grupos, a través de estructuras estatales meticulosamente diseñadas para la ciberguerra, han empleado Amenazas Avanzadas Persistentes (APT) para infiltrarse y desestabilizar infraestructuras críticas en Israel. El análisis se enfocará en el desarrollo y perfeccionamiento de estas capacidades, evidenciando cómo han logrado impactar significativamente en objetivos estratégicos."
+    },
+    {
+        "Title": "En las Raíces del Mal: Una Inmersión al Desarrollo de Bootkits UEFI",
+        "Description": "Deja atrás la idea de que el desarrollo de bootkits está envuelto en un halo de misterio. En esta sesión, exploraremos con detalle el desarrollo de un bootkit UEFI, diseñado para atacar sistemas operativos Windows."
+    },
+    {
+        "Title": "¿Quién vigila a los que nos vigilan?",
+        "Description": "Las tecnologías de Big Data e Inteligencia Artificial (incluyendo el reconocimiento facial) han aumentado mucho las posibilidades de vigilar y controlar a los ciudadanos, tanto por las empresas privadas como por las autoridades públicas. ¿Qué medidas concretas se van a establecer para vigilar a los que nos vigilan y garantizar los derechos fundamentales de los ciudadanos?"
+    },
+    {
+        "Title": "Arquitectura de seguridad para LLMs, lecciones desde el campo",
+        "Description": "A pesar de la abundancia de información sobre los peligros asociados a los sistemas de inteligencia artificial y los modelos de lenguaje, existe una escasez de información sobre cómo abordar eficazmente su seguridad. "
+    },
+    {
+        "Title": "Estrategias de Ciberseguridad para Analistas de Calidad Software",
+        "Description": "Es una realidad que los ciberataques están aumentando enormemente en la actualidad. Por tanto, ¿cómo podemos contribuir los analistas de calidad software en este entorno de ciberseguridad? ¿Es posible prevenir determinadas situaciones cruciales sin ser especialistas en ciberseguridad?"
+    },
+    {
+        "Title": "Ignora las instrucciones anteriores",
+        "Description": "ChatGPT, LLaMA, Gemini... Los LLMs son probablemente el avance tecnológico más revolucionario de los últimos años. Sin embargo, detrás de sus impresionantes capacidades, hay una arquitectura que no se parece a la tradicional de líneas de código, sino una red neuronal que requiere de un esfuerzo muy considerable para ajustarla y repararla. A esto se añade la vasta superficie de ataque que representa el lenguaje humano, con todas sus variantes y posibilidades. Estas características complican enormemente la labor de las empresas desarrolladoras para proteger estos modelos contra respuestas inapropiadas, filtraciones de información y otros usos indebidos."
+    },
+    {
+        "Title": "Libros y Bits: cuando la IA se convierte en tu librero personal",
+        "Description": "En esta charla, te explicaré cómo un NO programador desarrolló ‘yoleo.io’, cómo pasó de ser una idea a una plataforma web de recomendación de libros impulsada por inteligencia artificial. Te explicaré los desafíos técnicos, las decisiones de diseño y la integración de la IA en el proceso de recomendación."
+    },
+    {
+        "Title": "The first rule of CLR is you do not simply inject the CLR",
+        "Description": "La sociedad avanza progresivamente hacia un mundo tecnológico. Las tecnologías de la información conforman cada vez más los fundamentos de la sociedad, economía e infraestructura crítica. A medida que esta dependencia aumenta, los ciberataques se vuelven más peligrosos. Por ello, para defender a las organizaciones, uno de los grandes retos en la actualidad que se encuentran los equipos de Red Team, es la evasión de las nuevas contramedidas que han surgido en los últimos años, con el fin de encontrar puntos débiles que puedan ser explotados por actores maliciosos. En esta charla mostraremos una herramienta capaz de evadir las nuevas soluciones anti-malware cada vez más usadas por las organizaciones. Esta permitirá la ejecución en memoria de herramientas conocidas en código .NET sin ser detectadas."
+    },
+    {
+        "Title": "It's the end of the (SOC) world as we know it and I feel fine",
+        "Description": "Actualmente, existen potentes y costosas soluciones comerciales basadas en ML/DL diseñadas para la monitorización de seguridad y la respuesta a incidentes en grandes entornos corporativos. Los comerciales ofrecen estas soluciones a los CISO como la panacea defensiva frente a todo tipo de adversarios pues, según sus slides, la \"inteligencia colectiva\" generada a partir de la telemetría de todos sus clientes empodera una ingeniería de detección pluscuamperfecta. Algunos fabricantes incluso auguran la muerte del SOC tradicional gracias al alto nivel de automatización ofrecido por sus productos, que harían innecesarios la mayoría de los recursos humanos dedicados actualmente a la operación de la defensa de las redes corporativas."
+    },
+    {
+        "Title": "Economics & Cybersecurity: More important than you thought",
+        "Description": "Tras 11 años desde mi charla sobre la ciberseguridad y el valor contable de la empresa, volvemos a la carga con la relación entre Economía y ciberseguridad y para ello hablaremos sobre:"
+    },
+    {
+        "Title": "Red Team en 2024: Investigación, técnicas y metodología",
+        "Description": "En esta presentación hablaremos de las dificultades que se nos presentan actualmente en nuestros ejercicios de Red Team y de cómo las tratamos de resolver. Mostraremos algunas de las técnicas y vulnerabilidades que hemos descubierto recientemente, además de la metodología para llegar a ellas. También trataremos la importancia de desarrollar tooling interno y el por qué es crucial entender las herramientas existentes, mostrando ejemplos prácticos."
+    },
+    {
+        "Title": "Valkyrie: De la Silla al Sofá, ¡Respuestas DFIR sin Moverte!",
+        "Description": "En esta charla se presenta la herramienta \"Valkyrie\", una solución desarrollada por el laboratorio DFIR de INCIDE que automatiza el triaje y la adquisición remota de evidencias forenses, así como su posterior parseo. Esta herramienta modular es compatible por el momento con agentes de GRR, Velociraptor, fResponse y CrowdStrike. Utiliza las APIs de los diferentes agentes para adquirir de forma remota los artefactos forenses mediante listados personalizables predefinidos y, haciendo uso de la herramienta Open Source de INCIDE RVT2 (https://incidedigital.github.io/rvt2-docs/), lleva a cabo el parseo y preanálisis directamente. Esto reduce las acciones necesarias por parte de los analistas, mejora los tiempos de reacción y adquisición y permite que los esfuerzos se concentren en las tareas más importantes, no en desplazamientos. Además, el seguimiento de los hashes de las diversas herramientas garantiza el cumplimiento de la cadena de custodia."
+    },
+    {
+        "Title": "External Attack Surface Management: DIY for free!",
+        "Description": "En esta charla abordaremos cómo realizar una investigación de la superficie de exposición de una organización de manera casera y totalmente gratuita. Para ello, utilizaremos scripting en Python y varias utilidades con el objetivo de detectar tecnologías y servicios expuestos en Internet. "
+    },
+    {
+        "Title": "Garfunkel: Tu co-piloto para auditar inteligencia artificial",
+        "Description": "Los sistemas de inteligencia artificial se encuentran en cualquier lugar. Los sistemas de AAPP no serán menos y las necesidades en términos de auditoría y pentesting están cambiando. Se requiere de personas que dispongan de las habilidades adecuadas para poder auditar estos sistemas tan especiales."
+    },
+    {
+        "Title": "Crazy {Web|GenAI|Net} Cybersec Ideas",
+        "Description": "En Telefónica, desde hace años, en el equipo de Ideas Locas probamos conceptos, propuestas nuevas, y para ello hacemos PoCs y experimentos que acaban en patentes, productos, o sólo ideas que usaremos en el futuro para otra cosa más. En esta sesión veremos algunas que tiene que ver con la Web, GenAI y la red, para hacer cosas de Ciberseguridad, que es lo que sucede cuando metes a un equipo de hackers a innovar en una empresa de telecomunicaciones."
+    },
+    {
+        "Title": "RootedPanel: \"Emprendimiento\"",
+        "Description": "RootedPanel \"Emprendimiento\""
+    },
+    {
+        "Title": "Carlos Latre in a Box",
+        "Description": "Nos gusta vernos por Youtube y en Medios, ¿Pero se podría usar en nuestra contra la participación en un podcast para estafar a tu empresa?"
+    },
+    {
+        "Title": "Take the Red Pill: “Que la realidad no te estropee un buen cibertitular”",
+        "Description": "¿Qué relación mantiene el periodismo con la ciberseguridad y el hacking? ¿Cómo se comunican estos dos mundos tan diferentes y a la vez tan cercanos? Esto me preguntaba cuando recibí una “extorsión” por parte de un reconocido hacker que amenazaba con publicar información comprometida si no daba una ponencia en su congreso. "
+    },
+    {
+        "Title": "SOC: no es IA todo lo que reluce",
+        "Description": "¿Me van a sustituir por una IA? Esta es la pregunta que muchos profesionales del mundo de la ciberseguridad nos hacemos. Algunos piensan que las IA son, y serán, una herramienta que nos ayudará a optimizar nuestra eficiencia trabajando, otros piensan que las IA podrán llegar a tomar el control y gestionar por sí solas la ciberseguridad de una empresa. Lo que sí esta claro es que han llegado para quedarse."
+    },
+    {
+        "Title": "AIDR (Artificial Intelligence Detection and Response)",
+        "Description": "¿Usas la Inteligencia Artificial en tu día a día? ¿Servicios externos o modelos internos? ¿Te fías de todas las respuestas que te devuelven estos algoritmos? Si te inquietan estas preguntas y quieres indagar más sobre el tema, te animamos a que nos acompañes en nuestra charla de AIDR, Artificial Intelligence Detection & Response."
+    },
+    {
+        "Title": "Live Hack: Explotación del código generado por IA",
+        "Description": "Las herramientas de escritura de código asistidas por la IA aumentan la velocidad de entrega... y los riesgos de seguridad."
+    },
+    {
+        "Title": "Desde 1998 en Internet: remember, rethink & AI revival",
+        "Description": "La Asociación de Internautas lleva 25 años en Internet, estamos ante una nueva revolución de la tecnología con la IA, y toca repensar el activismo en la Red. Renovamos la Junta Directiva para afrontar estos nuevos retos que son... proponemos y aceptamos sugerencias!"
+    },
+    {
+        "Title": "La leyenda de las 5 OTs",
+        "Description": "Un repaso al estado del arte en los entornos OT, desde leyendas urbanas hasta ataques reales."
+    },
+    {
+        "Title": "Aegis. Una aproximación a la ciberseguridad dirigida por los datos y el Machine Learning",
+        "Description": "En la charla abordaremos la criticidad del sector aeronáutico. Hablaremos bastante sobre la problemática con la calidad de los logs de seguridad y explicaremos la metodología y la herramienta que Airbus ha desarrollado para, con el uso de Machine Learning, buscar Insiders en la organización."
+    },
+    {
+        "Title": "Guardianes digitales: maximizando defensas en IoT con IA",
+        "Description": "Describiremos y desarrollaremos soluciones de seguridad basadas en Inteligencia Artificial para entornos del Internet de las Cosas, donde los ataques basados en \"Botnet\" entre otros no paran de aumentar. La hetereogenidad de los dispositivos IoT junto a su baja capacidad computacional complicaran este cometido"
+    },
+    {
+        "Title": "Accesibilidad Digital como clave en la ciberseguridad: Programa IMPACT#aliada",
+        "Description": "Expertos en accesibilidad digital debatirán sobre la importancia que puede tener en el ámbito de la ciberseguridad y hablaremos del Programa de empleabilidad IMPACT#aliada, de la Fundación GoodJob, para personas con discapacidad."
+    },
+    {
+        "Title": "Unveiling the Unseen: Exploring Rare and Elusive Bugs in Bug Bounty Hunting",
+        "Description": "Unveiling the Unseen Exploring Rare and Elusive Bugs in Bug Bounty Hunting takes a closer look at elusive vulnerabilities, sharing how they\"re found and why they matter. Join us to learn about these special bugs and what they mean for cybersecurity."
+    },
+    {
+        "Title": "Respuesta a incidentes en el Gobierno de la Rioja NI EL VINO RESPETAN YA…",
+        "Description": "En esta charla, exploraremos los detalles relacionados con la respuesta a dos incidentes sucedidos en el Gobierno de La Rioja. A través de dos casos sucedidos recientemente, abordaremos cómo se enfrentaron ambas situaciones con las particularidades de un entorno gubernamental. Podremos entender como los problemas de “siempre” y los “nuevos” retos a los que se enfrentan las organizaciones, pusieron contra las cuerdas a esta comunidad. La superficie de exposición de elementos desconocidos (shadowIT), los ataques a la identidad, las vulnerabilidades no parcheadas, las APIs e incluso los propios problemas de operación, siguen siendo hoy día al igual que en el pasado una tormenta perfecta cuando los atacantes consiguen tomar ventaja de ellos."
+    },
+    {
+        "Title": "ZTNA vs ZTNA",
+        "Description": "Por mucho esfuerzo que dediquen las organizaciones a concienciar al usuario final para mitigar o reducir los riesgos de las ciberamenazas, la experiencia nos ha demostrado que es un objetivo difícil de alcanzar. El reto de las organizaciones sigue siendo el encontrar mecanismos que limiten de manera transparente la responsabilidad de nuestros usuarios. Descargar de responsabilidades a los usuarios gracias a la estrategia ZTNA incrementa la seguridad de las compañías, reduciendo el principal vector de ataque, adjudicando a los profesionales y a la tecnología es labor."
+    },
+    {
+        "Title": "De los bits a la junta directiva: un viaje de transformación y liderazgo",
+        "Description": "Explorando el viaje de una ingeniera informática hacia el liderazgo en ciberseguridad, esta charla sumerge en la evolución desde roles técnicos a estratégicos, destacando la importancia del empoderamiento, mentoría y la comunicación efectiva. Descubre cómo combinar la pasión por la tecnología con el desarrollo de equipos y la implementación de estrategias de seguridad globales, todo desde la perspectiva de una profesional comprometida con el fomento del talento en ciberseguridad. "
+    },
+    {
+        "Title": "Triangulación proactiva de adversarios",
+        "Description": "En nuestra charla, descubrirás cómo, desde nuestra área de Threat Hunting, realizamos una orquestación de la cobertura de detección ante diferentes adversarios. Esto lo haremos mediante la herramienta Attack Flow de Mitre, y veremos cómo plantear el trabajo colaborativo con varios departamentos: ofensivo, defensivo y IT. Así, podremos conocer cómo mejorar esa cobertura de detección, realizando pruebas ofensivas y midiendo la efectividad de detección y respuesta. Y podrás comprobarlo in situ con dos ejemplos de amenazas de actores relevantes, mostrando cómo las afrontamos. Una de ellas muy específica, que trataremos a nivel teórico (Turla), y otra más general enfocada a grupos de Ransomware (Lockbit, Alphv, Cl0p...), que abordaremos a nivel práctico."
+    },
+    {
+        "Title": "How to evolve your current architecture towards SASE without dying in the attempt... Best practices and benefits for security architects",
+        "Description": "We will explore the history of Secure Access Service Edge (SASE) and its significance in today's ever-evolving world of cybersecurity. We will delve into the best practices that security architects should consider when implementing SASE, as well as the myriad benefits it brings to organizations."
+    }
+]

@@ -1,0 +1,314 @@
+[
+    {
+        "Title": "!Detecta o muere!: Trinca a los malos antes de que te jodan el día",
+        "Description": "Cada día hay nuevas fuentes de ataque. Vulnerabilidades, herramientas, malas configuraciones... y aunque hay malos torpes, también los hay finos. Muy finos. Y con tanta tecnología que los clientes tienen suelta, a veces es desesperante vigilar en condiciones, porque uando no se te cuelan por un lado, se te cuelan por el otro).En esta charla vamos a intentar daros una serie de consejos para poder desplegar un plan de monitorización como $deity manda, y poder aguarles la fiesta a los malos pillándolos in fraganti y echándolos a patadas antes de que nos jodan el día. Nuestra intención es ser muy agnósticos en tecnología (no vamos a hablar de cómo montar un SIEM ni de cómo montar un SOC), contando desde nuestra experiencia (a base de palos) las dificultades que nos hemos encontrado y cómo las hemos resuelto. "
+    },
+    {
+        "Title": "¿Realmente somos las personas el eslabón mas débil de la cadena?",
+        "Description": "Que la ciberseguridad es cosa de todos, está claro. Que cada uno en su puesto de trabajo debe aplicar el máximo celo para evitar un incidente de seguridad, también. Sin embargo, el responsable último de evitar un ciberincidente que pueda provocar una crisis en la organización es su equipo de gobierno, que debe procurar los medios para fortalecer todos y cada uno de los eslabones de la cadena. Un recorrido por la identificación y valoración de activos, la gestión de los riesgos, la gestión de incidentes y la concienciación del personal, nuestro activo más valioso y resiliente, pone de manifiesto la necesidad de disponer de un marco de gobernanza y un adecuado Sistema de Gestión de la Seguridad de la Información para conseguir la mejora continua. El cumplimiento legal llega por sí solo."
+    },
+    {
+        "Title": "¿Y si conozco lo que tecleas? Un estudio de viabilidad",
+        "Description": "Desde la reciente pandemia las formas de comunicación se han visto modificadas y el uso de aplicaciones para realizar videoconferencias se ha convertido en una práctica habitual. Hay reuniones que pueden ser muy extensas y en ocasiones aprovechamos para hacer otras gestiones simultáneamente, en este sentido, ¿es posible que alguien sepa qué estamos tecleando cuando miramos a la pantalla? Además, no sólo en este contexto, si no asumiendo que nos comprometen la cámara de nuestro portátil, la respuesta a la pregunta anterior puede suponer un gran problema de seguridad. En la Universidad Carlos III de Madrid hemos realizado una investigación para estudiar las posibilidades de un atacante de conocer aquello que teclea un usuario cuando está mirando a la pantalla. Es la primera propuesta que considera un teclado completo (50 teclas) y textos naturales."
+    },
+    {
+        "Title": "A Fisherman Pwned : Una pesca DFIRente",
+        "Description": "Nuestro objetivo será mostrar cómo elaborar una respuesta ante un ataque de phishing y llegar a obtener información relevante sobre el 'fisherman' que está detrás del ataque. Investigaremos el 2FA implementado por entidades bancarias y los diferentes métodos de ataque para engañar a usuarios vulnerables en esta era digital.Todo ello, sin descartar reclamarle a la entidad bancaria, como tercero responsable civil subsidiario, en caso de incumplimiento de sus obligaciones legales, con el fin de que la víctima pueda recuperar el capital."
+    },
+    {
+        "Title": "Al-Kindi convirtió tu dataset en mi keylogger. Atacando Android mediante criptoanálisis y permisos de accesibilidad",
+        "Description": "Muchos de los datos que generamos mediante la interacción con nuestros dispositivos, hasta los más insospechados, pueden aportar una gran cantidad de información acerca de nosotros: desde patrones de conducta que permitan nuestra identificación inequívoca, hasta convertir nuestro dispositivo en un keylogger. En esta presentación se mostrará cómo la recopilación de datos para entrenar modelos de inteligencia artificial permite, mediante criptoanálisis, obtener un registro de los textos introducidos por el usuario simplemente extrayendo datos de accesibilidad de la API de Android."
+    },
+    {
+        "Title": "All Aboard The Supply Chain! Vulnerabilities & Exploits Throughout the Proverbial Pipeline",
+        "Description": "Yo dawg, we heard you liked supply chain, so we put supply chain in your supply chain, so you can.. supply chain more supply chains...? With exploits and vulnerabilities??! \"Security\" has more than one meaning in more than one context. Software flaws and weaknesses might be present in custom, home cooked tooling you put together yourself -- or vulnerabilities could very well be present in the upstream libraries and modules that are baked into the application. What happens when you sell this software, someone buys it from you, and then someone else buys it from that someone, and then they sell it and all their customers are service providers and resellers themselves? There is a special paradoxical pipeline that makes for a juicy story, and some sweet weaponization of ransomware delivery through managed backup solutions. In this session we'll dig into the nitty-gritty and get into the gory details on how tens of thousands of downstream IT and security shops could have gone from service providers, to malware providers."
+    },
+    {
+        "Title": "Aprovechando la infraestructura interna de Kubernetes para montar tu propio laboratorio de CTF",
+        "Description": "En esta charla mostraremos cómo podemos hacer uso de la red y recursos internos de Kubernetes, así cómo las políticas de red y contexto de seguridad para montar un entorno tipo CTF, para la práctica tanto personal, como en el ámbito educativo al más puro estilo Matrix!"
+    },
+    {
+        "Title": "Ataques Bluetooth, de la teoría a la práctica… (hay un trecho)",
+        "Description": "Desde el equipo de innovación de Tarlogic te contamos nuestra experiencia transformando las vulnerabilidades teóricas de los papers académicos publicados en los últimos años a herramientas de explotación funcionales. Os contaremos cómo empezar con una investigación de este tipo, las cosas buenas, los problemas que te puedes encontrar y las conclusiones tras un trabajo de meses analizando y entendiendo Bluetooth. Se presentarán también las conclusiones, técnicas, herramientas y hallazgos que hemos conseguido durante esta investigación."
+    },
+    {
+        "Title": "Atrápame si puedes",
+        "Description": "La charla versará sobre diferentes técnicas de investigación en ciberdelitos, tanto desde la perspectiva del ámbito privado como desde la visión policial de las FCSE. Por una parte, se explicará cómo trabaja un perito privado, qué puede hacer y sobre todo sus limitaciones. Por la otra parte, se detallará cómo lo hace una unidad de investigación criminal como el Departamento Contra el Cibercrimen de Guardia Civil, qué tipo de investigaciones llevan, cómo pueden llegar más allá que un perito privado y cómo pueden conformar un equipo conjunto con el ámbito privado para luchar contra el cibercrimen"
+    },
+    {
+        "Title": "Boosting your ROP skills with SROP and ret2dlresolve",
+        "Description": "While doing binary exploitation, we can sometimes struggle with finding all the pieces needed for assembling a full exploit and dropping into our beloved shell. Suppose we are missing a few gadgets for building the perfect ROP chain or we are unable to obtain and leak the libc version or addresses.Come with us for an overview of two ROP techniques that can save us when we find ourselves in these scenarios: SigReturn Oriented Programming (SROP) and ret2dlresolve."
+    },
+    {
+        "Title": "Build a fortress to defend your DeFi project",
+        "Description": "The year is 2023 D.C. DeFi projects are entirely hacked by the Crypto Criminals. Well not entirely! One small group of indomitable White Hackers still holds out against the attackers. And life is not easy for the Crypto Criminals who garrison the fortified camps of Totorum, Aquarium, Laudanum and Compendium…' Defending a DeFi project is becoming more and more a reality. From monitoring your contracts and functions to being able to perform front-running counter-attacks."
+    },
+    {
+        "Title": "Cartuxeira: Recurriendo a las Meigas para protegerse del Phishing",
+        "Description": "El email es uno de los atributos más importantes de nuestra identidad digital, siendo además, uno de los ejes principales sobre el que pivotan nuestras interacciones en Internet ya sea en comunicaciones personales o en registros y suscripciones a servicios. Dada esta importancia del email en nuestras vidas, las técnicas de phishing buscan empatizar con la víctima para que pulse un link malicioso y dar así comienzo al ataque para apropiarse de sus datos de inicio de sesión, números de cuentas y tarjetas, y otra información sensible de carácter personal de la víctima. Por este motivo, y porque el siempre considerado eslabón más débil de la cadena en seguridad no debería cargar con las culpas de ser empático, en esta charla se presenta Cartuxeira, una solución cuyo objetivo es proporcionar la información necesaria para evaluar si un email es confiable o no haciendo uso de fuentes abiertas y técnicas de machine learning, minimizando así, el riesgo de este tipo de ataques."
+    },
+    {
+        "Title": "CI/CD gone wrong",
+        "Description": "This talk will cover some of the scenarios I have found in real world assessments while pentesting CI/CD systems. These scenarios include technologies such as Kubernetes, Crossplane, Terraform, AWS, CI/CD pipelines… and my favorite: a way to escalate privileges from github user to AWS admin."
+    },
+    {
+        "Title": "Criptografía Post-Cuántica (para muggles)",
+        "Description": "¿Hasta qué punto la criptografía actual será segura cuando existan adversarios con acceso a tecnologías cuánticas? ¿Es posible un cambio \"sencillo\" que permita adaptar los protocolos y herramientas actuales para ese escenario? En esta charla daremos respuesta de manera accesible a estas preguntas, explicando las principales recomendaciones de los organismos internacionales para la migración a herramientas resistentes a ataques cuánticos de un modo gradual y ajustado para diferentes tipos de empresas e instituciones. En particular, hablaremos de los procesos de estandarización actualmente en marcha en esta dirección y de los principales pasos que están dando las administraciones públicas europeas en esta dirección."
+    },
+    {
+        "Title": "Criptografía práctica en AWS, Azure y GCP",
+        "Description": "Usamos la nube, usamos proveedores en la nube y siguiendo el modelo de seguridad compartida, confiamos y configuramos nuestra seguridad acorde a dicho modelo. Hay tres proveedores principales que nos ofrecen múltiples formas de cifrar datos en reposo y en tránsito. Pero, ¿realmente cómo funcionan y qué garantías tenemos? Desde el uso de claves de terceros hasta HSM, vamos a repasar qué hacen y cómo lo hacen para garantizar confidencialidad e integridad de nuestros datos en la nube."
+    },
+    {
+        "Title": "CYBERCOVID TAKE DOWN",
+        "Description": "Durante el inicio de la pandemia del COVID-19, sobre todo en la primera fase del confinamiento, fueron cientos los ciberdelincuentes que comenzaron a crear páginas web, tanto en Internet como en la DarkWeb que anunciaban falsas vacunas para el COVID-19, venta de supuestas muestras de sangre tanto infectadas como sanas o incluso falsos certificados de vacunación. En menos de 60 días se desplegaron mas de 120.000 páginas web de este tipo. Durante la conferencia se explicará el Workflow utilizado para lograr localizar de forma masiva estas páginas web tanto en Internet como en la DarkWeb, discriminando los falsos positivos y analizando su código fuente y recursos a tiempo real para determinar nexos comunes o autores entre todas las páginas web, finalmente se diseño un sistema de bloqueo automatizado de las páginas web maliciosas."
+    },
+    {
+        "Title": "CyberJourney: La búsqueda del santo grial",
+        "Description": "¿ Cómo podemos influir en el ciclo de vida del software y concienciar a los equipos de producto de la importancia de la seguridad y la privacidad ? Este viaje de búsqueda y descubrimiento personal tiene como objetivo destacar los principales retos existentes entre ambos dos mundos y cómo la utilización de técnicas de documentación como código y automatización de procesos puede contribuir a rellenar dicho espacio."
+    },
+    {
+        "Title": "De la seguridad de las APIs y de cómo esconderse debajo de las sábanas no te librará de los monstruos",
+        "Description": "Nos os voy a contar lo importantes que son las APIs hoy en día. Si estás leyendo esta descripción puede ser por 2 motivos:1. Que te haya hecho gracia el título, en cuyo caso es probable que no pases de aquí.2. Que ya sepas de que va la vaina. Con lo que no te voy a soltar una chapa tipo Gartner.Las API web están aquí. Todo el mundo las usa. Todo el mundo las crea. Todo el mundo las consume. Pero… quien sabe cómo gestionarlas? Te invito que preguntes a 10 empresas al azar del IBEX 35 a ver si saben cuántas APIs Web públicas tienen.Hoy todo funciona con APIs, ya lo sabemos. Y de que te das cuenta, el equipo de desarrollo habrá creado y publicado 15.308 APIs esta semana sin que te hayas enterado. Pero después llegamos nosotros, los **seguratas**, y ya llegan las quejas y los lamentos. Rápidamente se nos tacha de que somos los que paramos todo el ciclo de desarrollo. He incluso se oyen voces de 'agua fiestas' en la oficina. Para colmo, los chicos de BlueTeam, RedTeam y PurpleTeam (en nuestra empresa hay mucho dinero, así que tenemos de los 3) no paran de darnos caña por todos lados en las APIs.No lo entendemos. Nos hemos gastado el equivalente al PIB de un pueblo de la sierra de Cuenca en licencias de Imperva para las API Web. Y, además, delante les hemos puesto un ModSecurity con las OWASP Core Rules y el WAF de AWS, por si acaso. Qué está pasando?En la charla trataré de evidenciar la realidad que me he encontrado en las APIs Web, tratando de hacerlo ameno y con toques de humor, e intentaré por todos los medios que nadie se duerma nadie se duerma hasta la transparencia de despedida."
+    },
+    {
+        "Title": "Destroying distroless with memory implants",
+        "Description": "¿Harto de no encontrar binarios en un sistema y no saber por qué?¿Largas noches pensando que tu backdoor está en disco?¿Cansado de no poder hacer nada útil en contenedores distroless?¡No pierdas más tiempo!En esta charla Carlos y Yago te darán la solución a todos esos problemas.Hablarán de unos temas que no han recibido suficiente atención por parte de la comunidad: ¿Realmente aportan seguridad los contenedores distroless que 'tanto' cuesta preparar? ¿Hasta qué punto podemos saltarnos restricciones y ser sigilosos usando solo la memoria de Linux?Los contenedores distroless son contenedores que eliminan todos los binarios de un sistema operativo que son innecesarios para que el contenedor realice su actividad. Por ejemplo, algo que se suele eliminar son binarios comunes como 'ls', 'whoami' o incluso 'sh'.Esto suele dar sensación de seguridad ya que parece que ciertas vulnerabilidades no podrán existir o ser explotadas y que, por lo tanto, el alcance de vulnerabilidades en contenedores distroless es menor que en contenedores no distroless.El primer objetivo de la charla es claro, intentar que la respuesta sea un 'no, no aportan seguridad', ofreciendo a los asistentes distintas demos explotando vulnerabilidades en contenedores distroless logrando ejecución de binarios arbitrarios (incluyendo esos que habían sido borrados).Además, los anteriores ataques no serían posibles sin el (ab)uso de la memoria de procesos, por lo que se liberará una herramienta que facilitará la tarea anterior enormemente permitiendo cargar y ejecutar de manera muy sencilla binarios en memoria en Linux. Ofreciendo así a la comunidad no solo la manera de explotar distroless, sino también de ser más sigiloso en cualquier operación de red team en Linux realizando cualquier ejecución desde la memoria."
+    },
+    {
+        "Title": "Disrupting APTs with one line code. Active attacks to advanced stegomalware",
+        "Description": "Over the last 10 years, many threat groups have employed stegomalware or other steganography-based techniques to attack organizations from all sectors and in all regions of the world. Some examples are: APT15/Vixen Panda, APT23/Tropic Trooper, APT29/Cozy Bear, APT32/OceanLotus, APT34/OilRig, APT37/ScarCruft, APT38/Lazarus Group, Duqu Group, Turla, Vawtrack, Powload, Lokibot, Ursnif, IceID, etc.Our talk will review the techniques currently used and the real possibility or not of self-execution of stegomalware. In this context, we will present to the audience our latest research to disrupt advanced stegomalware. Our research shows that many cybercriminal groups are employing very simple techniques (at least from an academic perspective) and known tools to circumvent perimeter defenses, although more advanced groups are also using steganography to hide C&C communication and data exfiltration. We argue that this lack of sophistication is not due to the lack of knowledge in steganography (some APTs have already experimented with advanced algorithms) but simply because organizations are not able to defend themselves, even against the simplest steganography techniques.During our talk, we will demostrate the practical limitations of applying existing automated steganalysis techniques for companies that want to prevent infections or information theft by these threat actors. For this reason, we have created stegoWiper, a tool to blindly disrupt any image-based stegomalware, attacking the weakest point of all steganography algorithms: their robustness. We'll show that it is capable of disrupting all steganography techniques and tools (Invoke-PSImage, F5, Steghide, openstego, ...) employed nowadays, as well as the most advanced algorithms available in the academic literature, based on matrix encryption, wet-papers, etc. (e.g. Hill, J-Uniward, Hugo). In fact, the more sophisticated a steganography technique is, the more disruption stegoWiper produces. Moreover, our active attack allows us to disrupt any steganography payload from all the images exchanged by an organization by means of a web proxy ICAP (Internet Content Adaptation Protocol) service, in real time and without having to identify which images contain hidden data first. We hope that this new tool will be useful for companies to better protect themselves against these elusive attacks.References[1] https://github.com/mindcrypt/covertchannels-steganography[2] https://github.com/mindcrypt/visual-forensic-steganography[3] https://github.com/mindcrypt/stegowiper"
+    },
+    {
+        "Title": "Don't go breaking my heart: hacking medical devices",
+        "Description": "Over the years several hacks affecting medical devices have been discovered. Unfortunately the lack of good security practices is a common thing in these type of devices. This talk will explain the unique security scenario that affect medical devices and will explain an auditing process of an specific medical device. The audited medical device is a portable IoT electrocardiograph and several vulnerabilities and demos affected this devices will be shown during the presentation."
+    },
+    {
+        "Title": "¡Ven a la escuela de calor! (#mitreando)",
+        "Description": "MITRE presentó ATT&CK en 2013. En estos 10 años se ha mostrado como uno de los más importantes frameworks de ciberseguridad y es una referencia para todos nosotros. A su alrededor se ha creado todo un entorno de aplicaciones, metodologías y utilidades, propias y de terceros: D3FEND, DeTT&CK, CTID, Caldera, Flow-ATT&ck, Assistant, Engenuity, Engage, ... y muchas más. Pero ¿las conocemos todas? ¿sabemos unir esas piezas?¿somos capaces de sacarle todo el partido? En esta charla haremos un taller sencillo, 100% práctico y veremos cómo sacarle el jugo de manera efectiva y 'accionable'."
+    },
+    {
+        "Title": "Estado del arte en Seguridad Blockchain y Smartcontracts",
+        "Description": "Aprenderemos ejecutando en directo las técnicas utilizadas detrás de los \"hacks\" más relevantes en Blockchain/Smartcontracts que han supuesto pérdidas multimillonarias y aprenderemos cómo protegerse ante ellas. Conocerás el estado del arte así como algunas de las principales tendencias en seguridad en este nuevo nicho con fuerte demanda de profesionales de seguridad."
+    },
+    {
+        "Title": "EvilnoVNC: Next-Gen Spear Phishing Attacks",
+        "Description": "Uno de los principales vectores de ataque en los ejercicios de Red Team, y posibles puntos de entrada para un atacante, son las campañas de Phishing.Actualmente, existen todo tipo de herramientas y contramedidas para realizarlas o protegernos contra ellas, con un nivel de madurez muy alto y totalmente consolidadas por la industria de la ciberseguridad.Por otra parte, apenas existen herramientas orientadas al Spear Phishing o a cualquier otro tipo de ataque más sofisticado, independientemente de si tu objetivo es atacar o defenderte contra ello.En esta presentación, se explicará como ha sido posible desarrollar una nueva herramienta orientada al Spear Phishing, utilizando técnicas nunca antes vistas para este propósito."
+    },
+    {
+        "Title": "Fancy Bears and Where to Find Them",
+        "Description": "Durante el año 2022, España ha sido víctima de ataques de diversos grupos APT, entre los que se encuentra el grupo APT ruso 'Fancy Bear', también conocido como APT-28. En esta charla veremos cuáles son las Tácticas, Técnicas y Procedimientos (TTPs) más utilizadas por este grupo, así como el malware más utilizado por ellos, y analizaremos las posibles oportunidades de detección que ofrece esta APT ante actividades de Threat Hunting."
+    },
+    {
+        "Title": "Firm to the future / Firm from the past",
+        "Description": "Se va a mostrar un ataque dirigido a la confianza que reside en los documentos firmados digitalmente.Se hará una PoC de cómo es posible 'hacer de mentalista' y poder presentar documentos firmados digitalmente totalmente válidos, pero que no están realmente firmados en la fecha que dice la firma digital del documento.'Espera un minuto, Doc. ¿Me estás diciendo que has construido una máquina del tiempo... a partir de un DeLorean?' - Marty McFly - Back to the FuturePues si."
+    },
+    {
+        "Title": "Flutter inspection challenges",
+        "Description": "Flutter es uno de los frameworks de desarrollo que más aceptación esta teniendo en los últimos años, sobre todo para el desarrollo de aplicaciones móviles. Flutter es un SDK creado por Google que permite desarrollar aplicaciones para varios sistemas desde un mismo código. Esto aporta ventajas claras a la hora de desarrollar aplicaciones con Flutter, pero las aplicaciones desarrolladas con Flutter plantean una serie de retos a la hora de auditarlas. Las técnicas que normalmente son empleadas para hacer auditorías en aplicaciones móviles, basadas en ingeniería inversa o interceptación del trafico no resultan aplicables en aplicaciones Flutter. En esta charla se presenta los distintos caminos que seguimos durante el desarrollo de un proyecto de auditoria en el que tuvimos que enfrentarnos a aplicaciones Flutter, los 'fails\" y cómo conseguimos finalmente resolver los retos que nos plantearon dichas aplicaciones."
+    },
+    {
+        "Title": "Hacking RFID - Clonación de tarjetas",
+        "Description": "En esta charla exploraremos el creciente problema de la clonación de tarjetas y cómo esto afecta a diferentes industrias y situaciones cotidianas.Analizaremos casos reales de clonación de tarjetas en empresas, hoteles, cocheras públicas y presentaremos un propio laboratorio que hemos montado para ilustrar cómo se lleva a cabo esta actividad ilícita. Esta información es crucial para entender el riesgo y la importancia de proteger nuestras tarjetas RFID.Además, exploraremos medidas preventivas que se pueden tomar para proteger tus tarjetas.No te pierdas esta oportunidad de aprender sobre la clonación de tarjetas RFID y cómo protegerte contra esta amenaza. ¡Te esperamos!"
+    },
+    {
+        "Title": "Hacking Serverless Applications: A Treasure Map for Uncharted Waters",
+        "Description": "Serverless technology eliminates the need for development teams to provision servers, and it also results in some security threats being passed to the cloud provider. This frees up developers to concentrate on building logic and producing value quickly. But cloud functions still execute code. If the software is written poorly, it can lead to a cloud disaster. While Serverless code contains a mixture of cloud configurations and application programming interfaces (API) calls, legacy security solutions lack the context that is necessary in a serverless environment, and the consequence is a lack of observability and slower response times. This means that the security teams struggle to keep up with the speed of development and the security is left behind. Attackers, on the other-hand, take advantage of these uncharted waters to exploit serverless environments in the wild. In most cases we don't even hear about it because no one knows before something really bad happens. In this talk, we will discuss common risks and challenges in serverless environments as well as new attack vectors and common techniques attackers use to exploit Serverless applications. Finally, we will demonstrate how attackers can exploit newly discovered CVEs to target Serverless applications without being noticed."
+    },
+    {
+        "Title": "HackTricks: Status & Future",
+        "Description": "HackTricks is a well-known and widely used resource in the field of cybersecurity, often referred to as the 'bible of cybersecurity'. What started as a personal notebook of tricks and techniques has evolved into a comprehensive and continually updated guide to various hacking techniques, tools, and resources.In this talk, we will explore the history of HackTricks, how it has grown and evolved to become the go-to resource for security professionals, and how it has influenced the field of cybersecurity, as well as discussing the current state of HackTricksFinally, we will look to the future of HackTricks, exploring potential new features and areas of focus, as well as discussing how the resource can continue to stay relevant and useful. Attendees will have a better understanding of the impact and importance of HackTricks in the field of cybersecurity, as well as insight into what the future holds for this essential resource."
+    },
+    {
+        "Title": "iBombShell: Revolution",
+        "Description": "iBombShell es una herramienta de post-explotación que apareció en el año 2018. Tras 5 años ha evolucionado a un entorno centralizado en el que se pueden realizar diferentes integraciones gracias a la apificación del Core de iBombShell. Una refactorización completa y un cambio arquitectónico que se descubrirá en el track de Securiters. En la charla veremos en qué consiste esta nueva arquitectura y cómo cualquier puede integrar herramientas como scripts, GUIs, Web o CLI con el Core de iBombshell. iBombShell pone el Core y sus funcionalidades al alcance de los desarrolladores para integrar herramientas y potenciar la post-explotación."
+    },
+    {
+        "Title": "Hacking your jeta! Burlando sistemas de video identificación",
+        "Description": "Seguro que has visto cómo cada vez más sectores como la banca o los seguros permiten abrir cuentas legalmente vinculadas sin la intervención (a priori) de un operador humano gracias a procesos de videoidentificación, pero, ¿te has preguntado qué tan seguros son?"
+    },
+    {
+        "Title": "Inteligencia artificial ofensiva - ¿Cómo podemos estar preparados?",
+        "Description": "La evolución de los sistemas de inteligencia artificial parece no tener límite; ejemplos como DALL-E, Stable Diffusion o GPT-3 muestran el potencial de estos, estando al alcance de cualquier persona. ¿Qué puede ocurrir si estos sistemas se utilizan de forma ofensiva con fines maliciosos?Los asistentes a esta charla tendrán la oportunidad de conocer el estado del arte en inteligencia artificial ofensiva, diversas herramientas tanto ofensivas como defensivas, así como conocer los límites de estos sistemas a día de hoy."
+    },
+    {
+        "Title": "Keys To Improve Your iOS App Testing Skills",
+        "Description": "La charla consistirá en recomendaciones sobre cómo abordar de forma eficiente los análisis de aplicaciones en iOS, centrándose en las vulnerabilidades de seguridad más comunes.El enfoque cubre los diversos aspectos que se deben tener en cuenta durante el análisis estático de código fuente y la ingeniería inversa de aplicaciones usando Frida."
+    },
+    {
+        "Title": "Las llaves de AWS: Criptografía ubicua y computación segura en la nube",
+        "Description": "AWS ofrece servicios en la nube desde hace 16 años, y durante ese tiempo hemos construido gradualmente medidas de defensa 'en profundidad' diseñadas para proteger los datos de nuestros clientes. En esta sesión hablaremos en detalle de las medidas criptográficas que AWS ha diseñado para proteger datos en reposo, en tránsito y durante procesamiento. También hablaremos de las medidas que AWS ha implementado para crear ambientes de computación segura y mantener los datos de nuestros clientes protegidos contra el acceso de operadores internos y externos."
+    },
+    {
+        "Title": "level_up! : Web3 Security WarGames",
+        "Description": "El aprendizaje basado en el reto es algo fundamental hoy en día. El entrenamiento de los equipos en diferentes ramas de la ciberseguridad necesitan de plataformas, de retos, de motivación por seguir con el aprendizaje. En esta charla se tratarán estos temas, así como se presentará una plataforma nueva para el aprendizaje de la auditoría y el pentesting a SmartContracts. Level Up! es una plataforma Open Source que pretende ayudar a los perfiles de ciberseguridad a acercarse al mundo de los SmartContracts de la forma más cómoda posible a través de diferentes retos."
+    },
+    {
+        "Title": "Memorias de un Perito Informático Forense Vol. HACHE",
+        "Description": "HACHE es un investigador de ciberseguridad reconocido en el sector. En 2013, la Policía Nacional entra en su casa por indicios de posesión de pornografía infantil y le incauta unos cuantos dispositivos informáticos. En 2022 se celebra el juicio por ello y HACHE me contrata como perito informático forense para demostrar su inocencia..."
+    },
+    {
+        "Title": "Mitigación de Malware y Fraude Bancario",
+        "Description": "Explicamos como funciona y como se intenta mitigar el #malware bancario mediante el uso de sistemas biométricos, análisis de comportamiento, integridad de dispositivos, MFA y TEE."
+    },
+    {
+        "Title": "Never negotiate with criminals! Insights about ransomware tactics used with victims in the negotiations",
+        "Description": "Las operaciones RaaS (Ransomware as a Service) permiten obtener a los operadores de los grupos y afiliados grandes sumas de dinero con las operaciones. Dependiendo además del nivel de víctimas conseguidas por los afiliados, la reputación y pagos que se le realizarán variará en porcentajes respecto a otros afiliados participando en esa operación.Una de las claves del éxito en el RaaS es la parte de negociación con las víctimas. En esta parte del proceso, la víctima comunica con el operador en busca de información acerca del cifrado que ha ocurrido dentro de su organización. El operador confirmará a la víctima aspectos como:"
+    },
+    {
+        "Title": "Nuevos (y viejos) enfoques para la gestión de identidades y accesos",
+        "Description": "La gestión de identidades y accesos sigue siendo un reto esencial dentro del campo de la ciberseguridad. En esta charla se hará un recorrido introductorio por las soluciones tradicionales y por las más recientes, incluidas las federadas. Para estas últimas, muy extendidas en la actualidad, se profundizará en sus ventajas y desventajas, así como en sus vulnerabilidades y en los retos en los que todavía se está trabajando en la actualidad. ¿Cómo mejorar su seguridad mediante autenticación multi-factor o enfoques incrementales? ¿Cómo añadirles análisis de comportamiento para que tengan la capacidad de detectar anomalías? ¿Cómo hacer que sean respetuosas con la privacidad? ¿Cómo trasladarlas a entornos IoT para que puedan gestionar la identidad de dispositivos en lugar de personas? Intentaremos responder a estas preguntas con ejemplos prácticos y casos de uso reales, así como mostrando los últimos avances que se están realizando y las que parecen las tendencias futuras."
+    },
+    {
+        "Title": "Purple Team: ¿Y tú como defiendes tu empresa?",
+        "Description": "En esta charla se hablará de los ejercicios de Purple Team que se llevan a cabo en Inetum, donde el Red Team pone a prueba la postura de seguridad de la organización y el Blue Team comprueba sus capacidades de detección y contención. Dependiendo del éxito del primer equipo, las áreas TIC son sometidas a un simulacro. Esta aproximación no solo hará hincapié en los ejercicios prácticos sino también en los beneficios que conllevan estos ejercicios para una organización, y como el fortalecimiento de la misma repercute en todos sus miembros."
+    },
+    {
+        "Title": "Quien tiene un dato tiene un tesoro: Generando IOCs desde los logs de tus sistemas",
+        "Description": "Los equipos de Blue Teams deben ser capaces de conocer y analizar su entorno. Esa información solo se puede obtener de los logs. Extraer IOCs de esos eventos para poder incluirlos en tus sistemas de control y bloqueo es primordial para parar ciertos ataques. Esa inteligencia generada debe ser compartida para poder mitigar los ataques a gran escala. El analizar va de la mano del alertar. El analizar los logs no sólo nos lleva a obtener inteligencia, muchas veces nos permite ver estado de nuestra red. Ese análisis permite ver el comportamiento de los equipos para detectar anomalías y alertar en tal caso. Analizar, bloquear, alertar, compartir."
+    },
+    {
+        "Title": "Real World Smart Contract Vulnerabilities",
+        "Description": "Web3 ecosystem has grown over the past few years incrementing not only the technologies involved on the development side, but also the attack surface for adversaries. Although a similar offensive mindset is shared on how to exploit smart contracts, there are also some differences that should be taken into account.This talk aims to show real examples of vulnerabilities found during solidity smart contract audits. The security issues will be explained with the vulnerable code snippet and the corresponding exploitation Proof Of Concept."
+    },
+    {
+        "Title": "Robin de los pintxos",
+        "Description": "Otros nombres alternativos: \"Analisis de una amenaza detallado\" \"¡Joder, como mola este malware!\" ¿Puede un funcionario investigar malware? ¿Mis pasiones técnicas tienen lugar en puestos de gestión? ¿Cuál es el sentido de nuestra existencia? \"RR party\" \"¡Actualiza tu QNAP pataliebre!\" \"Si vis Pacem para bellum\" \"Análisis de amenazas para dummies\" En nota creativa y sencilla, cómo llegando a trabajar a un sitio sin conocer nada, te encaloman las operaciones ciber y te lo pasas de rechupete viendo lo que los sistemas de detección te ofrecen. Investigación en detalle de una amenaza especifica y creativa que empezó en un centro de reprografía. Experiencias aprendidas y errores a mejorar. Quizás libere una tool y todo. Te aseguro que por lo menos te lo vas a pasar muy bien."
+    },
+    {
+        "Title": "Stage 1: another way to have fun with video games",
+        "Description": "The video game industry is a constantly growing and evolving sector that has experienced a huge increase in popularity over the last decades. Since its emergence, hacking has always been in close contact. In the presentation I will show fundamentals, concepts, techniques and resources to understand the application of security in this field."
+    },
+    {
+        "Title": "Stealing the Stealers",
+        "Description": "Se presentará el resultado del análisis de un conjunto de familias de stealers y como un analista de inteligencia es capaz de acceder a las credenciales sustraídas por este tipo de malware mediante técnicas OSINT.Se mostrará como es posible acceder a una cantidad ingente de credenciales 'frescas' conociendo como trabaja internamente cada familia de stealers y en que repositorios 'públicos' las depositan."
+    },
+    {
+        "Title": "Stealth intrusions with DDexec-ng & in-memory dlopen()",
+        "Description": "Since last Rooted the infamous DDexec technique has been well known by red teams. This, fortunately, has made several well known comercial tools detect the technique. However, because of a potential poor understanding of it, these detections are far from perfect.In this talk, Yago will explain in depth the technique DDexec, new variations and will comment how to bypass some current weak detections.Moreover, he will talk about a re-implementation of ye olde technique called memdlopen and how the two of them can be very powerful together."
+    },
+    {
+        "Title": "Stego-retweet: El espía que me retuiteó",
+        "Description": "En esta charla se repasará brevemente el estado del arte de la Esteganografía y su uso en algunas de las principales redes sociales. Se presentará y se hará una demo en vivo de \"stego-retweet\" una herramienta libre que implementa una curiosa técnica Esteganográfica en Twitter, utilizando una extensa lista de palabras, un algoritmo de enumeración basado en password y los retweets como covert channel. Finalmente comentaré algunos puntos fuertes y débiles sobre este tipo de utilidades."
+    },
+    {
+        "Title": "¿Montar un ministerio? Sujet me the cubat",
+        "Description": "Como construimos las TIC de un ministerio desde cero desde el punto de vista de la seguridad."
+    },
+    {
+        "Title": "Tales of software protection: cryptography and obfuscation, better together",
+        "Description": "Cryptography and obfuscation are technical protection schemes leveraged to defend against Man-At-The-End (MATE) attacks. In such scenario, the attacker (or analyst) has a full copy of the program and completely controls the environment (hardware; operating system) where it is executed.In this talk, we will explore some differences between cryptography and obfuscation. In particular, we discuss the contrasting motivation on using a mixing of logic and arithmetic operators to build their primitive transformations.Rather than lamenting, we will propose some converging ideas to use cryptography and obfuscation together, and walk through several constructions that combine both techniques in a symbiotic way towards an overall better software protection."
+    },
+    {
+        "Title": "TripleCross: A Linux eBPF Rootkit",
+        "Description": "eBPF is a technology introduced in the 3.18 version of the Linux kernel that allows running code in the kernel without the need of loading a kernel module. Although originally intended for filtering packets, eBPF programs can be used for network monitoring, accessing kernel-exclusive resources and tracing activities at the user and kernel space. This has positioned eBPF as a leading environment for the development of network, security and observability tools. During the last years, however, eBPF has been found to be at the heart of the latest innovation on the development of rootkits.This work identifies the offensive capabilities of eBPF that could be weaponized by a threat actor. Based on them, we have developed an eBPF-based rootkit that uses these capabilities to showcase multiple malicious use cases. Our rootkit, named TripleCross, incorporates (1) alibrary injection module to execute malicious code by writing at processes virtual memory; (2) an execution hijacking module that modifies data passed to the kernel to execute malicious programs; (3) a local privilege escalation module that allows for running malicious programs with root privileges; (4) a backdoor with C2 capabilities that can monitor the network and execute commands sent from a remote rootkit client, incorporating multiple backdoor triggers so that these actions are transmitted with stealth in mind; (5) a rootkit client program that allows an attacker to establish 3 different types of shell-like connections for sending commands and actions that control the rootkit stateremotely; (6) a persistence module that ensures therootkit remains installed maintaining full privileges even after a reboot event; and (7) a stealth module that hides rootkit-related files and directories from the user.TripleCross demonstrates the existing danger when running eBPF programs, atechnology also available by default in most distributions. It is intended for being used in red teaming exercises."
+    },
+    {
+        "Title": "Tú no tienes poder aquí: Sáltate los sistemas antidron con SDR",
+        "Description": "La tecnología de guerra electrónica en drones es cada vez más relevante. Exploremos juntos cómo utilizar hardware común para generar señales de radiofrecuencia personalizadas y recibirlas con un receptor software defined radio (SDR) a bordo. Además, aprenderemos técnicas efectivas para hacer frente al jamming y convertir los costosos sistemas de defensa contra drones en una inversión cuestionable."
+    },
+    {
+        "Title": "Una aproximación técnica a la privacidad: la k-anonimización",
+        "Description": "La k-anonimización es un modelo que sirve para realizar una medida del grado de anonimización alcanzado en un conjunto de datos en el que se han desindentificado a los interesados, y que se basa en la idea de que la agrupación de registros con atributos similares permite ocultar información de identificación de los sujetos que forman parte de un grupo. Si quieres saber cómo la k-anonimidad permite evitar los ataque de reidentificación directa, además de permitir hacer una primera estimación del riesgo de reidentificación que presenta un conjunto de datos anonimizado en función del escenario de liberación de los datos elegido, no te pierdas esta charla."
+    },
+    {
+        "Title": "Windows Security Research: A Practical Guide for Beginners to find 0-days",
+        "Description": "Join us for an exciting journey into the world of Windows security research. This presentation will provide a behind-the-scenes look at the process of finding zero-days. While there are many different ways to approach Windows security research, my own journey as a researcher will be highlighted throughout the talk, exploring the inspiration and motivation behind my findings, as well as the methods and techniques used to hunt for vulnerabilities. We'll also dive into a handful of vulnerabilities I've discovered, and how I was able to find them. Additionally, we'll share helpful resources and tools that can aid in your own research.Whether you're new to the field or looking to expand your knowledge, this presentation aims to provide inspiration and a starting point for your own research. "
+    },
+    {
+        "Title": "You Probably Think There is no Need to Worry about Quantum Computers Yet: An Overview of the state-of-the-art of Post-Quantum Cryptography",
+        "Description": "In this talk, we will give an overview of the state-of-the-art of quantum-resistant cryptography, or so-called Post-Quantum Cryptography. We will specifically focus on the main approaches that have laid the foundation of the upcoming Key Encapsulation Mechanisms and Digital Signatures standards, namely lattice-based cryptography, code-based cryptography and hash-based signatures. We will also cover the main highlights of the currently ongoing NIST PQC Standardization Competition for Digital Signatures and Key Encapsulation Mechanisms, and then we will describe the new upcoming NIST PQC Standardization Competition solely focusing on Digital Signatures, providing an overview of potential leading candidates. Then, we will focus on what are the additional areas in which we still need to find out how to build quantum-resistant alternatives. This would include zero knowledge proofs, threshold signatures, blind signatures, and OPRFs.Finally, we will provide insights to justify why we need to worry about this right now, what are the initiatives that Governments are already launching, and we will review the current status of the migration of real world Internet protocols to quantum-resistant cryptography."
+    },
+    {
+        "Title": "Digital Resilience - The latest buzz term? If not, how can I measure it?",
+        "Description": "Digital Resilience' is talked about regularly now, but what it is exactly? Ameet will share his views on how to articulate Digital Resilience in this presentation, along with some method for measuring it."
+    },
+    {
+        "Title": "Mesa Redonda - \"Cómo ser CISO de una gran empresa y no morir en el intento\"",
+        "Description": "Moderador: Miguel Ángel de Castro"
+    },
+    {
+        "Title": "\"We are all mad here\" - Cómo crear una infraestructura potente de Red Teaming",
+        "Description": "Ya conocemos todos qué es un Red Team y su importancia para entrenar y medir la efectividad de las personas, los procesos y la tecnología utilizada para defender una Organización o empresa. No obstante, una de las claves para realizar un buen ejercicio de Red Teaming, es planificar, diseñar y comprobar la robustez de una buena infraestructura. De hecho, su diseño puede llegar a ser una auténtica locura… En realidad, resulta una de las tareas más críticas, por no decir que se trata de la de mayor relevancia."
+    },
+    {
+        "Title": "Keynote SECURITERS: Sister's Act",
+        "Description": "La keynote que no te puedes perder."
+    },
+    {
+        "Title": "¡Por mis profilings!",
+        "Description": "Cuando hablamos de servicios de ciberseguridad siempre hay una pregunta qué suele ser incomoda y es: \"¿Por dónde empezamos?\". En esta situación es dónde hay que mostrar capacidad y por eso es crítico realizar un perfilado del adversario digital como target del cliente. No hay mejor manera de prevenir lo conocido y apuntarla una base única y dirigida, desde el conocimiento de la amenaza. El perfilado del adversario no es sólo identificar las posibles amenazas si no aplicarlo directamente en las herramientas de prevención, detección y respuesta. ¿Quieres saber quién puede atacarte? Nosotros lo sabemos..."
+    },
+    {
+        "Title": "Red Team - Fairy Tales",
+        "Description": "Los ejercicios de Red Team pretenden simular mediante la ejecución de diferentes técnicas, el comportamiento y acciones de un atacante real, así como la posterior consecución de objetivos e hitos definidos dentro del ejercicio. En esta charla, Óscar y Jesús explicarán cómo parte de su amplia experiencia en la realización de este tipo de ejercicios, algunas técnicas curiosas, vulnerabilidades y errores encontrados como parte de las pruebas y ejercicios realizados desde una perspectiva técnica, amena y divertida."
+    },
+    {
+        "Title": "Das BoOT: Inmersión a las profundidades de la ciberseguridad industrial",
+        "Description": "Nuestro submarino está listo para sumergirse en las poco conocidas aguas de la seguridad OT, una travesía que nos llevará desde los conceptos superficiales hasta las profundidades de las últimas investigaciones y futuras tendencias. Antes de zarpar, realizaremos una puesta a punto de los conocimientos en un escenario simulado de practica. Durante la inmersión nos enfrentaremos a múltiples amenazas que pondrán a prueba todos los sistemas de nuestro submarino: comunicaciones, sensores, contramedidas e incluso subsistema de armamento… todos ellos serán necesarios para que nuestra infraestructura OT pueda completar su misión y podamos volver a puerto sanos y salvos. Embárcate con nosotros… pero no prometemos que vayas a volver a salir."
+    },
+    {
+        "Title": "Computación cuántica: Cambio en el paradigma de la seguridad",
+        "Description": "¡La cuantica ya esta aqui! Con la computación cuantica en auge, abordaremos los conceptos básicos de este nuevo paradigma tan distinto a la informatica tradicional y explicaremos sus diferencias. Abordaremos su impacto y aplicaciones en el mundo de la ciberseguridad, desde sus efectos en el cifrado y la criptografia post-cuantica hasta su aplicación en soluciones de seguridad. Analizaremos los efectos que esta nueva era de la informática y la ciberseguridad tendrán en todos los ámbitos. Preparaos porque dentro de poco podremos ser 0 y 1 a la vez"
+    },
+    {
+        "Title": "Automatiza primero y pregunta después: incluso si eres John Connor",
+        "Description": "Normalmente, después de un ataque, tras un análisis exhaustivo, somos capaces de determinar el origen, la secuencia de eventos y las posibles remediaciones. Esto se logra gracias a la información almacenada en diversos dispositivos. "
+    },
+    {
+        "Title": "Don’t fear the Hacker, Collaborate with them",
+        "Description": "This talk is a call for good will and hacking community to help and engage with some non-profit initiatives I al going to present aiming at raising awareness regarding ethical hacking and also helping NGO to secure their assets through Ethical Hacking approachs. "
+    },
+    {
+        "Title": "Introducción sobre ISACA Madrid Chapter",
+        "Description": "Introducción sobre ISACA Madrid Chapter"
+    },
+    {
+        "Title": "La Estrategia de Ciberseguridad en Auditoría Interna. De 0 a 100 sin morir en el interno.",
+        "Description": "Las áreas de Auditoría Interna son las responsables de la 3ª línea de defensa. Son el último bastión antes del ciberdelincuente, y su responsabilidad es clave para asegurar el buen funcionamiento de la organización. Sin embargo, no suelen ser las que tienen mayor presupuesto, mejores recursos, o las más queridas dentro de las organizaciones. En esta ponencia se abordará bajo una doble visión, la del Director de Auditoría Interna y la del Consultor externo, el diseño de una estrategia que, tratando de salvar todos estos obstáculos, lleve a buen puerto los objetivos de ciberseguridad de la organización. ¿Lo conseguiremos?"
+    },
+    {
+        "Title": "Cadena de suministro a las tres delicias",
+        "Description": "Durante la sesión se analizará el incidente de seguridad detectado por el SOC de la primera aseguradora de seguro directo de España. Como punto de entrada la cadena de suministro."
+    },
+    {
+        "Title": "DoubleDragon: La doble extorsion en el postincidente",
+        "Description": "Como en Double Dragon, los dos superheroes de esta historía explicarán durante la sesión los retos de la respuesta a incidente más allá de lo técnico. Como por ejemplo, los riesgos que llevan una fuga de información y cuales son los protocolos de actuación a seguir en estas circunstancias. "
+    },
+    {
+        "Title": "A malicious attacker versus the 5G",
+        "Description": "En esta charla nos centraremos en discutir sobre la evolución de la seguridad en las redes de telefonía móvil y como generación tras generación se han intentado ir mitigando. Pero la coexistencia de varias generaciones no garantiza la seguridad implementada por la última generación."
+    },
+    {
+        "Title": "HUMINT (Human Intelligence) against the hacker",
+        "Description": "El HUMINT es una disciplina usada por los profesionales de la inteligencia realizada para la obtención de información directamente sobre personas. En esta char se mostrarán ejemplos de cómo a través de esta disciplina es posible realizar una aproximación a un profesional de la ciberseguridad para, mediante su manipulación, hacerle creer que está trabajando para una organización (país, empresa, etc) pero realmente está realizado precisamente lo contrario, sin que éste ni siquiera imagine lo que está sucediendo."
+    },
+    {
+        "Title": "Ukraine-Russia CyberWar: Telecom Hijack",
+        "Description": "La charla titulada 'Ukraine-Russia CyberWar Telecom Hijack' tratará entre otras cosas, sobre el secuestro de sesiones BGP en Internet, también llamado 'BGP Hijacking' en el contexto del conflicto entre Rusia y Ucrania. Se expondrán los desafíos que enfrentan las redes de telecomunicaciones en un escenario de conflicto bélico, y cómo el 'BGP hijacking' se ha utilizado como técnica de ataque en la invasión de Ucrania."
+    },
+    {
+        "Title": "No hagas llorar al gigante",
+        "Description": "Hablaremos de las distintas soluciones RPA existentes y problemas asociados con un mal desarrollo de los robots."
+    },
+    {
+        "Title": "Deepfakes: un gran poder conlleva una gran responsabilidad",
+        "Description": "Los deepfakes han maravillado y aterrorizado a la sociedad a partes iguales. ¿Estamos ante una innovadora herramienta creativa que abrirá nuevos horizontes artísticos? O, más bien, ¿es esta tecnología una amenaza para la confianza pública? Toda herramienta tiene sus luces y sus sombras, y los deepfakes ya han demostrado su capacidad tanto para 'resucitar' actores en la gran pantalla, como para socavar los cimientos de la democracia. ¿Estamos realmente preparados para las implicaciones de esta tecnología? En esta charla trataremos de dar respuesta a estas preguntas viendo qué son los deepfakes y cómo se pueden generar con proyectos open source como DeepFaceLab o FaceSwap. Para finalizar, veremos casos de uso actuales y cómo podemos protegernos de las amenazas de esta tecnología."
+    },
+    {
+        "Title": "Hacker Memes: ¿en serio?",
+        "Description": "Conferencia divertida, irónica y mordaz en la que a través de un poco serio monólogo un futuro hacker confiesa no tener dinero para formarse, por lo que reconoce a Internet y comienza a dar sus primeros pasos aprendiendo ciberseguridad con los mejores memes que se han hecho de ella. Se trata de una charla para reir, profundizar, también, en si realmente somos lo que creemos y, por supuesto, disfrutar de la ciberseguridad y la cultura hacker con muchos de los memes que hemos visto en redes sociales, internet, medios de comunicación y que tanto nos han hecho sonreir en los últimos años."
+    },
+    {
+        "Title": "Threat Intelligence-led forensics",
+        "Description": "En esta charla hablaremos sobre las ventajas de integrar Threat Intelligence en las investigaciones forenses y como nos ayuda en la investigación de incidentes, del mismo modo en que se aplica esta misma relación en ejercicios de Red Teaming en la actualidad. Explicaremos las sinergias existentes entre estos dos campos, enseñando como realizar una atribución con la información extraída de un análisis forense, así como a dirigir el análisis para encontrar nuevas pistas gracias a la información de TI, respaldado con la exposición de casos de éxito reales. Basándonos en los datos como las TTP, las tools utilizadas por los atacantes y las motivaciones y sofisticación de los TA, podremos llegar a encontrar quien fue el adversario responsable de nuestro incidente así como comprender la intencionalidad y objetivo del ataque."
+    },
+    {
+        "Title": "Los retos de seguridad en los entornos multi-cloud",
+        "Description": "Durante la ponencia se hará un recorrido sobre los riesgos a los que tienen que hacer frente las empresas en sus procesos de migración al cloud. El impacto de negocio y financiero que están teniendo los ciberataques en este tipo de escenarios y qué conjunto de servicios y soluciones es necesario desplegar para mitigar su alcance y prevenir futuros incidentes."
+    },
+    {
+        "Title": "🍺🍻RootedBeers by TARLOGIC (ESPACIO LUMIERE)",
+        "Description": "RootedBeers by TARLOGIC"
+    }
+]

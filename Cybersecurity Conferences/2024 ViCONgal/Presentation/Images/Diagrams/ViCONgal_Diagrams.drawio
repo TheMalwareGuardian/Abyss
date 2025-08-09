@@ -1,0 +1,317 @@
+<mxfile host="Electron" modified="2025-06-11T10:50:32.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="UEeLvilHoRod_QMrg6uN" version="24.5.1" type="device" pages="3">
+  <diagram id="nBaezXQhXaf0nRWNg5kK" name="Boot V">
+    <mxGraphModel dx="3152" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qY-5xluT77igH0r6SWrK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qY-5xluT77igH0r6SWrK-1" target="qY-5xluT77igH0r6SWrK-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-1" value="UEFI Firmware" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="200" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qY-5xluT77igH0r6SWrK-3" target="qY-5xluT77igH0r6SWrK-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-3" value="Windows Boot Manager&lt;br&gt;(bootmgfw.efi)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qY-5xluT77igH0r6SWrK-4" target="qY-5xluT77igH0r6SWrK-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-4" value="Windows OS Loader&lt;br&gt;(winload.efi)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1360" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-5" value="Windows Kernel&lt;br&gt;ntoskrnl.exe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qY-5xluT77igH0r6SWrK-6" target="qY-5xluT77igH0r6SWrK-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-6" value="Legacy Windows Boot Manager (bootmgr)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="1220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qY-5xluT77igH0r6SWrK-7" target="qY-5xluT77igH0r6SWrK-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-7" value="IPL&lt;br&gt;(Initial Program Loader)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="1080" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qY-5xluT77igH0r6SWrK-8" target="qY-5xluT77igH0r6SWrK-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-8" value="VBR&lt;br&gt;(Volume Boot Record)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="940" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qY-5xluT77igH0r6SWrK-9" target="qY-5xluT77igH0r6SWrK-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-9" value="MBR&lt;br&gt;(Master Boot Record)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="800" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qY-5xluT77igH0r6SWrK-10" target="qY-5xluT77igH0r6SWrK-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-10" value="Windows OS Loader&lt;br&gt;(winload.exe)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="1360" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-11" value="Windows Kernel&lt;br&gt;ntoskrnl.exe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="1500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qY-5xluT77igH0r6SWrK-12" target="qY-5xluT77igH0r6SWrK-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-12" value="Legacy BIOS" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-14" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Execute boot application from EFI&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;partition based on NVRAM variables&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="880" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-15" value="&lt;div style=&quot;&quot;&gt;Transfer execution to OS loader using&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Archpx64TransferTo64BitApplicationAsm&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="1300" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-16" value="&lt;div style=&quot;&quot;&gt;Transfer execution from OS loader to OS&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Kernel using&amp;nbsp;&lt;b&gt;OslArchTransferToKernel&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="1440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-17" value="Find bootable disk drive and execute &lt;b&gt;MBR&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="740" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-18" value="Identify active partition and execute &lt;b&gt;VBR&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="875" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-19" value="Read and execute &lt;b&gt;IPL&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="1020" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-20" value="Parse file system and load &lt;b&gt;bootmgr&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="1180" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-21" value="Transfer execution to OS loader using&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Archx86TransferTo64BitApplicationAsm&lt;br&gt;&lt;/b&gt;(&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Archx86TransferTo32BitApplicationAsm&lt;/span&gt;)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="1300" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-22" value="Transfer execution from OS loader to OS&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Kernel using&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;OslArchTransferToKernel&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="1440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qY-5xluT77igH0r6SWrK-23" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="1602.13330078125" as="sourcePoint" />
+            <mxPoint x="-10" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Boot H" id="Gn7WvjQWf6Iz-dCGfgd-">
+    <mxGraphModel dx="2444" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-0" />
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-1" parent="wEIvutJWLT6N5O4aEVZt-0" />
+        <mxCell id="bsjjp9-qb3lyja2icSyY-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" source="wEIvutJWLT6N5O4aEVZt-3" target="wEIvutJWLT6N5O4aEVZt-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-3" value="UEFI Firmware" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="-440" y="780" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" source="wEIvutJWLT6N5O4aEVZt-5" target="wEIvutJWLT6N5O4aEVZt-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-5" value="Windows Boot Manager&lt;br&gt;(bootmgfw.efi)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="680" y="780" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" source="wEIvutJWLT6N5O4aEVZt-7" target="wEIvutJWLT6N5O4aEVZt-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-7" value="Windows OS Loader&lt;br&gt;(winload.efi)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="950" y="780" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-8" value="Windows Kernel&lt;br&gt;ntoskrnl.exe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="1220" y="780" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" source="wEIvutJWLT6N5O4aEVZt-10" target="wEIvutJWLT6N5O4aEVZt-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-10" value="Legacy Windows Boot Manager (bootmgr)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="680" y="1070" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" source="wEIvutJWLT6N5O4aEVZt-12" target="wEIvutJWLT6N5O4aEVZt-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-12" value="IPL&lt;br&gt;(Initial Program Loader)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="400" y="1070" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" source="wEIvutJWLT6N5O4aEVZt-14" target="wEIvutJWLT6N5O4aEVZt-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-14" value="VBR&lt;br&gt;(Volume Boot Record)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="120" y="1070" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" source="wEIvutJWLT6N5O4aEVZt-16" target="wEIvutJWLT6N5O4aEVZt-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-16" value="MBR&lt;br&gt;(Master Boot Record)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="-160" y="1070" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" source="wEIvutJWLT6N5O4aEVZt-18" target="wEIvutJWLT6N5O4aEVZt-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-18" value="Windows OS Loader&lt;br&gt;(winload.exe)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="950" y="1070" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-19" value="Windows Kernel&lt;br&gt;ntoskrnl.exe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="1220" y="1070" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" source="wEIvutJWLT6N5O4aEVZt-21" target="wEIvutJWLT6N5O4aEVZt-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-21" value="Legacy BIOS" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="-440" y="1070" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-22" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Execute boot application from EFI&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;partition based on NVRAM variables&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="-290" y="840" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-23" value="&lt;div style=&quot;&quot;&gt;Transfer execution to OS loader using&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;Archpx64TransferTo64BitApplicationAsm&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="830" y="860" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-24" value="&lt;div style=&quot;&quot;&gt;Transfer execution from OS loader to OS&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Kernel using&amp;nbsp;&lt;span&gt;OslArchTransferToKernel&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="1100" y="860" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-25" value="Find bootable disk drive and execute &lt;span&gt;MBR&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="-290" y="1160" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-26" value="Identify active partition and execute &lt;span&gt;VBR&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="-10" y="1160" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-27" value="Read and execute &lt;span&gt;IPL&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="270" y="1160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-28" value="Parse file system and load &lt;span&gt;bootmgr&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="550" y="1160" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-29" value="Transfer execution to OS loader using&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Archx86TransferTo64BitApplicationAsm&lt;br&gt;&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Archx86TransferTo32BitApplicationAsm&lt;/span&gt;)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="830" y="1160" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEIvutJWLT6N5O4aEVZt-30" value="Transfer execution from OS loader to OS&lt;br&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Kernel using&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;OslArchTransferToKernel&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="wEIvutJWLT6N5O4aEVZt-1" vertex="1">
+          <mxGeometry x="1100" y="1160" width="260" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0jt4YqG9EpxyOP6JBYX4" name="ESPecter Boot H">
+    <mxGraphModel dx="5290" dy="1468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a3eYz-y933hOk3b1mBa5-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" parent="1" source="S8mcuCa9SR5OyqEUsX3Z-1" target="xNWN8xt2eIvpftdwbGoB-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8mcuCa9SR5OyqEUsX3Z-1" value="UEFI Firmware" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-550" y="305" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEmCQxgJscL_iFLdT9wf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" parent="1" source="S8mcuCa9SR5OyqEUsX3Z-2" target="xNWN8xt2eIvpftdwbGoB-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8mcuCa9SR5OyqEUsX3Z-2" value="Windows Boot Manager&lt;br&gt;(bootmgfw.efi)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-550" y="655" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNWN8xt2eIvpftdwbGoB-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Execute boot application from EFI&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;partition based on NVRAM variables&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-460" y="385" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xNWN8xt2eIvpftdwbGoB-2" value="&lt;div style=&quot;&quot;&gt;&lt;font&gt;Hooked Entry Point of the bootmgfw.efi&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;is executed instead of legitimate&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;bootmgfw.efi entry point&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0066;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-460" y="425" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNWN8xt2eIvpftdwbGoB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#CC0066;strokeColor=#CC0066;fontStyle=1" parent="1" source="xNWN8xt2eIvpftdwbGoB-3" target="S8mcuCa9SR5OyqEUsX3Z-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-620" y="545" />
+              <mxPoint x="-620" y="805" />
+              <mxPoint x="-580" y="805" />
+              <mxPoint x="-580" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNWN8xt2eIvpftdwbGoB-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CC0066;fontStyle=1" parent="1" source="xNWN8xt2eIvpftdwbGoB-3" target="S8mcuCa9SR5OyqEUsX3Z-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNWN8xt2eIvpftdwbGoB-3" value="ESPecter initial code&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&quot;.efi&quot; section in the&lt;br&gt;boomgfw.efi&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0066;strokeColor=#FFFFFF;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-550" y="515" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNWN8xt2eIvpftdwbGoB-4" value="&lt;div style=&quot;&quot;&gt;&lt;font&gt;Execute original bootmgfw.efi entry point&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0066;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-470" y="595" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iEmCQxgJscL_iFLdT9wf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontStyle=1" parent="1" source="xNWN8xt2eIvpftdwbGoB-7" target="iEmCQxgJscL_iFLdT9wf-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iEmCQxgJscL_iFLdT9wf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#CC0066;fontStyle=1" parent="1" source="xNWN8xt2eIvpftdwbGoB-7" target="iEmCQxgJscL_iFLdT9wf-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-170" y="665" />
+              <mxPoint x="-170" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNWN8xt2eIvpftdwbGoB-7" value="hooked_&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;Archpx64TransferTo64BitApplicationAsm&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0066;strokeColor=#FFFFFF;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-150" y="655" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FBsHCi-EorKv798Bbg7Z-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Zxy2XZq5b9IojOqm6znf-2" target="UK7XieUWG3QqrFsh2lcs-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FBsHCi-EorKv798Bbg7Z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#CC0066;" parent="1" source="Zxy2XZq5b9IojOqm6znf-2" target="UK7XieUWG3QqrFsh2lcs-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zxy2XZq5b9IojOqm6znf-2" value="hooked_&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;OslArchTransferToKernel&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0066;strokeColor=#FFFFFF;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="30" y="295" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEmCQxgJscL_iFLdT9wf-1" value="&lt;div style=&quot;&quot;&gt;Transfer execution to OS loader using&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;Archpx64TransferTo64BitApplicationAsm&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-393" y="685" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UK7XieUWG3QqrFsh2lcs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" parent="1" source="iEmCQxgJscL_iFLdT9wf-5" target="Zxy2XZq5b9IojOqm6znf-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iEmCQxgJscL_iFLdT9wf-5" value="Windows OS Loader&lt;br&gt;(winload.efi)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-75" y="515" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEmCQxgJscL_iFLdT9wf-9" value="&lt;div style=&quot;&quot;&gt;&lt;font&gt;Hook&amp;nbsp;OslArchTransferToKernel&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0066;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-275" y="515" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aXS2MKbDUmNyPpEhzCbf-1" value="&lt;div style=&quot;&quot;&gt;Patch BmFwVerifySelfIntegrity&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Hook&amp;nbsp;&lt;span&gt;Archpx64TransferTo64BitApplicationAsm&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0066;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-620" y="805" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sW5kI9r5zJRnjOIOA08D-1" value="&lt;div style=&quot;&quot;&gt;Transfer execution from OS loader to OS&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Kernel using&amp;nbsp;&lt;span&gt;OslArchTransferToKernel&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="2.5" y="435" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UK7XieUWG3QqrFsh2lcs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" parent="1" source="UK7XieUWG3QqrFsh2lcs-1" target="UK7XieUWG3QqrFsh2lcs-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UK7XieUWG3QqrFsh2lcs-1" value="Windows Kernel&lt;br&gt;(ntoskrnl.exe)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="262.5" y="375" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UK7XieUWG3QqrFsh2lcs-6" value="&lt;div style=&quot;&quot;&gt;&lt;font&gt;Patch SepInitializeCodeIntegrity&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;Patch MiComputeDriverProtection&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;Hook CmGetSystemDriverList&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0066;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="320" y="255" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UK7XieUWG3QqrFsh2lcs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CC0066;fontStyle=1" parent="1" source="UK7XieUWG3QqrFsh2lcs-7" target="UK7XieUWG3QqrFsh2lcs-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UK7XieUWG3QqrFsh2lcs-7" value="hooked_CmGetSystemDriverList" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0066;strokeColor=#FFFFFF;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="360" y="475" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UK7XieUWG3QqrFsh2lcs-8" value="Kernel driver and configuracion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC0066;strokeColor=#FFFFFF;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="278" y="625" width="152.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UK7XieUWG3QqrFsh2lcs-11" value="&lt;div style=&quot;&quot;&gt;Drop&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0066;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="400" y="715" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ID5jMNMFEH7lKi8uYgk3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.852;entryY=1.083;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC0066;" parent="1" source="xNWN8xt2eIvpftdwbGoB-7" target="xNWN8xt2eIvpftdwbGoB-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="685" />
+              <mxPoint x="170" y="735" />
+              <mxPoint x="106" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ID5jMNMFEH7lKi8uYgk3-3" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;Reallocate ESPecter code&lt;/div&gt;&lt;div&gt;before&amp;nbsp; it gets unloaded&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0066;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="79" y="745" width="170" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

