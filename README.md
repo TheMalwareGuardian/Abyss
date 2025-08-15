@@ -21,19 +21,18 @@
 ## ***📑 Table of Contents***
 
 <ul>
-<li><a href="#whatisabootkit">What is a Bootkit?</a></li>
-<li><a href="#buildyourfirstbootkit">Build Your First Bootkit</a></li>
-<li>
-	<details>
-	<summary><a href="#abyssbootkit">Abyss Windows UEFI Bootkit</a> 📂</summary>
+	<li><a href="#whatisabootkit">What is a Bootkit?</a></li>
+	<li><a href="#buildyourfirstbootkit">Build Your First Bootkit</a></li>
+	<li><a href="#abyssbootkit">Abyss Windows UEFI Bootkit</a></li>
+<details>
+	<summary>📂</summary>
 	<ul>
 		<li><a href="#abyssbootkit-architecture">Architecture</a></li>
 	</ul>
-	</details>
-</li>
-<li><a href="#cybersecurityconferences">Cybersecurity Conferences</a></li>
-<li><a href="#resources">Awesome Resources</a></li>
-<li><a href="#contact">Contact</a></li>
+</details>
+	<li><a href="#cybersecurityconferences">Cybersecurity Conferences</a></li>
+	<li><a href="#resources">Awesome Resources</a></li>
+	<li><a href="#contact">Contact</a></li>
 </ul>
 
 
@@ -285,11 +284,41 @@ DEF CON 33 was the perfect place to conclude this stage of the project. But the 
 
 ## ***📨 Contact***
 
-This project represents a dedicated exploration into the intricate realm of bootkits, with a specific focus on providing a comprehensive resource for both my students and individuals embarking on their journey in this complex field.
+This project represents a dedicated exploration into the intricate realm of bootkits, with a specific focus on providing a comprehensive resource for both students and professionals embarking on their journey in this complex field.
 
 The subject of bootkits is multifaceted, and this project serves as a starting point for understanding its nuances. It's important to acknowledge that certain aspects may assume a level of prior knowledge, while others may remain uncharted due to the inherent complexities of the subject matter.
 
-This work is designed to offer valuable insights and resources to support your educational and developmental goals, making it suitable for anyone seeking to delve into bootkit development. If you have specific inquiries, require additional clarification, or wish to engage in collaborative efforts, please do not hesitate to get in [touch](https://www.linkedin.com/in/vazquez-vazquez-alejandro/).
+This work is designed to offer valuable insights and resources to support your educational and developmental goals, making it suitable for anyone seeking to delve into bootkit development. If you have specific inquiries, require additional clarification, or wish to engage in collaborative efforts, please do not hesitate to get in touch.
+
+We're **[Alejandro](https://www.linkedin.com/in/vazquez-vazquez-alejandro)** and **[María](https://www.linkedin.com/in/mariasanjose)**, the creators of this project, and we're very approachable. We'll gladly find time to talk, walk you through the details, or just have a good conversation.
+
+<table align="center" cellspacing="0" cellpadding="0">
+<tr>
+	<td align="center" width="340px" style="padding: 10px; vertical-align: top;">
+	<img src="Images/Logos/Whoami_Alex.png" width="150px" style="border-radius: 12px; display: block; margin: 0 auto;" />
+	<br/>
+	<a href="https://github.com/TheMalwareGuardian">
+		<b style="font-size: 16px;">Alejandro Vázquez</b>
+	</a>
+	<br/>
+	<div style="margin-top: 8px; font-size: 15px;">
+		Red Team Operator & Reverse Engineer
+	</div>
+	</td>
+	<td align="center" width="340px" style="padding: 20px; vertical-align: top;">
+	<img src="Images/Logos/Whoami_Maria.png" width="138px" style="border-radius: 12px; display: block; margin: 0 auto;" />
+	<br/>
+	<a href="https://github.com/drkrysSrng">
+		<b style="font-size: 16px;">María San José</b>
+	</a>
+	<br/>
+	<div style="margin-top: 8px; font-size: 15px;">
+		Malware & Forensics Analyst
+	</div>
+	</td>
+</tr>
+</table>
+
 
 <!--
 # ***🏴‍☠️ Abyss: Windows UEFI Bootkit***

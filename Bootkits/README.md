@@ -19,74 +19,65 @@ If this is your first time working with UEFI, start by setting up your environme
 ## ***📑 Table of Contents***
 
 <ul>
-<li><a href="#firsttime">First Time?</a></li>
-<li>
-	<details>
-	<summary><a href="#bootprocess">Boot Process</a> 📂</summary>
+	<li><a href="#firsttime">First Time?</a></li>
+	<li><a href="#bootprocess">Boot Process</a></li>
+<details>
+	<summary>📂</summary>
 	<ul>
-		<li>
-		<details>
-			<summary><a href="#bootprocess-windows">Windows</a> 📂</summary>
-			<ul>
+		<li><a href="#bootprocess-windows">Windows</a></li>
+<details>
+		<summary>📂</summary>
+		<ul>
 			<li><a href="#bootprocess-windows-windowsbootprocess">Windows Boot Process</a></li>
 			<li><a href="#bootprocess-windows-windowssecuritymeasures">Windows Boot Security Measures</a></li>
-			</ul>
-		</details>
-		</li>
-		<li>
-		<details>
-			<summary><a href="#bootprocess-linux">Linux</a> 📂</summary>
-			<ul>
+		</ul>
+</details>
+		<li><a href="#bootprocess-linux">Linux</a></li>
+<details>
+		<summary>📂</summary>
+		<ul>
 			<li><a href="#bootprocess-linux-linuxbootprocess">Linux Boot Process</a></li>
 			<li><a href="#bootprocess-linux-linuxsecuritymeasures">Linux Boot Security Measures</a></li>
-			</ul>
-		</details>
-		</li>
+		</ul>
+</details>
 		<li><a href="#bootprocess-runtime">Runtime</a></li>
 	</ul>
-	</details>
-</li>
-
-<li>
-	<details>
-	<summary><a href="#uefi">Unified Extensible Firmware Interface (UEFI)</a> 📂</summary>
-	<ul>
-		<li><a href="#uefi-introduction">Introduction</a></li>
-		<li><a href="#uefi-edk2">EDK2</a></li>
-		<li><a href="#uefi-bootstages">Boot Stages</a></li>
-	</ul>
-	</details>
-</li>
-
-<li>
-	<details>
-	<summary><a href="#configuringenvironmentwindows">Compiling Your First UEFI Application (Windows OS)</a> 📂</summary>
-	<ul>
-		<li><a href="#configuringenvironmentwindows-requirements">Requirements</a></li>
-		<li><a href="#configuringenvironmentwindows-workspaceinitialization">Workspace Initialization</a></li>
-		<li><a href="#configuringenvironmentwindows-basetools">Build Tools (BaseTools)</a></li>
-		<li><a href="#configuringenvironmentwindows-configuration">Configuration</a></li>
-		<li><a href="#configuringenvironmentwindows-buildtheapplication">Build the Application</a></li>
-		<li><a href="#configuringenvironmentwindows-testinginuefishell">Testing in a UEFI Shell</a></li>
-		<li><a href="#configuringenvironmentwindows-automation">Automation</a></li>
-	</ul>
-	</details>
-</li>
-
-<li>
-	<details>
-	<summary><a href="#configuringenvironmentlinux">Compiling Your First UEFI Application (Linux-based OS)</a> 📂</summary>
-	<ul>
-		<li><a href="#configuringenvironmentlinux-requirements">Requirements</a></li>
-		<li><a href="#configuringenvironmentlinux-workspaceinitialization">Workspace Initialization</a></li>
-		<li><a href="#configuringenvironmentlinux-basetools">Build Tools (BaseTools)</a></li>
-		<li><a href="#configuringenvironmentlinux-configuration">Configuration</a></li>
-		<li><a href="#configuringenvironmentlinux-buildtheapplication">Build the Application</a></li>
-		<li><a href="#configuringenvironmentlinux-testinginuefishell">Testing in a UEFI Shell</a></li>
-		<li><a href="#configuringenvironmentlinux-automation">Automation</a></li>
-	</ul>
-	</details>
-</li>
+</details>
+	<li><a href="#uefi">Unified Extensible Firmware Interface (UEFI)</a></li>
+<details>
+		<summary>📂</summary>
+		<ul>
+			<li><a href="#uefi-introduction">Introduction</a></li>
+			<li><a href="#uefi-edk2">EDK2</a></li>
+			<li><a href="#uefi-bootstages">Boot Stages</a></li>
+		</ul>
+</details>
+	<li><a href="#configuringenvironmentwindows">Compiling Your First UEFI Application (Windows OS)</a></li>
+<details>
+		<summary>📂</summary>
+		<ul>
+			<li><a href="#configuringenvironmentwindows-requirements">Requirements</a></li>
+			<li><a href="#configuringenvironmentwindows-workspaceinitialization">Workspace Initialization</a></li>
+			<li><a href="#configuringenvironmentwindows-basetools">Build Tools (BaseTools)</a></li>
+			<li><a href="#configuringenvironmentwindows-configuration">Configuration</a></li>
+			<li><a href="#configuringenvironmentwindows-buildtheapplication">Build the Application</a></li>
+			<li><a href="#configuringenvironmentwindows-testinginuefishell">Testing in a UEFI Shell</a></li>
+			<li><a href="#configuringenvironmentwindows-automation">Automation</a></li>
+		</ul>
+</details>
+	<li><a href="#configuringenvironmentlinux">Compiling Your First UEFI Application (Linux-based OS)</a></li>
+<details>
+		<summary>📂</summary>
+		<ul>
+			<li><a href="#configuringenvironmentlinux-requirements">Requirements</a></li>
+			<li><a href="#configuringenvironmentlinux-workspaceinitialization">Workspace Initialization</a></li>
+			<li><a href="#configuringenvironmentlinux-basetools">Build Tools (BaseTools)</a></li>
+			<li><a href="#configuringenvironmentlinux-configuration">Configuration</a></li>
+			<li><a href="#configuringenvironmentlinux-buildtheapplication">Build the Application</a></li>
+			<li><a href="#configuringenvironmentlinux-testinginuefishell">Testing in a UEFI Shell</a></li>
+			<li><a href="#configuringenvironmentlinux-automation">Automation</a></li>
+		</ul>
+</details>
 </ul>
 
 
