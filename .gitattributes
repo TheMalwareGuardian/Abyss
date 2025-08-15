@@ -1,0 +1,4 @@
+Cybersecurity[[:space:]]Conferences/DEFCON[[:space:]]33/Presentation/Videos/Demo1_Bootkit_loads_Rootkit_in_Memory.mp4 filter=lfs diff=lfs merge=lfs -text
+Cybersecurity[[:space:]]Conferences/DEFCON[[:space:]]33/Presentation/Videos/Demo2_Bootkit_downloads_file_and_loads_DXE_Runtime_Driver.mp4 filter=lfs diff=lfs merge=lfs -text
+Cybersecurity[[:space:]]Conferences/DEFCON[[:space:]]33/Presentation/Videos/Demo3_Rootkit_capabilities.mp4 filter=lfs diff=lfs merge=lfs -text
+Cybersecurity[[:space:]]Conferences/DEFCON[[:space:]]33/Presentation/Videos/Demo4_Install_Bootkit_PKfail_Computer.mp4 filter=lfs diff=lfs merge=lfs -text
