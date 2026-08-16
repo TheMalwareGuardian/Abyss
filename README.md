@@ -1,10 +1,16 @@
 # ***🏴‍☠️ Abyss: Windows UEFI Bootkit***
 
-![DEF CON 33 Main Stage Talk](https://img.shields.io/badge/DEF%20CON%2033-Main%20Stage%20Talk-informational?style=for-the-badge&logo=hackaday)
+
+
+![DEF CON 33 Main Stage Talk](https://img.shields.io/badge/DEF%20CON%2033-Main%20Stage%20Talk-informational?style=for-the-badge&logo=hackaday) ![La Villa Hacker](https://img.shields.io/badge/DEF%20CON%2034-La%20Villa%20Hacker-red?style=for-the-badge&logo=hackaday)
+
+
 
 <p align="center">
 	<img src="Images/Logos/Abyss_Squid_DEF_CON.png">
 </p>
+
+
 
 <p align="center">
 	<i>
@@ -13,9 +19,11 @@
 </p>
 
 
+
 ---
 ---
 ---
+
 
 
 ## ***📑 Table of Contents***
@@ -40,6 +48,7 @@
 ---
 ---
 ---
+
 
 
 <div id='whatisabootkit'/>
@@ -69,9 +78,11 @@ When you're not sure how something works, you ask those who know. And when no on
 	So, if you're researching how to build a rootkit (a malware that hides processes, files, network connections, prevents analysis, manipulates hardware, and more), you're already halfway to building a bootkit. A bootkit is just a rootkit with pre-OS delivery mechanics, exploiting UEFI as a launchpad.
 
 
+
 ---
 ---
 ---
+
 
 
 <div id='buildyourfirstbootkit'/>
@@ -87,9 +98,11 @@ Once you're comfortable building and testing these samples, and you've gained co
 And once you've reached that point, when booting unsigned code feels like second nature, come back here. That was just the warm-up. The real challenge begins with the full-featured bootkit included in this project: Abyss. Dive deeper, trace the hooks, map the memory patches, and see how far down the firmware rabbit hole goes.
 
 
+
 ---
 ---
 ---
+
 
 
 <div id='abyssbootkit'/>
@@ -117,9 +130,11 @@ If you're here expecting a one-click bootkit, you're in the wrong place. But if 
 Abyss exists to equip red teams and security researchers with the tools and knowledge to understand how modern APTs can deploy malicious UEFI firmware implants. It is for those actively working in low-level offensive research, malware design, and boot/firmware threat emulation.
 
 
+
 ---
 ---
 ---
+
 
 
 <div id='abyssbootkit-architecture'/>
@@ -212,6 +227,7 @@ Now that you understand the internal execution flow that Abyss follows across it
 	Abyss is both a toolkit and a centralized knowledge repository for UEFI internals, low-level attacks, and bootkit/rootkit development.
 
 
+
 <!--
 ---
 ---
@@ -231,9 +247,12 @@ It maps the key stages Abyss transitions through, from early firmware initializa
 </p>
 -->
 
+
+
 ---
 ---
 ---
+
 
 
 <div id='cybersecurityconferences'/>
@@ -265,9 +284,11 @@ DEF CON 33 was the perfect place to conclude this stage of the project. But the 
 </p>
 
 
+
 ---
 ---
 ---
+
 
 
 <div id='resources'/>
@@ -277,9 +298,11 @@ DEF CON 33 was the perfect place to conclude this stage of the project. But the 
 📌 [TheMalwareGuardian: Awesome Bootkits & Rootkits Development Resources](https://github.com/TheMalwareGuardian/Awesome-Bootkits-Rootkits-Development): My compilation (+400) of extensive resources dedicated to bootkit and rootkit development.
 
 
+
 ---
 ---
 ---
+
 
 
 <div id='contact'/>
@@ -307,7 +330,7 @@ We're **[Alejandro](https://www.linkedin.com/in/vazquez-vazquez-alejandro)** and
 		Red Team Operator & Reverse Engineer
 	</div>
 	</td>
-	<td align="center" width="340px" style="padding: 20px; vertical-align: top;">
+	<td align="center" width="340px" style="padding: 10px; vertical-align: top;">
 	<img src="Images/Logos/Whoami_Maria.png" width="138px" style="border-radius: 12px; display: block; margin: 0 auto;" />
 	<br/>
 	<a href="https://github.com/drkrysSrng">
@@ -320,6 +343,7 @@ We're **[Alejandro](https://www.linkedin.com/in/vazquez-vazquez-alejandro)** and
 	</td>
 </tr>
 </table>
+
 
 
 <!--
