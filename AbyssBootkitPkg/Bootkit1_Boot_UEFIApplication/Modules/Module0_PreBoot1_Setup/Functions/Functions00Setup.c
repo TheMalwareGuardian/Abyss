@@ -141,7 +141,7 @@ PreBootSetup_FunctionsSetup_Banner()
 	// Failed
 	if (EFI_ERROR(Status))
 	{
-		PreBootConfiguration_UtilsDebug_DebuggingAndOrPrintingAndOrLogging(MACRO_PREBOOTCONFIGURATION_UTILSDEBUG_LEVELINFO, L"AbyssBootkit1 -> PreBootSetup [Functions/Setup.c] (ConfigureBanner) - gBS->LocateProtocol [gEfiGraphicsOutputProtocolGuid] failed: %r (%llx).\r\n", Status, Status);
+		PreBootConfiguration_UtilsDebug_DebuggingAndOrPrintingAndOrLogging(MACRO_PREBOOTCONFIGURATION_UTILSDEBUG_LEVELERROR, L"AbyssBootkit1 -> PreBootSetup [Functions/Setup.c] (ConfigureBanner) - gBS->LocateProtocol [gEfiGraphicsOutputProtocolGuid] failed: %r (%llx).\r\n", Status, Status);
 		return Status;
 	}
 

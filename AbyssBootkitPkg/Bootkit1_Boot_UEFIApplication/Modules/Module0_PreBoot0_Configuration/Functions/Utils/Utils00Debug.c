@@ -180,7 +180,7 @@ PreBootConfiguration_UtilsDebug_SetLogging(
 		// Allocate and copy the new file path
 
 		// Copies a buffer to an allocated buffer of type EfiBootServicesData.s
-		// https://github.com/tianocore/edk2/blob/master/MdePkg/Library/PeiMemoryAllocationLib/MemoryAllocationLib.c#L616
+		// https://github.com/tianocore/edk2/blob/master/MdePkg/Library/UefiMemoryAllocationLib/MemoryAllocationLib.c#L398
 		// https://github.com/tianocore/edk2/blob/master/MdePkg/Library/BaseLib/String.c#L72
 		Global_PreBootConfiguration_UtilsDebug_LoggingFilePath = AllocateCopyPool(StrSize(LoggingFilePath), LoggingFilePath);
 		if (Global_PreBootConfiguration_UtilsDebug_LoggingFilePath == NULL)

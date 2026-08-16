@@ -109,6 +109,7 @@ typedef struct _VS_VERSIONINFO
 
 	Represents an entry in the function table on 64-bit Windows.
 **/
+
 typedef struct _IMAGE_RUNTIME_FUNCTION_ENTRY
 {
 	UINT32 BeginAddress;											// The address of the start of the function.

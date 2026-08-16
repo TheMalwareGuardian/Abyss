@@ -17,13 +17,14 @@
 
 
 /**
-	Copy memory from source to destination.
+	@brief          Copy memory from source to destination.
+	@details        This function copies data from the source memory location to the destination memory location, with the specified length.
 
-	This function copies data from the source memory location to the destination memory location, with the specified length.
 
 	@param[out]		Destination		Pointer to the destination memory location.
 	@param[in]		Source			Pointer to the source memory location.
 	@param[in]		Length			Number of bytes to copy.
+
 
 	@retval			VOID*			Returns a pointer to the destination memory location after copying.
 **/

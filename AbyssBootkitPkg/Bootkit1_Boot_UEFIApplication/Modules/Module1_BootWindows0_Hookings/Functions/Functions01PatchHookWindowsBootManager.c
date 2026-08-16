@@ -75,7 +75,7 @@
 
 
 	@retval         EFI_SUCCESS                 The patch was successfully applied.
-	@retval         EFI_NOT_FOUND               The necesarry functions were not found.
+	@retval         EFI_NOT_FOUND               The necessary functions were not found.
 	@retval         other                       An error occurred during the patching process.
 **/
 EFI_STATUS

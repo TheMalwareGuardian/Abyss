@@ -76,7 +76,7 @@ BootWindowsHookings_UtilsAddress_FindStartAddress(
 
 	// ---------------------------------------------------------------------------------------------------------------------
 	// Check if AddressInFunction pointer is null
-	//PreBootConfiguration_UtilsDebug_DuringBootAndRuntimeAndHookingDebuggingAndOrPrintingAndOrLogging(MACRO_PREBOOTCONFIGURATION_UTILSDEBUG_LEVELINFO, L"[INFO] AbyssBootkit1 -> BootWindowsHookings [Utils/Address.c] (FindStartAddress) - Hello\r\n");
+	//PreBootConfiguration_UtilsDebug_DuringBootAndRuntimeAndHookingDebuggingAndOrPrintingAndOrLogging(MACRO_PREBOOTCONFIGURATION_UTILSDEBUG_LEVELINFO, L"[INFO] AbyssBootkit1 -> BootWindowsHookings [Utils/Address.c] (FindStartAddress) - Check if AddressInFunction pointer is null\r\n");
 
 	// Failed
 	if (AddressInFunction == NULL)

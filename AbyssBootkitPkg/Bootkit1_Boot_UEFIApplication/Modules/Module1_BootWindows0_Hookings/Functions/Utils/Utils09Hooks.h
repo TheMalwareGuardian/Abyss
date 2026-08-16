@@ -35,7 +35,7 @@
 	48 B8
 	00 00 00 00 00 00 00 00
 	50
-	C3	
+	C3
 
 	https://github.com/Mattiwatti/EfiGuard/blob/master/EfiGuardDxe/PatchBootmgr.c
 **/

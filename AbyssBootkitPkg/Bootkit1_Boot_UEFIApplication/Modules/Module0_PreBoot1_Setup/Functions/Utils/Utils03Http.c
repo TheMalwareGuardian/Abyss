@@ -408,7 +408,11 @@ PreBootSetup_UtilsHttp_DownloadFile(
 
 		// -----------------------------------------------------------------------------------------------------------------
 		// Zero out the AccessPoint structure to initialize default values
+
+		// Fills a target buffer with zeros, and returns the target buffer.
+		// https://github.com/tianocore/edk2/blob/master/MdePkg/Library/UefiMemoryLib/ZeroMemWrapper.c
 		ZeroMem(&AccessPoint, sizeof AccessPoint);
+
 
 		// -----------------------------------------------------------------------------------------------------------------
 		// Use the default network address configured by the system
@@ -663,8 +667,15 @@ PreBootSetup_UtilsHttp_DownloadFile(
 
 		// -----------------------------------------------------------------------------------------------------------------
 		// Initialize the download buffer and copy initial data
+
+		// Fills a target buffer with zeros, and returns the target buffer.
+		// https://github.com/tianocore/edk2/blob/master/MdePkg/Library/UefiMemoryLib/ZeroMemWrapper.c
 		ZeroMem(BufferDownload, ContentLength);
 		UINTN ToCopy = MIN(ResponseMessage.BodyLength, ContentLength);
+
+		// Copies a source buffer to a destination buffer, and returns the destination buffer.
+		// https://uefi.org/specs/UEFI/2.11/07_Services_Boot_Services.html#efi-boot-services-copymem
+		// https://github.com/tianocore/edk2/blob/master/MdePkg/Library/BaseMemoryLib/CopyMemWrapper.c#L41
 		CopyMem(BufferDownload, BufferChunk, ToCopy);
 		Downloaded = ToCopy;
 

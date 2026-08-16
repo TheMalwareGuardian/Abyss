@@ -339,8 +339,8 @@ BootWindowsHookings_UtilsPortableExecutable_FindResourceDataById(
 	EFI_IMAGE_RESOURCE_DATA_ENTRY *DataEntry = (EFI_IMAGE_RESOURCE_DATA_ENTRY*)(ResourceDirVa + DirEntry->u2.OffsetToData);
 
 
-	// Update ResourceData with the new addres
-	//PreBootConfiguration_UtilsDebug_DuringBootAndRuntimeAndHookingDebuggingAndOrPrintingAndOrLogging(MACRO_PREBOOTCONFIGURATION_UTILSDEBUG_LEVELINFO, L"[INFO] AbyssBootkit1 -> BootWindowsHookings [Utils/PortableExecutable.c] (FindResourceDataById) - Update ResourceData with the new addres\r\n");
+	// Update ResourceData with the new address
+	//PreBootConfiguration_UtilsDebug_DuringBootAndRuntimeAndHookingDebuggingAndOrPrintingAndOrLogging(MACRO_PREBOOTCONFIGURATION_UTILSDEBUG_LEVELINFO, L"[INFO] AbyssBootkit1 -> BootWindowsHookings [Utils/PortableExecutable.c] (FindResourceDataById) - Update ResourceData with the new address\r\n");
 
 	if (ResourceData != NULL)
 	{
